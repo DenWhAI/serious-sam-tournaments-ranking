@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-07-01",
+  "game": "TSE",
+  "period": {
+    "from": "2026-01-01",
+    "to": "2026-07-01"
+  },
+  "publishedAt": "2026-10-05",
+  "title": "TSE · 2026-01-01 — 2026-07-01",
+  "algorithmVersion": "TSE v2.4-prestige-supported-sample",
+  "studioVersion": "V2",
+  "snapshotId": "eebd0f2c-a7b9-458d-9ab1-3f1b11ff1567",
+  "baseId": null,
+  "sources": [
+    "TSE_Rate_0726.csv",
+    "TSE_Multi_0726.csv"
+  ],
+  "notes": "Approved V2 foundation",
+  "pointsPolicy": "approved-presentation",
+  "provenance": [
+    {
+      "file": "Serious-Sam-TSE-rating-eebd0f2c-a7b9-458d-9ab1-3f1b11ff1567.json",
+      "sha256": "6cca58ebd03cd8ba5b5f26317dd4d4fd7d389bd1e63d29a1e545a8a6f793837a"
+    },
+    {
+      "file": "TSE_Rating_Table1 (1).csv",
+      "sha256": "706f7c085467dffd7f21ed4397bbecd9f46ccd8faee83b8ee8fe70d456c352ff"
+    },
+    {
+      "file": "TSE_Rating_Table2 (1).csv",
+      "sha256": "8a14c2964a709a7f0a8079a985ff85e2a00cf09e558381c625d83403dda977e8"
+    }
+  ]
+}

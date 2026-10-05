@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" data-game="TSE">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Official Serious Sam Tournaments rankings. Explore TSE and BFE standings, archived releases and the rating methodology.">
+<meta name="theme-color" content="#04070f">
+<title>Serious Sam Tournaments · Rankings</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site.css"><script type="module" src="assets/site.js"></script>
+</head>
+<body>
+<a class="skip" href="#ranking">Skip to rankings</a>
+<div class="background" aria-hidden="true"></div>
+<div class="wrap">
+<nav class="topline" aria-label="Main navigation"><a class="brand" href="#ranking"><span class="brand-mark">SS</span> TOURNAMENTS <span class="muted">/ RANKINGS</span></a><div><a href="#methodology">How it works ↗</a><a href="https://github.com/DenWhAI/serious-sam-rankings">GitHub ↗</a></div></nav>
+<header>
+<div class="identity"><div class="eyebrow" id="game-name">SERIOUS SAM HD: THE SECOND ENCOUNTER</div><h1>SERIOUS SAM<br>TOURNAMENTS <span>RANKING</span></h1><p>A fully deterministic, automated ranking system based on match results.</p><p><span class="status-dot"></span> Rankings are updated monthly.</p></div>
+<div class="settings"><label for="game">01 / GAME</label><select id="game"><option value="TSE">SERIOUS SAM HD: THE SECOND ENCOUNTER</option><option value="BFE">SERIOUS SAM 3: BFE</option></select><span class="control-label">02 / RATING VIEW</span><div class="view-switch" role="group" aria-label="Rating view"><button id="simple" aria-pressed="true">SIMPLE</button><button id="advanced" aria-pressed="false">ADVANCED</button></div></div>
+</header>
+<main>
+<section id="ranking" aria-labelledby="ranking-title">
+<div class="release-nav"><div id="months-before" class="months before" aria-hidden="true"></div><button id="previous" aria-label="Previous release">←</button><div class="release-center"><span class="eyebrow">RATING PERIOD</span><h2 id="ranking-title">Loading releases…</h2><span id="release-kind"></span></div><button id="next" aria-label="Next release">→</button><div id="months-after" class="months after" aria-hidden="true"></div></div>
+<div class="ranking-panel"><div class="table-toolbar"><div class="table-caption"><span class="status-dot"></span><strong id="table-title">STANDINGS</strong><span id="player-count"></span></div><div class="table-actions"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find a player" aria-label="Find a player"></label><a id="download" download>↓ CSV</a></div></div>
+<div id="status" role="status" aria-live="polite">Loading approved ratings…</div>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable ranking table"><table id="rating-table"><thead></thead><tbody></tbody></table></div>
+<div class="table-footer"><span>Δ = movement from the previous release · Points / 3000</span><span id="algorithm"></span></div></div>
+<div class="release-bottom"><label for="archive">ARCHIVE <select id="archive" aria-label="Select ranking release"></select></label><a id="json-download" download>Download snapshot ↗</a></div>
+</section>
+<section id="methodology" class="methodology" aria-labelledby="method-title"><div class="section-heading"><span class="eyebrow">THE SYSTEM / DOCUMENTATION</span><h2 id="method-title">Behind the ranking.</h2><p>One published result. A transparent method.<br>Read the rules used for the selected game and release.</p></div><div class="document-layout"><nav aria-label="Documentation chapters" id="contents"></nav><article id="chapters"></article></div></section>
+</main><footer><span>SERIOUS SAM TOURNAMENTS <b>© 2026</b></span><a href="#ranking">Back to standings ↑</a></footer>
+</div><noscript><p>This ranking viewer requires JavaScript. Download the published tables from <a href="https://github.com/DenWhAI/serious-sam-rankings/tree/main/data/rankings">the archive</a>.</p></noscript>
+</body></html>

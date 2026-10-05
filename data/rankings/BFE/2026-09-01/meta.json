@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-09-01",
+  "game": "BFE",
+  "period": {
+    "from": "2026-07-01",
+    "to": "2026-09-01"
+  },
+  "publishedAt": "2026-10-05",
+  "title": "BFE · 2026-07-01 — 2026-09-01",
+  "algorithmVersion": "BFE v4.4 / hybrid",
+  "studioVersion": 4,
+  "snapshotId": "fa40e19a-86b1-4d1d-9107-1479c3578676",
+  "baseId": "foundation-current-v2-bfe-7752cec264393a66",
+  "sources": [
+    "BFE_0926.csv"
+  ],
+  "notes": "Approved V4.1, current V2 basis, 50/50 model",
+  "pointsPolicy": "approved-presentation",
+  "provenance": [
+    {
+      "file": "Serious-Sam-BFE-rating-fa40e19a-86b1-4d1d-9107-1479c3578676.json",
+      "sha256": "2dcf7ebb68eb3edb721303ae3f8f2b7b99d57f3de59dc245f4ecbd0c6c104dbc"
+    },
+    {
+      "file": "BFE_Rating_Table1 (1).csv",
+      "sha256": "bfc36cf608ccc5b489333ef22442f945eb9027f10dfc8681710e051ac79098a1"
+    },
+    {
+      "file": "BFE_Rating_Table2 (1).csv",
+      "sha256": "788238935cc46485eedc796f6abd3167a397e7c53e8da76589ec636de8a4ffb0"
+    }
+  ]
+}
