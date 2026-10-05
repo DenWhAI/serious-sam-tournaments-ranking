@@ -1,0 +1,10 @@
+{
+  "TSE": {
+    "2026-07-01": {"number": 1, "label": "Before ST 2026", "matches": 87},
+    "2026-09-01": {"number": 2, "label": "After ST 2026", "matches": 29}
+  },
+  "BFE": {
+    "2026-07-01": {"number": 1, "label": "Before ST 2026", "matches": 160},
+    "2026-09-01": {"number": 2, "label": "After ST 2026", "matches": 98}
+  }
+}

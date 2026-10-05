@@ -1,6 +1,6 @@
 # Serious Sam Tournaments Rankings
 
-Public site: https://DenWhAI.github.io/serious-sam-rankings/
+Public site: https://DenWhAI.github.io/serious-sam-tournaments-ranking/
 
 Approved TSE and BFE snapshots, two releases per game. Static HTML/CSS/JavaScript; no server, account system, tracking, or public upload endpoint. Only repository writers can publish changes. Do not grant write access to visitors.
 
@@ -48,3 +48,7 @@ The approved Studio HTML files are not modified or needed at runtime. The websit
 Settings → Pages → Build and deployment → Source: **GitHub Actions**. Deployments are limited to main by the workflow. The repository is public; only add collaborators if you deliberately want them to have editing rights. No password or token belongs in the site.
 
 Pages workflow follows [GitHub's custom workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+
+## Release display and languages
+
+`data/release-display.json` stores the release number, optional tournament label and total unique match count from Studio result.meta.matches. This is presentation metadata: do not sum MapsPlayed. Rating snapshots stay immutable. UI and documentation support Russian and English; rating metric names stay in English. The language is saved locally and in shareable URLs.

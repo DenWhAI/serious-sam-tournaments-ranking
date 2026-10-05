@@ -49,6 +49,10 @@ def import_release(snapshot, simple, advanced, start, end, published, notes='App
     manifest['games'][game].sort(key=lambda r:r['to'])
     write_json(manifest_path,manifest)
     write_json(ROOT/'data'/'current.json',{g:rows[-1]['id'] if rows else None for g,rows in manifest['games'].items()})
+    display_path=ROOT/'data'/'release-display.json'
+    display=read_json(display_path) if display_path.exists() else {}
+    display.setdefault(game,{})[release]={'number':len(manifest['games'][game]),'label':'','matches':slot['result'].get('meta',{}).get('matches')}
+    write_json(display_path,display)
     return len(players)
 
 if __name__=='__main__':

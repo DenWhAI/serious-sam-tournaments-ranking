@@ -7,3 +7,20 @@ html[data-game=BFE]{--bg0:#100407;--bg1:#1c080d;--panel:#250d14;--panel2:#36111b
 @media(max-width:1000px){.wrap{padding:0 20px}header{gap:25px}.settings{width:310px}.months{gap:12px}.document-layout{gap:30px;grid-template-columns:190px 1fr}}
 @media(max-width:720px){.wrap{padding:0 14px}.topline{height:62px}.brand .muted{display:none}.topline>div{gap:12px;font-size:10px}header{display:block;padding-top:28px}h1{font-size:31px}.settings{width:100%;margin-top:24px;grid-template-columns:1fr 1fr;align-items:end;gap:7px 12px}.settings label{grid-column:1}.settings select{grid-column:1;grid-row:2;font-size:10px;height:47px}.control-label{grid-column:2;grid-row:1;margin:0}.view-switch{grid-column:2;grid-row:2;height:47px}.view-switch button{font-size:10px;padding:8px}.months{display:none}.release-nav{gap:12px;min-height:115px}.release-center{min-width:0;flex:1}.release-center h2{font-size:17px}.table-toolbar{flex-wrap:wrap;padding:14px}.table-actions{width:100%;justify-content:space-between}.search input{width:190px}.table-footer{font-size:9px;flex-direction:column;gap:6px;padding:12px 14px}.release-bottom{align-items:flex-start;flex-direction:column;gap:12px}.methodology{padding-top:55px}.section-heading h2{font-size:29px}.document-layout{display:block}.document-layout nav{position:static;display:grid;grid-template-columns:1fr 1fr;margin-bottom:30px}.parameter{grid-template-columns:1fr;gap:5px}.chapter h3{font-size:20px}footer{font-size:9px}footer b{display:block;margin:8px 0}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* Restrained chapter typography; the ranking table retains Studio styling. */
+@font-face{font-family:Steelfish;src:local('Steelfish Rg'),local('Steelfish'),local('Steelfish Regular');font-display:swap}
+:root{--bg0:#020409;--bg1:#050a15;--panel:#08101e;--panel2:#0c1526;--wash:rgba(61,139,255,.022)}
+html[data-game=BFE]{--bg0:#090305;--bg1:#13070b;--panel:#1c0a10;--panel2:#290e17;--wash:rgba(233,68,84,.022)}
+.background{background-size:56px 56px,56px 56px,100% 100%}
+h1,.section-heading h2,.chapter h3{font-family:Steelfish,'Oswald','Arial Narrow',sans-serif;font-weight:500;text-transform:uppercase;letter-spacing:1.2px}
+h1{font-size:52px;line-height:1.05;margin-bottom:18px}
+.section-heading h2{font-size:50px;margin:12px 0 8px}.chapter h3{font-size:38px;line-height:1.2;margin:12px 0 8px}
+.chapter-index{font:10px Consolas,monospace;letter-spacing:2px;color:var(--dim)}
+.chapter .chapter-accent,.section-heading .chapter-accent{font:italic 22px/1.6 Georgia,serif;color:color-mix(in srgb,var(--cyan) 52%,var(--muted));margin:8px 0 22px;letter-spacing:.2px}
+.chapter{padding-bottom:38px;margin-bottom:38px}.chapter strong{font-weight:600}
+.language-label{margin-top:10px}.settings #language{padding:10px 12px}
+.release-center{min-width:390px}.release-center>span:last-child{display:block;font-size:10px;line-height:1.8;text-transform:none;letter-spacing:.25px;color:var(--dim)}
+.months{gap:14px}.months span+span::before{content:'·';margin-right:14px;opacity:.5}
+@media(max-width:1000px){.release-nav{gap:14px}.months{gap:8px}.months span+span::before{margin-right:8px}.release-center{min-width:360px}h1{font-size:44px}}
+@media(max-width:720px){h1{font-size:43px}.settings .language-label{grid-column:1;grid-row:3;margin-top:8px}.settings #language{grid-column:1 / -1;grid-row:4;height:42px}.release-center{min-width:0}.release-center>span:last-child{font-size:9px;line-height:1.7;max-width:245px;margin:auto}.release-nav{min-height:130px}.section-heading h2{font-size:40px}.chapter h3{font-size:32px}.chapter .chapter-accent,.section-heading .chapter-accent{font-size:19px}}

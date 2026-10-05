@@ -6,27 +6,27 @@
 <meta name="theme-color" content="#04070f">
 <title>Serious Sam Tournaments · Rankings</title>
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="assets/site.css"><script type="module" src="assets/site.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/site.css"><script type="module" src="assets/site.js"></script>
 </head>
 <body>
-<a class="skip" href="#ranking">Skip to rankings</a>
+<a class="skip" href="#ranking" data-i18n="skip">Skip to rankings</a>
 <div class="background" aria-hidden="true"></div>
 <div class="wrap">
-<nav class="topline" aria-label="Main navigation"><a class="brand" href="#ranking"><span class="brand-mark">SS</span> TOURNAMENTS <span class="muted">/ RANKINGS</span></a><div><a href="#methodology">How it works ↗</a><a href="https://github.com/DenWhAI/serious-sam-rankings">GitHub ↗</a></div></nav>
+<nav class="topline" aria-label="Main navigation"><a class="brand" href="#ranking"><span class="brand-mark">SS</span> TOURNAMENTS <span class="muted">/ RANKINGS</span></a><div><a href="#methodology" data-i18n="how">How it works ↗</a><a href="https://github.com/DenWhAI/serious-sam-tournaments-ranking">GitHub ↗</a></div></nav>
 <header>
-<div class="identity"><div class="eyebrow" id="game-name">SERIOUS SAM HD: THE SECOND ENCOUNTER</div><h1>SERIOUS SAM<br>TOURNAMENTS <span>RANKING</span></h1><p>A fully deterministic, automated ranking system based on match results.</p><p><span class="status-dot"></span> Rankings are updated monthly.</p></div>
-<div class="settings"><label for="game">01 / GAME</label><select id="game"><option value="TSE">SERIOUS SAM HD: THE SECOND ENCOUNTER</option><option value="BFE">SERIOUS SAM 3: BFE</option></select><span class="control-label">02 / RATING VIEW</span><div class="view-switch" role="group" aria-label="Rating view"><button id="simple" aria-pressed="true">SIMPLE</button><button id="advanced" aria-pressed="false">ADVANCED</button></div></div>
+<div class="identity"><div class="eyebrow" id="game-name">SERIOUS SAM HD: THE SECOND ENCOUNTER</div><h1>SERIOUS SAM<br>TOURNAMENTS <span>RANKING</span></h1><p data-i18n="auto">A fully deterministic, automated ranking system based on match results.</p><p><span class="status-dot"></span> <span data-i18n="monthly">Rankings are updated monthly.</span></p></div>
+<div class="settings"><label for="game" data-i18n="game">01 / GAME</label><select id="game"><option value="TSE">SERIOUS SAM HD: THE SECOND ENCOUNTER</option><option value="BFE">SERIOUS SAM 3: BFE</option></select><span class="control-label" data-i18n="view">02 / RATING VIEW</span><div class="view-switch" role="group" aria-label="Rating view"><button id="simple" aria-pressed="true">SIMPLE</button><button id="advanced" aria-pressed="false">ADVANCED</button></div><label class="language-label" for="language" data-i18n="language">03 / LANGUAGE</label><select id="language"><option value="en">ENGLISH</option><option value="ru">РУССКИЙ</option></select></div>
 </header>
 <main>
 <section id="ranking" aria-labelledby="ranking-title">
-<div class="release-nav"><div id="months-before" class="months before" aria-hidden="true"></div><button id="previous" aria-label="Previous release">←</button><div class="release-center"><span class="eyebrow">RATING PERIOD</span><h2 id="ranking-title">Loading releases…</h2><span id="release-kind"></span></div><button id="next" aria-label="Next release">→</button><div id="months-after" class="months after" aria-hidden="true"></div></div>
+<div class="release-nav"><div id="months-before" class="months before" aria-hidden="true"></div><button id="previous" aria-label="Previous release">←</button><div class="release-center"><span class="eyebrow" data-i18n="period">RATING PERIOD</span><h2 id="ranking-title">Loading releases…</h2><span id="release-kind" aria-live="polite"></span></div><button id="next" aria-label="Next release">→</button><div id="months-after" class="months after" aria-hidden="true"></div></div>
 <div class="ranking-panel"><div class="table-toolbar"><div class="table-caption"><span class="status-dot"></span><strong id="table-title">STANDINGS</strong><span id="player-count"></span></div><div class="table-actions"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find a player" aria-label="Find a player"></label><a id="download" download>↓ CSV</a></div></div>
 <div id="status" role="status" aria-live="polite">Loading approved ratings…</div>
 <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable ranking table"><table id="rating-table"><thead></thead><tbody></tbody></table></div>
-<div class="table-footer"><span>Δ = movement from the previous release · Points / 3000</span><span id="algorithm"></span></div></div>
-<div class="release-bottom"><label for="archive">ARCHIVE <select id="archive" aria-label="Select ranking release"></select></label><a id="json-download" download>Download snapshot ↗</a></div>
+<div class="table-footer"><span data-i18n="foot">Δ = movement from the previous release · Points / 3000</span></div></div>
+<div class="release-bottom"><label for="archive"><span data-i18n="archive">ARCHIVE</span> <select id="archive" aria-label="Select ranking release"></select></label><a id="json-download" download data-i18n="snapshot">Download snapshot ↗</a></div>
 </section>
-<section id="methodology" class="methodology" aria-labelledby="method-title"><div class="section-heading"><span class="eyebrow">THE SYSTEM / DOCUMENTATION</span><h2 id="method-title">Behind the ranking.</h2><p>One published result. A transparent method.<br>Read the rules used for the selected game and release.</p></div><div class="document-layout"><nav aria-label="Documentation chapters" id="contents"></nav><article id="chapters"></article></div></section>
-</main><footer><span>SERIOUS SAM TOURNAMENTS <b>© 2026</b></span><a href="#ranking">Back to standings ↑</a></footer>
-</div><noscript><p>This ranking viewer requires JavaScript. Download the published tables from <a href="https://github.com/DenWhAI/serious-sam-rankings/tree/main/data/rankings">the archive</a>.</p></noscript>
+<section id="methodology" class="methodology" aria-labelledby="method-title"><div class="section-heading"><span class="eyebrow" data-i18n="system">THE SYSTEM / DOCUMENTATION</span><h2 id="method-title" data-i18n="heading">Behind the ranking.</h2><p class="chapter-accent" data-i18n="intro">Results. Opposition. Reputation.</p><p data-i18n="description">Explore the principles behind the ranking and what each parameter means.</p></div><div class="document-layout"><nav aria-label="Documentation chapters" id="contents"></nav><article id="chapters"></article></div></section>
+</main><footer><span>SERIOUS SAM TOURNAMENTS <b>© 2026</b></span><a href="#ranking" data-i18n="back">Back to standings ↑</a></footer>
+</div><noscript><p>This ranking viewer requires JavaScript. Download the published tables from <a href="https://github.com/DenWhAI/serious-sam-tournaments-ranking/tree/main/data/rankings">the archive</a>.</p></noscript>
 </body></html>
