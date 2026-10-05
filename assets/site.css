@@ -24,3 +24,11 @@ h1{font-size:52px;line-height:1.05;margin-bottom:18px}
 .months{gap:14px}.months span+span::before{content:'·';margin-right:14px;opacity:.5}
 @media(max-width:1000px){.release-nav{gap:14px}.months{gap:8px}.months span+span::before{margin-right:8px}.release-center{min-width:360px}h1{font-size:44px}}
 @media(max-width:720px){h1{font-size:43px}.settings .language-label{grid-column:1;grid-row:3;margin-top:8px}.settings #language{grid-column:1 / -1;grid-row:4;height:42px}.release-center{min-width:0}.release-center>span:last-child{font-size:9px;line-height:1.7;max-width:245px;margin:auto}.release-nav{min-height:130px}.section-heading h2{font-size:40px}.chapter h3{font-size:32px}.chapter .chapter-accent,.section-heading .chapter-accent{font-size:19px}}
+
+/* Three background cells separate the identity from the controls. */
+header{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:168px;align-items:center}.identity{min-width:0;container-type:inline-size}
+.identity h1{white-space:nowrap;font-size:clamp(34px,10cqw,90px);letter-spacing:.4px;line-height:1.12}
+.identity .eyebrow{font-size:14px;line-height:1.6;letter-spacing:1.6px}.identity p{font-size:16px;line-height:1.7;margin:10px 0}.settings{width:100%}
+.release-nav{position:relative;perspective:700px;isolation:isolate}.release-center,.months{transform-origin:center center;backface-visibility:hidden}.wheel-ghost{position:absolute!important;pointer-events:none;z-index:1;margin:0!important}.release-center.animate{animation:none}
+@media(max-width:1100px){header{grid-template-columns:minmax(0,1fr) 290px;gap:84px}.identity h1{font-size:7.7cqw}.identity .eyebrow{font-size:12px}.identity p{font-size:15px}}
+@media(max-width:800px){header{display:block}.identity h1{font-size:clamp(27px,7.7cqw,54px)}.identity p{font-size:15px}.settings{margin-top:26px}.identity .eyebrow{font-size:12px}.release-nav{perspective:450px}}
