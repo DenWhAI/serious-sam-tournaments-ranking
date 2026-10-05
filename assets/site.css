@@ -45,3 +45,18 @@ header{padding-top:30px;padding-bottom:18px}
 .community-links a:hover{color:var(--cyan)}
 @media(max-width:1100px){.identity h1{font-size:7cqw}}
 @media(max-width:800px){header{padding-top:22px;padding-bottom:12px}.identity h1{font-size:clamp(24px,7cqw,49px)}#game-logo{width:36px;height:36px}}
+
+/* Header balance and explicit Points movement. */
+header{align-items:center}
+.identity h1{transform:scaleX(1.15);width:86.95%}
+.game-control-label{display:flex;align-items:center;justify-content:space-between;min-height:22px}
+.game-control-label #game-logo{width:27px;height:27px}
+.release-bottom{justify-content:flex-end}
+.points-change{min-width:74px;font-family:Consolas,monospace;text-align:right}
+.points-change .rating-delta{font-size:12px}
+.ms .pos{color:var(--good)}.ms .neg{color:var(--bad)}.ms .neutral{color:var(--muted)}
+.doc-table{min-width:0;width:100%;font-size:13px;margin:18px 0;border-collapse:collapse}
+.doc-table th,.doc-table td{padding:10px 12px;border:1px solid var(--line);text-align:left;white-space:normal}
+.doc-table th{background:var(--panel2);color:var(--cyan)}
+.doc-table-wrap{overflow-x:auto}
+@media(max-width:720px){.topline .brand{font-size:10px;gap:7px}.topline>div{gap:8px}.topline .brand-mark{width:28px;height:28px}.game-control-label{grid-column:1;grid-row:1}.identity h1{transform:scaleX(1.12);width:89.28%}}
