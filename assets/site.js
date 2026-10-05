@@ -17,7 +17,7 @@ function stateURL(){const p=new URLSearchParams({game,release:manifest.games[gam
 function readURL(){const p=new URLSearchParams(location.hash.startsWith('#game=')?location.hash.slice(1):location.search);if(['ru','en'].includes(p.get('lang')))lang=p.get('lang');applyLanguage(lang);game=p.get('game')==='BFE'?'BFE':'TSE';const list=manifest.games[game];const found=list.findIndex(r=>r.id===p.get('release'));index=found>=0?found:list.length-1;view=p.get('view')==='advanced'?'advanced':'simple';}
 async function load(motion=null){
  const request=++loadId;const list=manifest.games[game],release=list[index];
- document.documentElement.dataset.game=game;$('game').value=game;$('game-name').textContent=game==='TSE'?'SERIOUS SAM HD: THE SECOND ENCOUNTER':'SERIOUS SAM 3: BFE';
+ document.documentElement.dataset.game=game;$('game').value=game;$('game-logo').src=`assets/logos/Serious${game}.png`;$('game-name').textContent=game==='TSE'?'SERIOUS SAM HD: THE SECOND ENCOUNTER':'SERIOUS SAM 3: BFE';
  $('previous').disabled=index===0;$('next').disabled=index===list.length-1;
  $('ranking-title').textContent=period(release);$('release-kind').textContent='';
  $('archive').innerHTML=list.map((r,i)=>`<option value="${i}" ${i===index?'selected':''}>${period(r)}</option>`).join('');

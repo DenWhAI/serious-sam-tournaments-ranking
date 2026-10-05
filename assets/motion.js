@@ -29,8 +29,8 @@ export function animateWheel(before,direction){
   Object.assign(copy.style,{left:rect.left-parent.left+'px',top:rect.top-parent.top+'px',width:rect.width+'px',height:rect.height+'px'});
   el.parentElement.append(copy);
   const options={duration:800,easing:'cubic-bezier(.22,.7,.2,1)'};
-  const leaving=copy.animate([{transform:'translateY(0) rotateX(0)',opacity:.7},{transform:`translateY(${-direction*36}px) rotateX(${direction*55}deg)`,opacity:0}],options);
+  const leaving=copy.animate([{transform:'translateX(0)',opacity:.7},{transform:`translateX(${-direction*100}px)`,opacity:0}],options);
   leaving.finished.then(()=>copy.remove()).catch(()=>copy.remove());
-  el.animate([{transform:`translateY(${direction*36}px) rotateX(${-direction*55}deg)`,opacity:0},{transform:'translateY(0) rotateX(0)',opacity:1}],options);
+  el.animate([{transform:`translateX(${direction*100}px)`,opacity:0},{transform:'translateX(0)',opacity:1}],options);
  }
 }
