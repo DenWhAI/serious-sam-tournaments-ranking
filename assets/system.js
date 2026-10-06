@@ -4,6 +4,8 @@ const table=(heads,rows)=>`<div class="doc-table-wrap"><table class="doc-table">
 const maps={BFE:[['Brkeen Chevap','1.30'],['Tomb of Nefretari','1.15'],["Unfinished Complex, Cairo City, Shotty Trouble, Street Wars, Deserted, Medina’s Ghetto",'1.00'],['Yards of Death, Fiaca','0.85'],['Little Trouble, Cairo Trouble, Slumoner, Medina','0.70']],TSE:[['Brkeen Chevap, Medieval Rage, Hoodlums Backyard','1.30'],['Fronto','1.15'],['Hole, Sun Palace, Lost Tomb, Little Trouble, Shotty Trouble, Gvide, Flood, Horus Web','1.00'],['Royal Purgatory','0.85'],['Jump Over, Yodeller, Simply One','0.70'],['Fortress','0.55']]};
 export function renderDocs(meta,lang='en'){
  const ru=lang==='ru',game=meta.game==='BFE'?'BFE':'TSE';
+ if(meta.documentationStatus==='pending-review'){document.getElementById('contents').innerHTML='';document.getElementById('chapters').innerHTML=p(ru?'Подробное объяснение обновлённого расчёта готовится к публикации после проверки. Таблица показывает актуальный утверждённый расчёт.':'The detailed explanation of the updated calculation is being reviewed before publication. The table shows the current approved calculation.');return;}
+
  const result=game==='BFE'?['35%','65%']:['25%','75%'];
  const formats=[['Duel','1.00'],['Elimination','0.60'],['War Games / FFA','0.55'],['Training (Recorded)','0.50'],['Team',game==='BFE'?'0.35':'0.45'],['Instant Kill','0.25']];
  const chapters=ru?[

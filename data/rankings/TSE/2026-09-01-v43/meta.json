@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-09-01-v43",
+  "game": "TSE",
+  "period": {
+    "from": "2026-07-18",
+    "to": "2026-09-01"
+  },
+  "publishedAt": "2026-10-06",
+  "title": "TSE · 18 Jul — 01 Sep 2026",
+  "algorithmVersion": "Studio 4.3 / hybrid25 / resultscore-pure-v1",
+  "studioVersion": "4.3",
+  "snapshotId": "tse-v43-hybrid25-20261006",
+  "baseId": "foundation-current-v2-tse-6f06f928b74d950c",
+  "sources": [
+    "TSE_0926.csv"
+  ],
+  "notes": "Recalculated using current V4.3, 75% anchored / 25% division component; combined divisions averaged. Supersedes 2026-09-01; previous files preserved.",
+  "pointsPolicy": "approved-presentation",
+  "documentationStatus": "pending-review",
+  "model": {
+    "version": "TSE v4.6",
+    "mode": "hybrid25",
+    "blendWeight": 0.25,
+    "combinedRange": "averaged",
+    "components": [
+      "anchored",
+      "divisions"
+    ]
+  },
+  "provenance": [
+    {
+      "file": "Serious_Sam_Rating_Studio_v4.3.html",
+      "sha256": "2769d0a13635f1fdd21144853fb4ab038aeaee4cc710c0301a1a81a7b0916406"
+    },
+    {
+      "file": "TSE_0926.csv",
+      "sha256": "f719f0b17c294a938a32c043cb333da624b0a0500d268b51cb1c25586daf604d"
+    },
+    {
+      "file": "publication_v43\\TSE-snapshot.json",
+      "sha256": "3f11ec98b980ae8c86fc3048771ddeeec3184ecdc506f5fbc4521d96512d9c69"
+    }
+  ]
+}

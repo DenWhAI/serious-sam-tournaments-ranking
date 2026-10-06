@@ -14,7 +14,7 @@ let manifest,game='TSE',index=0,view='simple',sort='Points',direction=-1,rows=[]
 const cache=new Map();
 async function json(url){if(!cache.has(url))cache.set(url,fetch(url).then(r=>{if(!r.ok)throw Error(`Could not load ${url} (${r.status})`);return r.json()}).catch(e=>{cache.delete(url);throw e}));return cache.get(url)}
 function stateURL(){const p=new URLSearchParams({game,release:manifest.games[game][index].id,view,lang});history.replaceState(null,'','?'+p+(location.hash.startsWith('#game=')?'':location.hash))}
-function readURL(){const p=new URLSearchParams(location.hash.startsWith('#game=')?location.hash.slice(1):location.search);if(['ru','en'].includes(p.get('lang')))lang=p.get('lang');applyLanguage(lang);game=p.get('game')==='BFE'?'BFE':'TSE';const list=manifest.games[game];const found=list.findIndex(r=>r.id===p.get('release'));index=found>=0?found:list.length-1;view=p.get('view')==='advanced'?'advanced':'simple';}
+function readURL(){const p=new URLSearchParams(location.hash.startsWith('#game=')?location.hash.slice(1):location.search);if(['ru','en'].includes(p.get('lang')))lang=p.get('lang');applyLanguage(lang);game=p.get('game')==='BFE'?'BFE':'TSE';const list=manifest.games[game];const found=list.findIndex(r=>r.id===p.get('release')||r.aliases?.includes(p.get('release')));index=found>=0?found:list.length-1;view=p.get('view')==='advanced'?'advanced':'simple';}
 async function load(motion=null){
  const request=++loadId;const list=manifest.games[game],release=list[index];
  document.documentElement.dataset.game=game;$('game').value=game;$('game-logo').src=`assets/logos/Serious${game}.png`;
@@ -56,7 +56,7 @@ function cell(r,key){
  if(key==='Wins'||key==='Losses'||key==='Draws')return `<td class="mono"><span class="${key==='Wins'?'w':key==='Losses'?'l':'d'}">${esc(v)}</span></td>`;
  if(key==='Maps Stats'||key==='Format Stats')return `<td class="ms">${esc(v).split('; ').map(x=>x.replace(/^(Best|Worst|Freq):/,'<span class="lbl">$1</span>').replace(/\(([+−-]?\d+(?:\.\d+)?)\)/g,(_,n)=>`(<span class="${Number(n.replace('−','-'))>0?'pos':Number(n.replace('−','-'))<0?'neg':'neutral'}">${n}</span>)`)).join('<br>')}</td>`;
  if(view==='advanced'){
-  const captions={'Result Score':['Σ',raw.result],'Format Score':['avg',raw.fmt],'Map Score':['avg',raw.map],'Recency':['avg',raw.rec]};
+  const captions={'Result Score':[r.model?.resultScore!=null?'μ':'Σ',raw.result],'Format Score':['avg',raw.fmt],'Map Score':['avg',raw.map],'Recency':['avg',raw.rec]};
   const c=captions[key];return `<td><div class="nv">${esc(v)}</div>${c&&Number.isFinite(c[1])?`<div class="rv">${c[0]} ${c[1].toFixed(2)}</div>`:''}</td>`;
  }
  return `<td class="mono">${esc(v)}</td>`;
