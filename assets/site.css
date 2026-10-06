@@ -60,3 +60,11 @@ header{align-items:center}
 .doc-table th{background:var(--panel2);color:var(--cyan)}
 .doc-table-wrap{overflow-x:auto}
 @media(max-width:720px){.topline .brand{font-size:10px;gap:7px}.topline>div{gap:8px}.topline .brand-mark{width:28px;height:28px}.game-control-label{grid-column:1;grid-row:1}.identity h1{transform:scaleX(1.12);width:89.28%}}
+
+/* A compact, independently sortable change beside the main points. */
+td.points-cell{min-width:76px;padding-right:3px}
+td.points-change{min-width:42px;width:42px;padding:13px 10px 13px 3px;text-align:right;vertical-align:middle}
+.points-change .rating-delta{font-size:10px}
+th:has(button[data-sort="PointsChange"]){width:42px}
+th button[data-sort="PointsChange"]{font-size:10px;padding-left:3px;padding-right:10px;text-align:right}
+.ms{color:#f0f1f4}.ms .lbl{color:var(--dim)}

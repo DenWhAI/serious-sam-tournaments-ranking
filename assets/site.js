@@ -2,7 +2,7 @@ import {captureRows,animateRows,captureWheel,animateWheel} from './motion.js';
 import { renderDocs } from './system.js';
 import {strings,applyLanguage} from './i18n.js';
 let lang='en',display={};
-try{lang=localStorage.getItem('ranking-language')==='ru'?'ru':'en'}catch{}
+
 const t=key=>strings[lang][key];
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -50,7 +50,7 @@ function cell(r,key){
  if(key==='RankChange')return `<td class="movement" title="${t('movement')}">${delta(v)}</td>`;
  if(key==='#')return `<td class="rank">${String(r.rank).padStart(2,'0')}</td>`;
  if(key==='PlayerID')return `<td class="pname">${esc(r.name)}</td>`;
- if(key==='Points'){const p=previous(r);return `<td class="pts points-cell"><span class="points-inline"><span>${r.points}</span>${base.length?delta(p?r.points-p.points:null,'new'):''}</span><div class="ptsbar" style="width:${Math.max(1,r.points/30)}%"></div></td>`}
+ if(key==='Points')return `<td class="pts points-cell"><span>${r.points}</span><div class="ptsbar" style="width:${Math.max(1,r.points/30)}%"></div></td>`;
  if(key==='Explanation')return `<td class="expl">${expl(v)}</td>`;
  if(key==='W-L')return `<td class="mono wl">${esc(v)}</td>`;
  if(key==='Wins'||key==='Losses'||key==='Draws')return `<td class="mono"><span class="${key==='Wins'?'w':key==='Losses'?'l':'d'}">${esc(v)}</span></td>`;
@@ -67,7 +67,7 @@ function render(){
  const cols=Object.keys(rows[0]?.[view]||{});cols.splice(cols.indexOf('Points')+1,0,'PointsChange');if(!cols.includes(sort))sort='Points';
  $('rating-table').className=view==='advanced'?'advanced-table':'';
  $('download').href=manifest.games[game][index].path+'/'+view+'.csv';
- const th=document.querySelector('thead');th.innerHTML='<tr>'+cols.map(k=>`<th scope="col" aria-sort="${sort===k?(direction<0?'descending':'ascending'):'none'}"><button data-sort="${esc(k)}" title="${t('sort')} ${esc(k)}">${k==='RankChange'?'Δ RANK':k==='PointsChange'?'Δ POINTS':esc(k)}${sort===k?(direction<0?' ↓':' ↑'):''}</button></th>`).join('')+'</tr>';
+ const th=document.querySelector('thead');th.innerHTML='<tr>'+cols.map(k=>`<th scope="col" aria-sort="${sort===k?(direction<0?'descending':'ascending'):'none'}"><button data-sort="${esc(k)}" title="${t('sort')} ${k==='PointsChange'?'Δ Points':esc(k)}"${k==='PointsChange'?' aria-label="Δ Points"':''}>${k==='RankChange'?'Δ RANK':k==='PointsChange'?'<span aria-hidden="true">Δ</span>':esc(k)}${sort===k?(direction<0?' ↓':' ↑'):''}</button></th>`).join('')+'</tr>';
  th.querySelectorAll('button').forEach(b=>b.onclick=()=>{direction=sort===b.dataset.sort?-direction:(b.dataset.sort==='PlayerID'||b.dataset.sort==='#'?1:-1);sort=b.dataset.sort;render()});
  const query=$('search').value.trim().toLowerCase();const filtered=rows.filter(r=>r.name.toLowerCase().includes(query));
  filtered.sort((a,b)=>{const x=value(a,sort),y=value(b,sort);if(x==null||y==null)return x==null?(y==null?a.rank-b.rank:1):-1;const diff=numeric(x)&&numeric(y)?Number(x)-Number(y):String(x).localeCompare(String(y));return diff*direction||a.rank-b.rank});
