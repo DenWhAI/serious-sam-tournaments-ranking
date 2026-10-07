@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-09-01-v43-c",
+  "game": "TSE",
+  "period": {
+    "from": "2026-07-18",
+    "to": "2026-09-01"
+  },
+  "publishedAt": "2026-10-07",
+  "title": "TSE · 18 Jul — 01 Sep 2026",
+  "algorithmVersion": "Studio 4.3 / hybrid25 / resultscore-pure-v1",
+  "studioVersion": "4.3",
+  "snapshotId": "7b880152-1cff-4c37-a4de-e845f8f933f3",
+  "baseId": "foundation-current-v2-tse-6f06f928b74d950c",
+  "sources": [
+    "TSE_0926.csv"
+  ],
+  "notes": "Approved TSE export: TAHK and SeriousAle assigned Division C.",
+  "pointsPolicy": "approved-presentation",
+  "documentationStatus": "pending-review",
+  "model": {
+    "version": "TSE v4.6",
+    "mode": "hybrid25",
+    "blendWeight": 0.25,
+    "combinedRange": "averaged",
+    "components": [
+      "anchored",
+      "divisions"
+    ]
+  },
+  "provenance": [
+    {
+      "file": "Serious-Sam-TSE-rating-7b880152-1cff-4c37-a4de-e845f8f933f3.json",
+      "sha256": "0a4c42b1016c8c80d06327cd6d88502999bcf95e8d3e0c33cae92a8e2caf15b7"
+    }
+  ]
+}
