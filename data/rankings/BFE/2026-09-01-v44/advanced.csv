@@ -1,0 +1,26 @@
+RankChange,#,PlayerID,Points,Success Score,Result Score,Opponent Strength,Format Score,Activity,Consistency,Recency,Map Score,Maps Stats,Format Stats
+0,1,TaWRe,2361,66.1,62.5,1443,50.0,47.2,78.9,86.1,42.9,Best: Unfinished Complex (+1.03); Worst: Slumoner (-0.40); Freq: Tomb of Nefretari x2,Best: Duel (+2.28); Worst: Duel (+2.28); Freq: Duel x7
++1,2,LIKBEZ,2302,72.8,77.3,1106,50.0,27.8,31.6,75.4,66.7,Best: Slumoner (+1.50); Worst: Unfinished Complex (-0.11); Freq: Cairo City x2,Best: Duel (+3.20); Worst: Duel (+3.20); Freq: Duel x6
+-1,3,KANE,1593,25.4,70.3,433,50.0,100.0,26.3,56.2,0.0,Best: Medina (+0.35); Worst: Little Trouble (-0.66); Freq: Little Trouble x2,Best: Duel (-0.18); Worst: Duel (-0.18); Freq: Duel x4
++2,4,Denger,1558,47.4,66.3,918,50.0,55.6,89.5,100.0,60.0,Best: Cairo City (+0.97); Worst: Little Trouble (-0.20); Freq: Cairo City x4,Best: Duel (+1.59); Worst: Duel (+1.59); Freq: Duel x8
++2,5,Almol,1270,38.4,60.9,854,50.0,5.6,57.9,70.1,80.0,Best: Brkeen Chevap (+0.21); Worst: Cairo City (-0.46); Freq: Unfinished Complex x2,Best: Duel (-0.16); Worst: Duel (-0.16); Freq: Duel x4
++3,6,TAHK,1171,35.0,49.6,1009,50.0,5.6,94.7,44.6,68.0,Best: Tomb of Nefretari (+0.44); Worst: Medina (-0.11); Freq: Tomb of Nefretari x3,Best: Duel (+0.52); Worst: Duel (+0.52); Freq: Duel x5
+-2,7,Rukimichimoshi,1039,18.6,23.9,1028,50.0,100.0,50.0,30.3,86.7,Best: Fiaca (-0.12); Worst: Brkeen Chevap (-0.82); Freq: Brkeen Chevap x1,Best: Duel (-1.45); Worst: Duel (-1.45); Freq: Duel x3
++3,8,Fora,936,24.4,30.0,1302,50.0,5.6,5.3,87.6,60.0,Best: Little Trouble (+1.22); Worst: Unfinished Complex (-1.06); Freq: Brkeen Chevap x1,Best: Duel (-1.79); Worst: Duel (-1.79); Freq: Duel x5
++3,9,Clow,818,21.0,19.7,1364,50.0,100.0,50.0,35.6,100.0,Best: Brkeen Chevap (-0.49); Worst: Tomb of Nefretari (-0.60); Freq: Brkeen Chevap x1,Best: Duel (-1.65); Worst: Duel (-1.65); Freq: Duel x3
++4,10,Supersniper98,762,32.7,29.6,1464,50.0,100.0,50.0,46.2,86.7,Best: Brkeen Chevap (+0.45); Worst: Cairo City (-0.84); Freq: Cairo City x2,Best: Duel (-0.39); Worst: Duel (-0.39); Freq: Duel x3
+—,11,SeriousAle,632,15.3,8.0,1226,50.0,100.0,50.0,52.9,60.0,Best: Medina (-0.40); Worst: Cairo City (-0.91); Freq: Brkeen Chevap x1,Best: Duel (-2.02); Worst: Duel (-2.02); Freq: Duel x3
++3,12,NekoRanger,526,12.0,66.2,230,50.0,61.1,73.7,76.3,52.7,Best: Unfinished Complex (+0.42); Worst: Fiaca (-2.25); Freq: Fiaca x2,Best: Duel (-0.65); Worst: Duel (-0.65); Freq: Duel x11
+—,13,Telepuzik,369,8.1,50.4,211,50.0,77.8,68.4,82.7,47.7,Best: Medina (+0.11); Worst: Unfinished Complex (-1.63); Freq: Unfinished Complex x4,Best: Duel (-5.01); Worst: Duel (-5.01); Freq: Duel x13
++4,14,Rokunin,359,8.7,66.7,162,50.0,66.7,63.2,84.7,46.7,Best: Fiaca (+0.32); Worst: Unfinished Complex (-0.84); Freq: Brkeen Chevap x2,Best: Duel (-1.77); Worst: Duel (-1.77); Freq: Duel x12
++1,15,Mr.Chocolate,348,6.9,45.5,239,50.0,91.7,42.1,72.4,37.1,Best: Yards of Death (+0.09); Worst: Brkeen Chevap (-1.67); Freq: Fiaca x4,Best: Duel (-7.15); Worst: Duel (-7.15); Freq: Duel x14
++6,16,Overlord,252,4.0,69.4,66,50.0,91.7,52.6,74.8,30.0,Best: Cairo City (+0.18); Worst: Yards of Death (-0.78); Freq: Medina x3,Best: Duel (-1.48); Worst: Duel (-1.48); Freq: Duel x12
++7,17,Bio-mechanoid,236,3.4,59.2,63,50.0,100.0,47.4,68.1,42.9,Best: Brkeen Chevap (+0.38); Worst: Medina (-1.52); Freq: Brkeen Chevap x3,Best: Duel (-4.37); Worst: Duel (-4.37); Freq: Duel x14
++8,18,Alezanco,221,12.1,1.5,1190,50.0,100.0,50.0,58.2,60.0,Best: Cairo City (-0.38); Worst: Cairo City (-0.38); Freq: Cairo City x1,Best: Duel (-0.38); Worst: Duel (-0.38); Freq: Duel x1
+—,19,Nics,211,2.9,77.2,46,50.0,77.8,0.0,53.5,36.7,Best: Little Trouble (+1.01); Worst: Slumoner (-1.50); Freq: Little Trouble x4,Best: Duel (-0.32); Worst: Duel (-0.32); Freq: Duel x12
++1,20,Baltica,205,3.5,32.5,160,50.0,27.8,84.2,43.6,20.0,Best: Cairo City (+0.11); Worst: Yards of Death (-1.48); Freq: Cairo City x1,Best: Duel (-5.04); Worst: Duel (-5.04); Freq: Duel x6
++4,21,Silver,159,2.6,14.0,191,50.0,27.8,100.0,30.3,33.3,Best: Little Trouble (-0.82); Worst: Cairo City (-2.83); Freq: Cairo City x2,Best: Duel (-7.17); Worst: Duel (-7.17); Freq: Duel x6
++6,22,Cofein,75,1.5,24.6,79,50.0,77.8,36.8,57.2,47.7,Best: Tomb of Nefretari (-0.92); Worst: Little Trouble (-4.19); Freq: Little Trouble x4,Best: Duel (-12.61); Worst: Duel (-12.61); Freq: Duel x13
+—,23,CursedBun,64,1.2,40.0,49,50.0,47.2,21.1,34.9,40.0,Best: Cairo City (-0.67); Worst: Shotty Trouble (-1.35); Freq: Cairo City x2,Best: Duel (-4.11); Worst: Duel (-4.11); Freq: Duel x6
++6,24,TURMS,48,1.0,24.8,62,50.0,27.8,15.8,30.3,93.3,Best: Yards of Death (+0.40); Worst: Brkeen Chevap (-3.57); Freq: Brkeen Chevap x3,Best: Duel (-5.94); Worst: Duel (-5.94); Freq: Duel x6
+—,25,GEO,46,0.8,20.9,43,50.0,27.8,10.5,0.0,44.0,Best: Brkeen Chevap (+0.06); Worst: Yards of Death (-1.78); Freq: Brkeen Chevap x1,Best: Duel (-5.58); Worst: Duel (-5.58); Freq: Duel x5

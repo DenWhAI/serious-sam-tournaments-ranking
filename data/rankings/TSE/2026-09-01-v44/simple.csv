@@ -1,0 +1,13 @@
+RankChange,#,PlayerID,Points,MapsPlayed,Wins,Draws,Losses,W-L,FinalScore,Explanation
+0,1,Clow,2216,4,4,0,0,+4,73.85,"[Dominant duelist] [Division A] STRONG Result Score (87.2), Success Score (61.3); WEAK Recency (5.2), Map Score (33.3)"
+0,2,TaWRe,1745,7,7,0,0,+7,58.16,"[Weak-opponent farmer] [Division A] STRONG Result Score (85.6), Recency (83.1); WEAK Map Score (23.8), Success Score (47.4)"
++1,3,Fora,1318,6,6,0,0,+6,43.94,"[Weak-opponent farmer] [Division A] STRONG Result Score (81.6), Map Score (77.8); WEAK Success Score (24.0), Recency (37.4)"
++1,4,Supersniper98,1199,6,2,0,4,-2,39.97,"[Dominant duelist] [Division A/B] STRONG Map Score (100.0), Format Score (50.0); WEAK Success Score (25.5), Recency (32.2)"
++1,5,Rukimichimoshi,1065,3,1,0,2,-1,35.51,"[Tested by the top] [Division B] STRONG Map Score (55.6), Format Score (50.0); WEAK Recency (7.8), Success Score (23.9)"
++8,6,LIKBEZ,764,6,2,0,4,-2,25.47,"[Dominant duelist] [Division B] STRONG Map Score (100.0), Recency (57.4); WEAK Success Score (30.4), Result Score (40.3)"
++3,7,TAHK,676,4,0,0,4,-4,22.53,"[Tested by the top] [Division C] STRONG Map Score (100.0), Format Score (50.0); WEAK Result Score (15.8), Success Score (20.0)"
+—,8,SeriousAle,571,4,3,0,1,+2,19.02,"[Weak-opponent farmer] [Division C] STRONG Result Score (69.8), Recency (50.9); WEAK Success Score (16.2), Map Score (33.3)"
+—,9,Denger,531,6,1,0,5,-4,17.71,"[Balanced player] [Division C] STRONG Recency (100.0), Format Score (50.0); WEAK Map Score (11.1), Success Score (14.4)"
++1,10,Alezanco,412,4,1,0,3,-2,13.74,"[Balanced player] [Division C] STRONG Format Score (50.0), Result Score (25.1); WEAK Recency (0.0), Map Score (0.0)"
++5,11,Almol,401,4,1,0,3,-2,13.35,"[Balanced player] [Division C] STRONG Map Score (100.0), Format Score (50.0); WEAK Success Score (12.4), Recency (32.6)"
++1,12,KANE,394,4,1,0,3,-2,13.12,"[Balanced player] [Division C] STRONG Format Score (50.0), Recency (41.7); WEAK Map Score (0.0), Success Score (9.2)"

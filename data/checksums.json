@@ -26,5 +26,13 @@
   "data/rankings/TSE/2026-09-01-v43-c/advanced.csv": "86cd5b4fa6c74a61169add08829410cb166b930bedeb4b71dbd7b041a6463070",
   "data/rankings/TSE/2026-09-01-v43-c/meta.json": "7c34aeb08c7d4d1494e931db6a715b9f61b59828e82df1728a90593dcba2c220",
   "data/rankings/TSE/2026-09-01-v43-c/ranking.json": "bb409369edeb7e3e66433d367e77adef1533d6f715d22ba9040d7a039eaf57b1",
-  "data/rankings/TSE/2026-09-01-v43-c/simple.csv": "3718311adf6150b17c3bb8f7b575795f0c8ee3802cf31051d39be0559ab23ea5"
+  "data/rankings/TSE/2026-09-01-v43-c/simple.csv": "3718311adf6150b17c3bb8f7b575795f0c8ee3802cf31051d39be0559ab23ea5",
+  "data/rankings/TSE/2026-09-01-v44/advanced.csv": "5ca5ff4b76d4647d6d0e6e22b76d3150cdf4a8dbfd06a71763c9bbb40c0e6483",
+  "data/rankings/TSE/2026-09-01-v44/meta.json": "da3061ab8d273044f1650df87980bcb252cfe30ae9190a7c4fc2ba2b81c4ef2e",
+  "data/rankings/TSE/2026-09-01-v44/ranking.json": "b4f82abd1a9b941912e27f30567e1b74d9a7f1717f81c4404cbc83fd045ebf06",
+  "data/rankings/TSE/2026-09-01-v44/simple.csv": "a428f96d712d781bd6a1165aa46ed8240d9db48ca85d3aa16599baea3d581dd7",
+  "data/rankings/BFE/2026-09-01-v44/advanced.csv": "62c404ff5702470463d171071f2eb767695193965a04ed0c010aba45d2833b52",
+  "data/rankings/BFE/2026-09-01-v44/meta.json": "9f8e98427499327494388a47661d09cb82c59b68f41b502a1848a63a3feec343",
+  "data/rankings/BFE/2026-09-01-v44/ranking.json": "1589ee38f3f465865082de55810ff5156f13736b1f3fbe08ff645cf28a932bc1",
+  "data/rankings/BFE/2026-09-01-v44/simple.csv": "b4452cc96ea39f21c7cc0193814f11ceae3cadc219ff64d43245913f19a72bd1"
 }

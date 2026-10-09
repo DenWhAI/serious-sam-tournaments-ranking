@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-09-01-v44",
+  "game": "TSE",
+  "period": {
+    "from": "2026-07-18",
+    "to": "2026-09-01"
+  },
+  "publishedAt": "2026-10-09",
+  "title": "TSE · 18 Jul — 01 Sep 2026",
+  "algorithmVersion": "TSE v4.4-schedule / hybrid25",
+  "studioVersion": "4.4",
+  "snapshotId": "51f58e6d-b7c8-470e-bc48-e1de6d4464bf",
+  "baseId": "foundation-current-v2-tse-6f06f928b74d950c",
+  "sources": [
+    "TSE_0926.csv"
+  ],
+  "notes": "Approved export; schedule confidence with adjustment strength 0.65.",
+  "pointsPolicy": "approved-presentation",
+  "documentationStatus": "approved",
+  "model": {
+    "version": "TSE v4.4-schedule",
+    "mode": "hybrid25",
+    "blendWeight": 0.25,
+    "combinedRange": "averaged",
+    "components": [
+      "anchored",
+      "divisions"
+    ]
+  },
+  "provenance": [
+    {
+      "file": "Serious-Sam-TSE-rating-51f58e6d-b7c8-470e-bc48-e1de6d4464bf.json",
+      "sha256": "50a348d9ec12a6673e652f4a3c53e4b518fce0fb5ca19758de090d5910a44ca7"
+    }
+  ]
+}
