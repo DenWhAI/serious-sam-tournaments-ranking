@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-09-01-v46",
+  "game": "BFE",
+  "period": {
+    "from": "2026-07-18",
+    "to": "2026-09-01"
+  },
+  "publishedAt": "2026-10-12",
+  "title": "BFE · 18 Jul — 01 Sep 2026",
+  "algorithmVersion": "BFE v4.5 · hybrid25 · schedule-confidence-soft65 · all-activity-percentile · KANE Division B",
+  "studioVersion": "4.5",
+  "snapshotId": "bfe-v46-division-20261012",
+  "baseId": "foundation-current-v2-bfe-7752cec264393a66",
+  "sources": [
+    "BFE_0926.csv"
+  ],
+  "notes": "Division assignment update: KANE is assigned to Division B. Other rating parameters are unchanged.",
+  "pointsPolicy": "approved-presentation",
+  "documentationStatus": "approved",
+  "model": {
+    "version": "BFE v4.5-schedule",
+    "mode": "hybrid25",
+    "blendWeight": 0.25,
+    "combinedRange": "averaged",
+    "components": [
+      "anchored",
+      "divisions"
+    ]
+  },
+  "provenance": [
+    {
+      "file": "Serious_Sam_Rating_Studio_v4.5.html",
+      "sha256": "b11002f0c0cabe79ce6da8653299f5caf2a7ca026a14a623417a65621aa71de1"
+    },
+    {
+      "file": "BFE_0926.csv",
+      "sha256": "a12736e0579f701cd5628b15e220d1d12d077be0eb3880d05c9d46a6480740a5"
+    },
+    {
+      "file": "publication_v46\\BFE-snapshot.json",
+      "sha256": "6a093d08b826fc2e13f5e590213e8bdc1389045ffc54a5ba1cbbc13405fa90f0"
+    }
+  ]
+}
+
