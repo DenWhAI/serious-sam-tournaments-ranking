@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-09-01-v45",
+  "game": "TSE",
+  "period": {
+    "from": "2026-07-18",
+    "to": "2026-09-01"
+  },
+  "publishedAt": "2026-10-12",
+  "title": "TSE · 18 Jul — 01 Sep 2026",
+  "algorithmVersion": "TSE v4.5 · hybrid25 · schedule-confidence-soft65 · all-activity-percentile",
+  "studioVersion": "4.5",
+  "snapshotId": "tse-v45-all-activity-20261012",
+  "baseId": "foundation-current-v2-tse-6f06f928b74d950c",
+  "sources": [
+    "TSE_0926.csv"
+  ],
+  "notes": "Approved calculation: Activity percentile is computed across all players and all match counts; ActivityMultiplier = 0.80 + 0.20 × percentile.",
+  "pointsPolicy": "approved-presentation",
+  "documentationStatus": "approved",
+  "model": {
+    "version": "TSE v4.5-schedule",
+    "mode": "hybrid25",
+    "blendWeight": 0.25,
+    "combinedRange": "averaged",
+    "components": [
+      "anchored",
+      "divisions"
+    ]
+  },
+  "provenance": [
+    {
+      "file": "Serious_Sam_Rating_Studio_v4.5.html",
+      "sha256": "e86a8ab4d896e761f63cb6b270bf20670a40c8e47aa395763ee57f17bf0e2879"
+    },
+    {
+      "file": "TSE_0926.csv",
+      "sha256": "f719f0b17c294a938a32c043cb333da624b0a0500d268b51cb1c25586daf604d"
+    },
+    {
+      "file": "publication_v45\\TSE-snapshot.json",
+      "sha256": "2843dcf1851c7022adeee5d421e3995957e708618e376a6d2fbfd89047e145cb"
+    }
+  ]
+}
