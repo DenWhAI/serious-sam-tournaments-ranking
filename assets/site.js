@@ -46,7 +46,7 @@ function expl(text){
  return `<div class="explanation-badges">${badges}</div>`+body.split('; ').map(t=>`<div class="expl-line">${esc(t).replace(/^STRONG /,'<span class="tag-s">STRONG</span> ').replace(/^WEAK /,'<span class="tag-w">WEAK</span> ')}</div>`).join('');
 }
 function cell(r,key){
- const v=value(r,key),raw=r.raw||{};
+ const v=key==='Format Stats'?(display[game]?.[manifest.games[game][index].id]?.formatStats?.[r.name]??value(r,key)):value(r,key),raw=r.raw||{};
  if(key==='PointsChange')return `<td class="points-change" title="${t('pointsMovement')}">${delta(v,base.length?'new':'—')}</td>`;
  if(key==='RankChange')return `<td class="movement" title="${t('movement')}">${delta(v)}</td>`;
  if(key==='#')return `<td class="rank">${String(r.rank).padStart(2,'0')}</td>`;

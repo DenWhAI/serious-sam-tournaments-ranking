@@ -72,6 +72,10 @@
       "labels": {
         "ru": "2026 год до Летнего Турнира",
         "en": "2026 until Summer Tournament"
+      },
+      "formatStats": {
+        "KANE": "Best: Duel (+7.42); Worst: Multi (-0.31); Freq: Duel x23",
+        "Krieger": "Best: Duel (-2.32); Worst: Duel (-2.32); Freq: Duel x6"
       }
     },
     "2026-09-01": {
