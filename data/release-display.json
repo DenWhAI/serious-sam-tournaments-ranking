@@ -3,74 +3,139 @@
     "2026-07-01": {
       "number": 1,
       "label": "Before ST 2026",
-      "matches": 87
+      "matches": 87,
+      "labels": {
+        "ru": "2026 год до Летнего Турнира",
+        "en": "2026 until Summer Tournament"
+      }
     },
     "2026-09-01": {
       "number": 2,
       "label": "After ST 2026",
-      "matches": 29
+      "matches": 29,
+      "labels": {
+        "ru": "Только Летний Турнир 2026",
+        "en": "Only Summer Tournament 2026"
+      }
     },
     "2026-09-01-v43": {
       "number": 2,
       "label": "After ST 2026",
-      "matches": 29
+      "matches": 29,
+      "labels": {
+        "ru": "Только Летний Турнир 2026",
+        "en": "Only Summer Tournament 2026"
+      }
     },
     "2026-09-01-v43-c": {
       "number": 2,
       "label": "After ST 2026",
-      "matches": 29
+      "matches": 29,
+      "labels": {
+        "ru": "Только Летний Турнир 2026",
+        "en": "Only Summer Tournament 2026"
+      }
     },
     "2026-09-01-v44": {
       "number": 2,
       "label": "After ST 2026",
-      "matches": 29
+      "matches": 29,
+      "labels": {
+        "ru": "Только Летний Турнир 2026",
+        "en": "Only Summer Tournament 2026"
+      }
     },
     "2026-09-01-v45": {
       "number": 2,
       "label": "After ST 2026",
-      "matches": 29
+      "matches": 29,
+      "labels": {
+        "ru": "Только Летний Турнир 2026",
+        "en": "Only Summer Tournament 2026"
+      }
     },
     "2026-07-01-v2-c": {
       "number": 1,
       "label": "Before ST 2026",
-      "matches": 87
+      "matches": 87,
+      "labels": {
+        "ru": "2026 год до Летнего Турнира",
+        "en": "2026 until Summer Tournament"
+      }
     }
   },
   "BFE": {
     "2026-07-01": {
       "number": 1,
       "label": "Before ST 2026",
-      "matches": 160
+      "matches": 160,
+      "labels": {
+        "ru": "2026 год до Летнего Турнира",
+        "en": "2026 until Summer Tournament"
+      }
     },
     "2026-09-01": {
       "number": 2,
       "label": "After ST 2026",
-      "matches": 98
+      "matches": 98,
+      "labels": {
+        "ru": "Только Летний Турнир 2026",
+        "en": "Only Summer Tournament 2026"
+      }
     },
     "2026-09-01-v43": {
       "number": 2,
       "label": "After ST 2026",
-      "matches": 98
+      "matches": 98,
+      "labels": {
+        "ru": "Только Летний Турнир 2026",
+        "en": "Only Summer Tournament 2026"
+      }
     },
     "2026-09-01-v44": {
       "number": 2,
       "label": "After ST 2026",
-      "matches": 98
+      "matches": 98,
+      "labels": {
+        "ru": "Только Летний Турнир 2026",
+        "en": "Only Summer Tournament 2026"
+      }
     },
     "2026-09-01-v45": {
       "number": 2,
       "label": "After ST 2026",
-      "matches": 98
+      "matches": 98,
+      "labels": {
+        "ru": "Только Летний Турнир 2026",
+        "en": "Only Summer Tournament 2026"
+      }
     },
     "2026-09-01-v46": {
       "number": 2,
       "label": "After ST 2026",
-      "matches": 98
+      "matches": 98,
+      "labels": {
+        "ru": "Только Летний Турнир 2026",
+        "en": "Only Summer Tournament 2026"
+      }
     },
     "2026-09-01-v45-denger-b": {
       "number": 2,
       "label": "After ST 2026",
-      "matches": 98
+      "matches": 98,
+      "labels": {
+        "ru": "Только Летний Турнир 2026",
+        "en": "Only Summer Tournament 2026"
+      }
+    },
+    "2026-09-01-v45-ab": {
+      "number": 2,
+      "label": "After ST 2026",
+      "matches": 98,
+      "labels": {
+        "ru": "Только Летний Турнир 2026",
+        "en": "Only Summer Tournament 2026"
+      }
     }
   }
 }

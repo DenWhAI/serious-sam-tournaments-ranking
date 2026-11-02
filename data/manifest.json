@@ -32,11 +32,12 @@
         "path": "data/rankings/BFE/2026-07-01"
       },
       {
-        "id": "2026-09-01-v45-denger-b",
+        "id": "2026-09-01-v45-ab",
         "from": "2026-07-18",
         "to": "2026-09-01",
-        "path": "data/rankings/BFE/2026-09-01-v45-denger-b",
+        "path": "data/rankings/BFE/2026-09-01-v45-ab",
         "aliases": [
+          "2026-09-01-v45-denger-b",
           "2026-09-01-v46",
           "2026-09-01-v45",
           "2026-09-01-v44",

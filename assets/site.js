@@ -80,6 +80,6 @@ $('previous').onclick=()=>changeRelease(index-1);$('next').onclick=()=>changeRel
 for(const name of ['simple','advanced'])$(name).onclick=()=>{view=name;sort='Points';direction=-1;if(rows.length){stateURL();render()}};
 $('search').oninput=()=>{if(rows.length)render()};
 window.addEventListener('hashchange',()=>{if(location.hash.startsWith('#game=')){readURL();load()}});
-function releaseSummary(){const r=manifest.games[game][index],d=display[game]?.[r.id]||{};$('release-kind').textContent=[`${t('release')} №${d.number||index+1}`,(lang==='ru'?({'Before ST 2026':'Перед ЛТ 2026','After ST 2026':'После ЛТ 2026'}[d.label]||d.label):d.label),d.matches!=null?`${d.matches} ${t('matches')}`:null,`${rows.length} ${t('players')}`].filter(Boolean).join(' · ')}
+function releaseSummary(){const r=manifest.games[game][index],d=display[game]?.[r.id]||{};$('release-kind').textContent=[`${t('release')} №${d.number||index+1}`,(d.labels?.[lang]||d.label),d.matches!=null?`${d.matches} ${t('matches')}`:null,`${rows.length} ${t('players')}`].filter(Boolean).join(' · ')}
 $('language').onchange=()=>{lang=$('language').value;try{localStorage.setItem('ranking-language',lang)}catch{}applyLanguage(lang);if(meta){stateURL();render();renderDocs(meta,lang);releaseSummary()}};
 try{[manifest,display]=await Promise.all([json('data/manifest.json'),json('data/release-display.json')]);readURL();await load()}catch(e){$('status').textContent=t('archiveFailed');console.error(e)}
