@@ -10,6 +10,7 @@ const signed=n=>n>0?'+'+n:String(n);
 const delta=(n,empty='—')=>`<small class="rating-delta ${n==null||n===0?'delta-flat':n>0?'delta-up':'delta-down'}">${n==null?empty:signed(n)}</small>`;
 const month=d=>new Date(d+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',timeZone:'UTC'});
 const period=r=>`${r.from.slice(8)} ${month(r.from)} — ${r.to.slice(8)} ${month(r.to)} ${r.to.slice(0,4)}`;
+const periodMarkup=r=>`<span class="period-start">${esc(r.from.slice(8)+' '+month(r.from)+' — ')}</span><span class="period-end">${esc(r.to.slice(8)+' '+month(r.to)+' '+r.to.slice(0,4))}</span>`;
 let manifest,game='TSE',index=0,view='simple',sort='Points',direction=-1,rows=[],meta,base=[],loadId=0;
 const cache=new Map();
 async function json(url){if(!cache.has(url))cache.set(url,fetch(url+(url.includes('?')?'&':'?')+'build=20261012-activity-all').then(r=>{if(!r.ok)throw Error(`Could not load ${url} (${r.status})`);return r.json()}).catch(e=>{cache.delete(url);throw e}));return cache.get(url)}
@@ -19,7 +20,7 @@ async function load(motion=null){
  const request=++loadId;const list=manifest.games[game],release=list[index];
  document.documentElement.dataset.game=game;$('game').value=game;$('game-logo').src=`assets/logos/Serious${game}.png`;
  $('previous').disabled=index===0;$('next').disabled=index===list.length-1;
- $('ranking-title').textContent=period(release);$('release-kind').textContent='';
+ $('ranking-title').innerHTML=periodMarkup(release);$('release-kind').textContent='';
  const around=(date,offset)=>{const d=new Date(date+'T12:00:00Z');d.setUTCMonth(d.getUTCMonth()+offset);return d.toLocaleDateString('en-US',{month:'short',timeZone:'UTC'})};
  $('months-before').innerHTML=[-3,-2,-1].map(n=>`<span>${around(release.from,n)}</span>`).join('');
  $('months-after').innerHTML=[1,2,3].map(n=>`<span>${around(release.to,n)}</span>`).join('');

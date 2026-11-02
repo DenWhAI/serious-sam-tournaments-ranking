@@ -68,3 +68,7 @@ td.points-change{min-width:42px;width:42px;padding:13px 10px 13px 3px;text-align
 th:has(button[data-sort="PointsChange"]){width:42px}
 th button[data-sort="PointsChange"]{font-size:10px;padding-left:3px;padding-right:10px;text-align:right}
 .ms{color:#f0f1f4}.ms .lbl{color:var(--dim)}
+
+/* Keep the period endpoint prominent. */
+#ranking-title .period-start{color:var(--dim)}
+#ranking-title .period-end{color:#f3f3f3}
