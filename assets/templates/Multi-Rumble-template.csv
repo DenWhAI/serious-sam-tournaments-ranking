@@ -1,0 +1,4 @@
+MatchID,MatchDate,MapName,Format,PlayerID,Opponent1ID,Opponent2ID,Opponent3ID,Opponent4ID,PlayerFrags,OpponentFrags,Opponent1Frags,Opponent2Frags,Opponent3Frags,Opponent4Frags,Result
+R_EXAMPLE,2026-08-01,Little Trouble,Rumble,PlayerA,PlayerB,PlayerC,,,0.75,1.125,1.25,1,,,win
+R_EXAMPLE,2026-08-01,Little Trouble,Rumble,PlayerB,PlayerA,PlayerC,,,1.25,0.875,0.75,1,,,loss
+R_EXAMPLE,2026-08-01,Little Trouble,Rumble,PlayerC,PlayerA,PlayerB,,,1,1,0.75,1.25,,,loss
