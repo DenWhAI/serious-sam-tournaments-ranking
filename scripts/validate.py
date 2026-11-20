@@ -24,14 +24,14 @@ for game,releases in manifest['games'].items():
                 assert p[table]==lookup[p['name']]
                 assert p['points']==int(lookup[p['name']]['Points'])
                 assert math.isfinite(p['finalScore'])
-                if meta['algorithmVersion']=='Z7':
+                if meta['algorithmVersion'] in ('Z7','V9.2'):
                     assert p['points']>=1
                     assert {'Performance','Confidence','Activity','Match Days'}<=p['advanced'].keys()
                     assert 'Consistency' not in p['advanced']
                 else:
                     assert 0<=p['points']<=3000
                 assert int(p['simple']['W-L'])==int(p['simple']['Wins'])-int(p['simple']['Losses'])
-                score='Raw Score' if meta['algorithmVersion']=='Z7' else 'FinalScore'
+                score='Raw Score' if meta['algorithmVersion'] in ('Z7','V9.2') else 'FinalScore'
                 assert abs(float(p['simple'][score])-p['finalScore'])<.006
         total+=len(players)
 lock=ROOT/'data/checksums.json'

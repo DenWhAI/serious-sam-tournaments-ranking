@@ -1,5 +1,6 @@
 """Publish the six Z7 tables exported by Rating Studio without recalculating."""
 import csv
+from argparse import ArgumentParser
 from io import StringIO
 import json
 from pathlib import Path
@@ -52,8 +53,8 @@ def table(source, players, name):
     return result
 
 
-def main():
-    data = read(INPUT)
+def main(input_path=INPUT, version='Z7'):
+    data = read(input_path)
     base = ROOT / 'data'
     manifest = read(base / 'manifest.json')
     display = read(base / 'release-display.json')
@@ -63,7 +64,7 @@ def main():
         releases = []
         for number, (code, period) in enumerate(PERIODS.items(), 1):
             start, end = period
-            release = f'{end}-z7'
+            release = f'{end}-{version.lower().replace(".", "")}'
             path = Path('data/rankings') / game / release
             target = ROOT / path
             if target.exists():
@@ -82,7 +83,7 @@ def main():
             write(target / 'ranking.json', {'schemaVersion': 1, 'players': players})
             write(target / 'meta.json', {
                 'schemaVersion': 1, 'id': release, 'game': game, 'period': {'from': start, 'to': end},
-                'publishedAt': '2026-11-20', 'title': f'{game} · {start} — {end}', 'algorithmVersion': 'Z7',
+                'publishedAt': '2026-11-20', 'title': f'{game} · {start} — {end}', 'algorithmVersion': version,
                 'studioVersion': 'V7', 'baseId': releases[-1]['id'] if releases else None,
                 'sources': source['sources'], 'pointsPolicy': 'fixed-smooth-low-tail-floor-1',
                 'divisionCorrection': False,
@@ -99,4 +100,8 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    parser = ArgumentParser()
+    parser.add_argument('--input', type=Path, default=INPUT)
+    parser.add_argument('--version', choices=['Z7', 'V9.2'], default='Z7')
+    args = parser.parse_args()
+    main(args.input, args.version)

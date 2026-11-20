@@ -1,0 +1,13 @@
+RankChange,#,PlayerID,Points,MapsPlayed,Wins,Draws,Losses,W-L,Raw Score,Explanation
+0,1,Clow,2279,4,4,0,0,+4,7.731593674408686,"[Dominant duelist] [Division A] STRONG Success Score (121.1), Map Score (105.0); WEAK Result Score (81.9), Format Score (100.0)"
+0,2,TaWRe,1693,7,7,0,0,+7,7.434334010787371,"[Weak-opponent farmer] [Division A] STRONG Map Score (104.3), Format Score (100.0); WEAK Result Score (82.5), Success Score (96.5)"
+0,3,Fora,1307,6,6,0,0,+6,7.175179578278853,"[Weak-opponent farmer] [Division A] STRONG Map Score (107.5), Format Score (100.0); WEAK Success Score (54.5), Result Score (79.5)"
+1,4,Supersniper98,943,6,2,0,4,-2,6.849582054538141,"[Dominant duelist] [Division B] STRONG Map Score (110.0), Format Score (100.0); WEAK Success Score (24.6), Result Score (42.5)"
+2,5,Rukimichimoshi,904,3,1,0,2,-1,6.806846997889619,"[Tested by the top] [Division B] STRONG Map Score (106.7), Format Score (100.0); WEAK Success Score (23.2), Result Score (42.1)"
+8,6,LIKBEZ,643,6,2,0,4,-2,6.466446424426946,"[Tested by the top] [Division B] STRONG Map Score (110.0), Format Score (100.0); WEAK Success Score (31.6), Result Score (40.6)"
+3,7,TAHK,614,4,0,0,4,-4,6.420206665585089,"[Tested by the top] [Division C] STRONG Map Score (111.3), Format Score (100.0); WEAK Success Score (12.2), Result Score (19.3)"
+,8,SeriousAle,528,4,3,0,1,+2,6.2705546575593045,"[Weak-opponent farmer] [Division C] STRONG Map Score (106.3), Format Score (100.0); WEAK Success Score (21.8), Result Score (62.0)"
+,9,Denger,442,6,1,0,5,-4,6.096555102259294,"[Tested by the top] [Division C] STRONG Map Score (101.7), Format Score (100.0); WEAK Success Score (14.0), Result Score (30.8)"
+2,10,Alezanco,428,4,1,0,3,-2,6.065858129971474,"[Balanced player] [Division C] STRONG Map Score (100.0), Format Score (100.0); WEAK Success Score (8.9), Result Score (28.6)"
+2,11,KANE,392,4,1,0,3,-2,5.985923193876163,"[Balanced player] [Division C] STRONG Map Score (100.0), Format Score (100.0); WEAK Success Score (7.9), Result Score (28.1)"
+4,12,Almol,380,4,1,0,3,-2,5.958223703516287,"[Weak-opponent farmer] [Division C] STRONG Map Score (111.3), Format Score (100.0); WEAK Success Score (14.4), Result Score (42.9)"
