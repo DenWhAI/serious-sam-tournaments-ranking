@@ -1,5 +1,5 @@
 import {captureRows,animateRows,captureWheel,animateWheel} from './motion.js';
-import { renderDocs } from './system.js?v=20261120-z7-release-labels';
+import { renderDocs } from './system.js?v=20261121-methodology';
 import {strings,applyLanguage} from './i18n.js';
 let lang='en',display={};
 
