@@ -52,6 +52,7 @@ function cell(r,key){
  if(key==='#')return `<td class="rank">${String(r.rank).padStart(2,'0')}</td>`;
  if(key==='PlayerID')return `<td class="pname">${esc(r.name)}</td>`;
  if(key==='Points')return `<td class="pts points-cell"><span>${r.points}</span><div class="ptsbar" style="width:${Math.min(100,Math.max(1,r.points/30))}%"></div></td>`;
+ if(key==='Raw Score')return `<td class="mono">${r.finalScore.toFixed(3)}</td>`;
  if(key==='Explanation')return `<td class="expl">${expl(v)}</td>`;
  if(key==='W-L')return `<td class="mono wl">${esc(v)}</td>`;
  if(key==='Wins'||key==='Losses'||key==='Draws')return `<td class="mono"><span class="${key==='Wins'?'w':key==='Losses'?'l':'d'}">${esc(v)}</span></td>`;
