@@ -1,5 +1,5 @@
 import {captureRows,animateRows,captureWheel,animateWheel} from './motion.js';
-import { renderDocs } from './system.js?v=20261121-methodology';
+import { renderDocs } from './system.js?v=20261121-sample-quality';
 import {strings,applyLanguage} from './i18n.js';
 let lang='en',display={};
 
