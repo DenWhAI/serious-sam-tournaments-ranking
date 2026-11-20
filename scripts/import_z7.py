@@ -53,18 +53,22 @@ def table(source, players, name):
     return result
 
 
-def main(input_path=INPUT, version='Z7'):
+def main(input_path=INPUT, version='Z7', game_filter=None, revision=None):
     data = read(input_path)
     base = ROOT / 'data'
     manifest = read(base / 'manifest.json')
     display = read(base / 'release-display.json')
-    current = {}
+    current = read(base / 'current.json')
     for game, editions in data.items():
+        if game_filter and game != game_filter:
+            continue
         old = manifest['games'][game]
         releases = []
         for number, (code, period) in enumerate(PERIODS.items(), 1):
             start, end = period
             release = f'{end}-{version.lower().replace(".", "")}'
+            if revision is not None:
+                release += f'-r{revision}'
             path = Path('data/rankings') / game / release
             target = ROOT / path
             if target.exists():
@@ -103,5 +107,7 @@ if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--input', type=Path, default=INPUT)
     parser.add_argument('--version', choices=['Z7', 'V9.2'], default='Z7')
+    parser.add_argument('--game', choices=['BFE', 'TSE'])
+    parser.add_argument('--revision', type=int)
     args = parser.parse_args()
-    main(args.input, args.version)
+    main(args.input, args.version, args.game, args.revision)
