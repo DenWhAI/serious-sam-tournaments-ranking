@@ -1,5 +1,5 @@
 import {captureRows,animateRows,captureWheel,animateWheel} from './motion.js';
-import { renderDocs } from './system.js?v=20261102-multiplayer';
+import { renderDocs } from './system.js?v=20261120-z7-release-labels';
 import {strings,applyLanguage} from './i18n.js';
 let lang='en',display={};
 
@@ -13,7 +13,7 @@ const period=r=>`${r.from.slice(8)} ${month(r.from)} — ${r.to.slice(8)} ${mont
 const periodMarkup=r=>`<span class="period-start">${esc(r.from.slice(8)+' '+month(r.from)+' — ')}</span><span class="period-end">${esc(r.to.slice(8)+' '+month(r.to)+' '+r.to.slice(0,4))}</span>`;
 let manifest,game='TSE',index=0,view='simple',sort='Points',direction=-1,rows=[],meta,base=[],loadId=0;
 const cache=new Map();
-async function json(url){if(!cache.has(url))cache.set(url,fetch(url+(url.includes('?')?'&':'?')+'build=20261012-activity-all').then(r=>{if(!r.ok)throw Error(`Could not load ${url} (${r.status})`);return r.json()}).catch(e=>{cache.delete(url);throw e}));return cache.get(url)}
+async function json(url){if(!cache.has(url))cache.set(url,fetch(url+(url.includes('?')?'&':'?')+'build=20261120-z7-release-labels').then(r=>{if(!r.ok)throw Error(`Could not load ${url} (${r.status})`);return r.json()}).catch(e=>{cache.delete(url);throw e}));return cache.get(url)}
 function stateURL(){const p=new URLSearchParams({game,release:manifest.games[game][index].id,view,lang});history.replaceState(null,'','?'+p+(location.hash.startsWith('#game=')?'':location.hash))}
 function readURL(){const p=new URLSearchParams(location.hash.startsWith('#game=')?location.hash.slice(1):location.search);if(['ru','en'].includes(p.get('lang')))lang=p.get('lang');applyLanguage(lang);game=p.get('game')==='BFE'?'BFE':'TSE';const list=manifest.games[game];const found=list.findIndex(r=>r.id===p.get('release')||r.aliases?.includes(p.get('release')));index=found>=0?found:list.length-1;view=p.get('view')==='advanced'?'advanced':'simple';}
 async function load(motion=null){
@@ -51,7 +51,7 @@ function cell(r,key){
  if(key==='RankChange')return `<td class="movement" title="${t('movement')}">${delta(v)}</td>`;
  if(key==='#')return `<td class="rank">${String(r.rank).padStart(2,'0')}</td>`;
  if(key==='PlayerID')return `<td class="pname">${esc(r.name)}</td>`;
- if(key==='Points')return `<td class="pts points-cell"><span>${r.points}</span><div class="ptsbar" style="width:${Math.max(1,r.points/30)}%"></div></td>`;
+ if(key==='Points')return `<td class="pts points-cell"><span>${r.points}</span><div class="ptsbar" style="width:${Math.min(100,Math.max(1,r.points/30))}%"></div></td>`;
  if(key==='Explanation')return `<td class="expl">${expl(v)}</td>`;
  if(key==='W-L')return `<td class="mono wl">${esc(v)}</td>`;
  if(key==='Wins'||key==='Losses'||key==='Draws')return `<td class="mono"><span class="${key==='Wins'?'w':key==='Losses'?'l':'d'}">${esc(v)}</span></td>`;
@@ -71,7 +71,7 @@ function render(){
  const th=document.querySelector('thead');th.innerHTML='<tr>'+cols.map(k=>`<th scope="col" aria-sort="${sort===k?(direction<0?'descending':'ascending'):'none'}"><button data-sort="${esc(k)}" title="${t('sort')} ${k==='PointsChange'?'Δ Points':esc(k)}"${k==='PointsChange'?' aria-label="Δ Points"':''}>${k==='RankChange'?'Δ RANK':k==='PointsChange'?'<span aria-hidden="true">Δ</span>':esc(k)}${sort===k?(direction<0?' ↓':' ↑'):''}</button></th>`).join('')+'</tr>';
  th.querySelectorAll('button').forEach(b=>b.onclick=()=>{direction=sort===b.dataset.sort?-direction:(b.dataset.sort==='PlayerID'||b.dataset.sort==='#'?1:-1);sort=b.dataset.sort;render()});
  const query=$('search').value.trim().toLowerCase();const filtered=rows.filter(r=>r.name.toLowerCase().includes(query));
- filtered.sort((a,b)=>{const x=value(a,sort),y=value(b,sort);if(x==null||y==null)return x==null?(y==null?a.rank-b.rank:1):-1;const diff=numeric(x)&&numeric(y)?Number(x)-Number(y):String(x).localeCompare(String(y));return diff*direction||a.rank-b.rank});
+ filtered.sort((a,b)=>{const x=value(a,sort),y=value(b,sort);if(x==null||y==null)return x==null?(y==null?a.rank-b.rank:1):-1;const parse=v=>sort==='Confidence'?Number(String(v).replace(/%$/,'')):numeric(v)?Number(v):NaN;const aNumber=parse(x),bNumber=parse(y);const diff=Number.isFinite(aNumber)&&Number.isFinite(bNumber)?aNumber-bNumber:String(x).localeCompare(String(y));return diff*direction||a.rank-b.rank});
  document.querySelector('tbody').innerHTML=filtered.length?filtered.map(r=>`<tr data-player="${esc(r.name)}" class="${r.rank===1?'r1':''}">${cols.map(k=>cell(r,k)).join('')}</tr>`).join(''):`<tr><td colspan="${cols.length}">${t('noPlayers')}: “${esc($('search').value)}”.</td></tr>`;
  $('player-count').textContent=`${filtered.length} / ${rows.length} ${t('players').toUpperCase()}`;
 }
@@ -81,6 +81,6 @@ $('previous').onclick=()=>changeRelease(index-1);$('next').onclick=()=>changeRel
 for(const name of ['simple','advanced'])$(name).onclick=()=>{view=name;sort='Points';direction=-1;if(rows.length){stateURL();render()}};
 $('search').oninput=()=>{if(rows.length)render()};
 window.addEventListener('hashchange',()=>{if(location.hash.startsWith('#game=')){readURL();load()}});
-function releaseSummary(){const r=manifest.games[game][index],d=display[game]?.[r.id]||{};$('release-kind').textContent=[`${t('release')} №${d.number||index+1}`,(d.labels?.[lang]||d.label),d.matches!=null?`${d.matches} ${t('matches')}`:null,`${rows.length} ${t('players')}`].filter(Boolean).join(' · ')}
+function releaseSummary(){const r=manifest.games[game][index],d=display[game]?.[r.id]||{};$('release-kind').textContent=[`${t('release')} №${d.number||index+1}`,(d.labels?.[lang]||d.label),d.weekends,d.matches!=null?`${d.matches} ${t('matches')}`:null,`${rows.length} ${t('players')}`].filter(Boolean).join(' · ')}
 $('language').onchange=()=>{lang=$('language').value;try{localStorage.setItem('ranking-language',lang)}catch{}applyLanguage(lang);if(meta){stateURL();render();renderDocs(meta,lang);releaseSummary()}};
 try{[manifest,display]=await Promise.all([json('data/manifest.json'),json('data/release-display.json')]);readURL();await load()}catch(e){$('status').textContent=t('archiveFailed');console.error(e)}

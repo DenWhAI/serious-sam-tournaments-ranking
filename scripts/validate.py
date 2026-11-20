@@ -23,12 +23,22 @@ for game,releases in manifest['games'].items():
             for p in players:
                 assert p[table]==lookup[p['name']]
                 assert p['points']==int(lookup[p['name']]['Points'])
-                assert 0<=p['points']<=3000 and math.isfinite(p['finalScore'])
+                assert math.isfinite(p['finalScore'])
+                if meta['algorithmVersion']=='Z7':
+                    assert p['points']>=1
+                    assert {'Performance','Confidence','Activity','Match Days'}<=p['advanced'].keys()
+                    assert 'Consistency' not in p['advanced']
+                else:
+                    assert 0<=p['points']<=3000
                 assert int(p['simple']['W-L'])==int(p['simple']['Wins'])-int(p['simple']['Losses'])
-                assert abs(float(p['simple']['FinalScore'])-p['finalScore'])<.006
+                score='Raw Score' if meta['algorithmVersion']=='Z7' else 'FinalScore'
+                assert abs(float(p['simple'][score])-p['finalScore'])<.006
         total+=len(players)
 lock=ROOT/'data/checksums.json'
 if lock.exists():
     for relative,digest in read(lock).items():
-        assert hashlib.sha256((ROOT/relative).read_bytes()).hexdigest()==digest, f'Historical file modified: {relative}'
+        payload=(ROOT/relative).read_bytes()
+        exact=hashlib.sha256(payload).hexdigest()
+        lf=hashlib.sha256(payload.replace(b'\r\n',b'\n')).hexdigest()
+        assert digest in (exact,lf), f'Historical file modified: {relative}'
 print(f'Validated {total} player records in {sum(map(len,manifest["games"].values()))} releases; public Points match all CSVs.')

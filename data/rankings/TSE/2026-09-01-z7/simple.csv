@@ -1,0 +1,13 @@
+RankChange,#,PlayerID,Points,MapsPlayed,Wins,Draws,Losses,W-L,Raw Score,Explanation
+0,1,Clow,2127,4,4,0,0,+4,7.662352333039034,"[Dominant duelist] [Division A] STRONG Success Score (146.6), Map Score (105.0); WEAK Result Score (84.4), Format Score (100.0)"
+0,2,TaWRe,1674,7,7,0,0,+7,7.423098668227951,"[Weak-opponent farmer] [Division A] STRONG Success Score (123.9), Map Score (104.3); WEAK Result Score (85.6), Format Score (100.0)"
+0,3,Fora,1358,6,6,0,0,+6,7.213469770714946,"[Weak-opponent farmer] [Division A] STRONG Map Score (107.5), Format Score (100.0); WEAK Success Score (64.1), Result Score (82.0)"
+1,4,Supersniper98,949,6,2,0,4,-2,6.855859719291469,"[Dominant duelist] [Division A/B] STRONG Map Score (110.0), Format Score (100.0); WEAK Success Score (24.8), Result Score (41.7)"
+1,5,Rukimichimoshi,904,3,1,0,2,-1,6.806817486798437,"[Tested by the top] [Division B] STRONG Map Score (106.7), Format Score (100.0); WEAK Success Score (22.8), Result Score (41.4)"
+8,6,LIKBEZ,688,6,2,0,4,-2,6.533586546497644,"[Tested by the top] [Division B] STRONG Map Score (110.0), Format Score (100.0); WEAK Success Score (31.0), Result Score (39.2)"
+3,7,TAHK,623,4,0,0,4,-4,6.43444184246317,"[Tested by the top] [Division C] STRONG Map Score (111.3), Format Score (100.0); WEAK Success Score (10.4), Result Score (16.0)"
+,8,SeriousAle,529,4,3,0,1,+2,6.271468462454449,"[Weak-opponent farmer] [Division C] STRONG Map Score (106.3), Format Score (100.0); WEAK Success Score (21.2), Result Score (60.9)"
+,9,Denger,441,6,1,0,5,-4,6.0952136005986075,"[Tested by the top] [Division C] STRONG Map Score (101.7), Format Score (100.0); WEAK Success Score (13.3), Result Score (27.9)"
+2,10,Alezanco,423,4,1,0,3,-2,6.054775148323505,"[Balanced player] [Division C] STRONG Map Score (100.0), Format Score (100.0); WEAK Success Score (9.6), Result Score (29.2)"
+5,11,Almol,400,4,1,0,3,-2,6.005462371985569,"[Weak-opponent farmer] [Division C] STRONG Map Score (111.3), Format Score (100.0); WEAK Success Score (14.1), Result Score (42.5)"
+1,12,KANE,371,4,1,0,3,-2,5.9374555818268915,"[Balanced player] [Division C] STRONG Map Score (100.0), Format Score (100.0); WEAK Success Score (7.4), Result Score (26.2)"
