@@ -1,7 +1,7 @@
 import {captureRows,animateRows,captureWheel,animateWheel} from './motion.js';
 import { renderDocs } from './system.js?v=20261121-rating-103';
 import {strings,applyLanguage} from './i18n.js';
-import {compareProfiles} from './profile-metrics.js?v=20261121-rating-103';
+import {compareProfiles} from './profile-metrics.js?v=20261121-profile-2';
 let lang='en',display={};
 
 const t=key=>strings[lang][key];
@@ -46,11 +46,13 @@ function rankChange(r){const p=previous(r);return p?p.rank-r.rank:null}
 function pointsChange(r){const p=previous(r);return p?r.points-p.points:null}
 function value(r,key){if(key==='PointsChange')return pointsChange(r);if(key==='RankChange')return rankChange(r);if(key==='#')return r.rank;if(key==='PlayerID')return r.name;if(key==='Points')return r.points;return r[view][key]}
 function numeric(v){return v!==null&&v!==''&&Number.isFinite(Number(v))}
+const explanationTags=text=>[...String(text??'').matchAll(/\[([^\]]+)\]/g)].map(m=>m[1]);
+const explanationItems=(items,format)=>items.map(([name,v])=>format(name,v)).join(', ')||'—';
 function expl(text,profile){
- const tags=[...String(text??'').matchAll(/\[([^\]]+)\]/g)].map(m=>m[1]);
+ const tags=explanationTags(text);
  const badges=tags.map(t=>{const division=t.startsWith('Division ');return `<span class="arch ${division?'division-badge division-'+esc(t.slice(9).replace('/','')):'a-balanced'}">${esc(t)}</span>`}).join('');
  const title=lang==='ru'?'Сравнение показателей с другими игроками выпуска':'Metrics compared with other players in the release';
- const line=(label,items)=>`<div class="expl-line" title="${title}"><span class="${label==='STRONG'?'tag-s':'tag-w'}">${label}</span> ${items.map(([name,v])=>`${esc(name)} (${esc(v)})`).join(', ')||'—'}</div>`;
+ const line=(label,items)=>`<div class="expl-line" title="${title}"><span class="${label==='STRONG'?'tag-s':'tag-w'}">${label}</span> ${explanationItems(items,(name,v)=>`${esc(name)} (${esc(v)})`)}</div>`;
  return `<div class="explanation-badges">${badges}</div>`+line('STRONG',profile.strong)+line('WEAK',profile.weak);
 }
 function cell(r,key){
@@ -89,6 +91,25 @@ function changeRelease(target){if(target===index||target<0||target>=manifest.gam
 $('previous').onclick=()=>changeRelease(index-1);$('next').onclick=()=>changeRelease(index+1);
 for(const name of ['simple','advanced'])$(name).onclick=()=>{view=name;sort='Points';direction=-1;if(rows.length){stateURL();render()}};
 $('search').oninput=()=>{if(rows.length)render()};
+$('download').onclick=event=>{
+ if(view!=='simple'||!rows.length||$('status').textContent)return;
+ event.preventDefault();
+ const columns=Object.keys(rows[0].simple);
+ const quote=v=>'"'+String(v??'').replaceAll('"','""')+'"';
+ const records=rows.map(r=>columns.map(key=>{
+  const value=r.simple[key];
+  if(key!=='Explanation')return value;
+  const tags=explanationTags(value).map(tag=>'['+tag+']');
+  const {strong,weak}=profiles.get(r);
+  const items=list=>explanationItems(list,(name,v)=>name+' ('+v+')');
+  return [...tags,'STRONG '+items(strong)+'; WEAK '+items(weak)].join(' ');
+ }));
+ const csv=[columns,...records].map(record=>record.map(quote).join(',')).join('\r\n')+'\r\n';
+ const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
+ const link=document.createElement('a');
+ link.href=url;link.download='simple.csv';link.click();
+ setTimeout(()=>URL.revokeObjectURL(url),1000);
+};
 window.addEventListener('hashchange',()=>{if(location.hash.startsWith('#game=')){readURL();load()}});
 function releaseSummary(){const r=manifest.games[game][index],d=display[game]?.[r.id]||{};$('release-kind').textContent=[`${t('release')} №${d.number||index+1}`,(d.labels?.[lang]||d.label),d.weekends,d.matches!=null?`${d.matches} ${t('matches')}`:null,`${rows.length} ${t('players')}`].filter(Boolean).join(' · ')}
 $('language').onchange=()=>{lang=$('language').value;try{localStorage.setItem('ranking-language',lang)}catch{}applyLanguage(lang);if(meta){stateURL();render();renderDocs(meta,lang);releaseSummary()}};
