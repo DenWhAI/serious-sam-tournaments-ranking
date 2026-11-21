@@ -6,6 +6,7 @@ const maps={BFE:[['Brkeen Chevap','1.30'],['Tomb of Nefretari','1.15'],["Unfinis
 import {z7Chapters} from './z7-explanation.js';
 import {v92Chapters} from './v92-explanation.js?v=20261121-level-formulas';
 import {v102Chapters} from './v102-explanation.js?v=20261121-rating-102-r2';
+import {v103Chapters} from './v103-explanation.js?v=20261121-rating-103';
 
 function displayChapters(chapters){
  document.getElementById('contents').innerHTML=chapters.map(([id,title],i)=>`<a href="#${id}">${String(i+1).padStart(2,'0')} / ${title}</a>`).join('');
@@ -15,6 +16,7 @@ export function renderDocs(meta,lang='en'){
  if(meta.algorithmVersion==='Z7')return displayChapters(z7Chapters[lang]);
  if(meta.algorithmVersion==='V9.2')return displayChapters(v92Chapters[lang]);
  if(meta.algorithmVersion==='10.2')return displayChapters(v102Chapters[lang]);
+ if(meta.algorithmVersion==='10.3')return displayChapters(v103Chapters[lang]);
  const ru=lang==='ru',game=meta.game==='BFE'?'BFE':'TSE';
 
  const result=game==='BFE'?['35%','65%']:['25%','75%'];

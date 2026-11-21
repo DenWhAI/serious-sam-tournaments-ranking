@@ -1,7 +1,7 @@
 import {captureRows,animateRows,captureWheel,animateWheel} from './motion.js';
-import { renderDocs } from './system.js?v=20261121-rating-102-r2';
+import { renderDocs } from './system.js?v=20261121-rating-103';
 import {strings,applyLanguage} from './i18n.js';
-import {compareProfiles} from './profile-metrics.js?v=20261121-rating-102-r2';
+import {compareProfiles} from './profile-metrics.js?v=20261121-rating-103';
 let lang='en',display={};
 
 const t=key=>strings[lang][key];
@@ -15,7 +15,7 @@ const periodMarkup=r=>`<span class="period-start">${esc(r.from.slice(8)+' '+mont
 let manifest,game='TSE',index=0,view='simple',sort='Points',direction=-1,rows=[],meta,base=[],loadId=0;
 let profiles=new Map();
 const cache=new Map();
-async function json(url){if(!cache.has(url))cache.set(url,fetch(url+(url.includes('?')?'&':'?')+'build=20261121-rating-102-r2').then(r=>{if(!r.ok)throw Error(`Could not load ${url} (${r.status})`);return r.json()}).catch(e=>{cache.delete(url);throw e}));return cache.get(url)}
+async function json(url){if(!cache.has(url))cache.set(url,fetch(url+(url.includes('?')?'&':'?')+'build=20261121-rating-103').then(r=>{if(!r.ok)throw Error(`Could not load ${url} (${r.status})`);return r.json()}).catch(e=>{cache.delete(url);throw e}));return cache.get(url)}
 function stateURL(){const p=new URLSearchParams({game,release:manifest.games[game][index].id,view,lang});history.replaceState(null,'','?'+p+(location.hash.startsWith('#game=')?'':location.hash))}
 function readURL(){const p=new URLSearchParams(location.hash.startsWith('#game=')?location.hash.slice(1):location.search);if(['ru','en'].includes(p.get('lang')))lang=p.get('lang');applyLanguage(lang);game=p.get('game')==='BFE'?'BFE':'TSE';const list=manifest.games[game];const found=list.findIndex(r=>r.id===p.get('release')||r.aliases?.includes(p.get('release')));index=found>=0?found:list.length-1;view=p.get('view')==='advanced'?'advanced':'simple';}
 async function load(motion=null){
