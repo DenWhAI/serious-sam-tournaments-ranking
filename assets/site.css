@@ -46,7 +46,7 @@ header{padding-top:30px;padding-bottom:18px}
 .identity h1{font-size:var(--title-size);font-weight:400;transform:scaleX(1.12);transform-origin:left center;width:89.28%;margin:10px 0 12px;letter-spacing:.7px}
 .release-center h2,.identity .rating-subtitle{font-family:inherit;font-size:20px;font-weight:500;letter-spacing:normal}
 @media(max-width:720px){.release-center h2,.identity .rating-subtitle{font-size:17px}}
-.identity .rating-subtitle{line-height:1.5;color:#85a8dc;margin:0 0 20px;text-transform:none;text-wrap:balance}
+.identity .rating-subtitle{font-weight:400;line-height:1.5;color:#85a8dc;margin:0 0 20px;text-transform:none;text-wrap:balance}
 html[data-game=BFE] .identity .rating-subtitle{color:#d69095}
 .identity p{font-size:15px;margin:7px 0}
 .community-links{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:12px}
