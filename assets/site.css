@@ -19,8 +19,8 @@ h1{font-size:52px;line-height:1.05;margin-bottom:18px}
 .chapter-index{font:10px Consolas,monospace;letter-spacing:2px;color:var(--dim)}
 .chapter .chapter-accent,.section-heading .chapter-accent{font:italic 22px/1.6 Georgia,serif;color:color-mix(in srgb,var(--cyan) 52%,var(--muted));margin:8px 0 22px;letter-spacing:.2px}
 .chapter{padding-bottom:38px;margin-bottom:38px}.chapter strong{font-weight:600}
-.chapter a[href^="#"]{color:#fff;font-weight:400;text-decoration:underline;text-decoration-color:rgb(255 255 255 / .55);text-decoration-thickness:1px;text-underline-offset:.16em}
-.chapter a[href^="#"]:hover{color:#fff;text-decoration-color:currentColor}
+.chapter a[href^="#"]{color:#e2bac3;font-weight:400;text-decoration:underline;text-decoration-color:color-mix(in srgb,currentColor 65%,transparent);text-decoration-thickness:1px;text-underline-offset:.16em}
+.chapter a[href^="#"]:hover{color:#eccbd2;text-decoration-color:currentColor}
 .chapter a[href^="#"]:focus-visible{outline:1px solid currentColor;outline-offset:3px}
 .chapter [id^="v92-"]{scroll-margin-top:25px}
 .language-label{margin-top:10px}.settings #language{padding:10px 12px}
@@ -43,9 +43,9 @@ header{padding-top:30px;padding-bottom:18px}
 .game-identity{display:flex;align-items:center;gap:12px}
 #game-logo{width:44px;height:44px;object-fit:contain;flex-shrink:0}
 .identity{--title-size:clamp(32px,8.8cqw,80px)}
-.identity h1{font-size:var(--title-size);transform:scaleX(1.12);transform-origin:left center;width:89.28%;margin:10px 0 5px;letter-spacing:.7px}
-.identity .rating-subtitle{font-family:inherit;font-size:clamp(13px,1.4vw,17px);font-weight:500;letter-spacing:normal;line-height:1.35;color:color-mix(in srgb,var(--text) 88%,var(--muted));margin:0 0 14px;text-wrap:balance}
-.identity p{margin:7px 0}
+.identity h1{font-size:var(--title-size);font-weight:400;transform:scaleX(1.12);transform-origin:left center;width:89.28%;margin:10px 0 12px;letter-spacing:.7px}
+.identity .rating-subtitle{font-family:inherit;font-size:clamp(13px,1.4vw,17px);font-weight:inherit;letter-spacing:normal;line-height:1.35;color:color-mix(in srgb,var(--text) 88%,var(--muted));margin:0 0 20px;text-wrap:balance}
+.identity p{font-size:15px;margin:7px 0}
 .community-links{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:12px}
 .community-links a{font:inherit;color:var(--muted)}
 .community-links a:hover{color:var(--cyan)}
