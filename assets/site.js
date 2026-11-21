@@ -1,7 +1,7 @@
 import {captureRows,animateRows,captureWheel,animateWheel} from './motion.js';
-import { renderDocs } from './system.js?v=20261121-result-profile';
+import { renderDocs } from './system.js?v=20261121-definitions';
 import {strings,applyLanguage} from './i18n.js';
-import {compareProfiles} from './profile-metrics.js?v=20261121-result-profile';
+import {compareProfiles} from './profile-metrics.js?v=20261121-definitions';
 let lang='en',display={};
 
 const t=key=>strings[lang][key];
