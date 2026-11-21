@@ -1,5 +1,5 @@
 const explanationMetrics=[
- 'Performance','Prestige','Success Score','Result Score','Opponent Strength',
+ 'Performance','Prestige','Result Score','Opponent Strength',
  'Confidence','Activity','Match Days','Recency','Map Score','Format Score',
 ];
 

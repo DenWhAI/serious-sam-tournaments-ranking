@@ -1,0 +1,13 @@
+RankChange,#,PlayerID,Points,MapsPlayed,Wins,Draws,Losses,W-L,Raw Score,Explanation
+0,1,Clow,2331,4,4,0,0,+4,7.754123874634489,"[Dominant duelist] [Division A] STRONG Performance (3540.32), Prestige (2216); WEAK Confidence (19.77%), Recency (0.648601)"
+0,2,TaWRe,1698,7,7,0,0,+7,7.4374499124364855,"[Weak-opponent farmer] [Division A] STRONG Result Score (83.6), Activity (6.9); WEAK Opponent Strength (599), Map Score (104.3)"
+0,3,Fora,1362,6,6,0,0,+6,7.216897192716554,"[Weak-opponent farmer] [Division A] STRONG Performance (1623.82), Result Score (79.6); WEAK Confidence (21.80%), Opponent Strength (418)"
+1,4,Supersniper98,935,6,2,0,4,-2,6.840154089641034,"[Tested by the top] [Division B] STRONG Confidence (45.30%), Activity (6.2); WEAK Recency (0.703459), Result Score (41.3)"
+1,5,Rukimichimoshi,884,3,1,0,2,-1,6.784198988492171,"[Dominant duelist] [Division B] STRONG Opponent Strength (954), Prestige (989); WEAK Activity (3.0), Recency (0.652190)"
+8,6,LIKBEZ,648,6,2,0,4,-2,6.473956821335664,"[Tested by the top] [Division B] STRONG Opponent Strength (1306), Confidence (40.84%); WEAK Prestige (458), Result Score (40.9)"
+3,7,TAHK,632,4,0,0,4,-4,6.448405845245839,"[Tested by the top] [Division C] STRONG Opponent Strength (1513), Map Score (111.3); WEAK Result Score (18.3), Confidence (23.16%)"
+,8,SeriousAle,563,4,3,0,1,+2,6.334292873212571,"[Weak-opponent farmer] [Division C] STRONG Result Score (63.9), Recency (0.743052); WEAK Opponent Strength (410), Match Days (3)"
+,9,Denger,437,6,1,0,5,-4,6.086280135718374,"[Tested by the top] [Division C] STRONG Recency (0.866771), Opponent Strength (1041); WEAK Prestige (428), Map Score (101.7)"
+3,10,Alezanco,409,4,1,0,3,-2,6.02446298118898,"[Balanced player] [Division C] STRONG Opponent Strength (762), Confidence (28.93%); WEAK Recency (0.637479), Map Score (100.0)"
+4,11,Almol,400,4,1,0,3,-2,6.0058369147008,"[Weak-opponent farmer] [Division C] STRONG Map Score (111.3), Confidence (37.09%); WEAK Prestige (362), Match Days (3)"
+0,12,KANE,384,4,1,0,3,-2,5.968330275453111,"[Balanced player] [Division C] STRONG Match Days (4), Confidence (31.09%); WEAK Performance (229.40), Map Score (100.0)"

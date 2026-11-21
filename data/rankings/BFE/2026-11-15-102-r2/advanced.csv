@@ -1,0 +1,25 @@
+RankChange,#,PlayerID,Points,Performance,Confidence,Result Score,Opponent Strength,Format Score,Activity,Match Days,Recency,Map Score,Maps Stats,Format Stats
+1,1,LIKBEZ,2383,2707.57,39.10%,68.8,1137,80.9,9.2,7,0.689593,92.3,Best: Yards of Death (+0.13); Worst: Slumoner (-0.12); Freq: Yards of Death x2,Best: Duel (+0.09); Worst: Team (-0.00); Freq: Duel x7
+2,2,Denger,2073,3081.85,46.20%,65.6,1567,83.3,6.3,6,0.679795,78.9,Best: Slumoner (+0.19); Worst: Little Trouble (-0.11); Freq: Slumoner x2,Best: Duel (+0.26); Worst: Team (-0.06); Freq: Duel x6
+-2,3,TaWRe,1782,404.42,13.88%,16.0,2070,100.0,2.0,1,0.422070,90.0,Best: Cairo City (-0.08); Worst: Slumoner (-0.09); Freq: Cairo City x1,Best: Duel (-0.17); Worst: Duel (-0.17); Freq: Duel x2
+-1,4,KANE,1449,1122.55,47.69%,46.5,1255,78.3,8.4,7,0.655951,82.9,Best: Little Trouble (+0.08); Worst: Yards of Death (-0.14); Freq: Little Trouble x2,Best: Team (-0.07); Worst: Duel (-0.10); Freq: Duel x7
+2,5,Rukimichimoshi,997,1596.31,25.66%,70.9,654,61.3,2.6,3,0.622530,95.0,Best: Unfinished Complex (+0.05); Worst: Medina (+0.01); Freq: Medina x2,Best: Duel (+0.07); Worst: Team (+0.00); Freq: Duel x2
+0,6,Fora,958,1348.70,3.68%,58.6,928,50.0,0.5,1,0.462937,100.0,Best: Cairo City (+0.01); Worst: Cairo City (+0.01); Freq: Cairo City x1,Best: Team (+0.01); Worst: Team (+0.01); Freq: Team x1
+-2,7,Almol,950,915.08,36.59%,50.5,923,90.8,6.4,4,0.660033,106.7,Best: Brkeen Chevap (+0.08); Worst: Medina (-0.07); Freq: Medina x2,Best: Duel (+0.00); Worst: Elimination (-0.01); Freq: Duel x5
+0,8,TAHK,930,895.62,36.76%,53.5,807,90.0,5.1,4,0.493685,103.0,Best: Cairo City (+0.06); Worst: Unfinished Complex (-0.09); Freq: Cairo City x2,Best: Team (+0.00); Worst: Duel (-0.01); Freq: Duel x4
+1,9,Clow,729,864.45,3.89%,43.5,1096,50.0,0.5,1,0.462937,100.0,Best: Cairo City (+0.00); Worst: Cairo City (+0.00); Freq: Cairo City x1,Best: Team (+0.00); Worst: Team (+0.00); Freq: Team x1
+1,10,NekoRanger,598,543.05,35.77%,35.3,931,85.7,6.7,4,0.621153,100.7,Best: Unfinished Complex (+0.04); Worst: Brkeen Chevap (-0.08); Freq: Unfinished Complex x2,Best: Team (-0.03); Worst: Duel (-0.07); Freq: Duel x6
+1,11,SeriousAle,588,952.61,10.67%,52.0,814,47.5,1.0,2,0.670710,100.0,Best: Medina (+0.03); Worst: Medina (+0.03); Freq: Medina x2,Best: Team (+0.02); Worst: Elimination (+0.01); Freq: Team x1
+,12,Chlorozom,505,458.57,25.45%,26.4,1291,100.0,3.4,3,0.534157,105.0,Best: Unfinished Complex (+0.01); Worst: Tomb of Nefretari (-0.03); Freq: Unfinished Complex x1,Best: Duel (-0.03); Worst: Duel (-0.03); Freq: Duel x3
+1,13,Rokunin,502,534.37,35.16%,37.8,895,57.0,4.7,6,0.647046,81.7,Best: Yards of Death (+0.04); Worst: Unfinished Complex (-0.06); Freq: Oasis x3,Best: Team (+0.05); Worst: Duel (-0.05); Freq: Team x4
+,14,Dima,480,743.33,39.26%,74.2,248,80.4,7.3,6,0.607044,86.1,Best: Tomb of Nefretari (+0.12); Worst: Oasis (-0.02); Freq: Oasis x3,Best: Duel (+0.25); Worst: Rumble (-0.01); Freq: Duel x6
+0,15,Mr.Chocolate,404,329.54,40.39%,47.1,367,52.6,6.8,8,0.699527,89.2,Best: Medina (+0.02); Worst: Tomb of Nefretari (-0.08); Freq: Oasis x3,Best: Team (+0.01); Worst: Duel (-0.15); Freq: Team x8
+-3,16,Telepuzik,370,327.76,19.89%,65.9,158,38.3,1.3,3,0.843326,75.0,Best: Oasis (+0.01); Worst: Shotty Trouble (-0.01); Freq: Oasis x2,Best: Rumble (+0.01); Worst: Team (-0.02); Freq: Team x2
+0,17,Overlord,272,604.11,19.22%,42.5,919,45.0,1.8,2,0.439278,93.8,Best: Fiaca (+0.03); Worst: Brkeen Chevap (+0.00); Freq: Fiaca x2,Best: Team (+0.05); Worst: Team (+0.05); Freq: Team x4
+-2,18,Bio-mechanoid,252,451.64,18.85%,36.7,927,45.0,1.8,2,0.439278,93.8,Best: Fiaca (+0.02); Worst: Brkeen Chevap (+0.00); Freq: Fiaca x2,Best: Team (+0.03); Worst: Team (+0.03); Freq: Team x4
+-1,19,Nics,171,154.81,25.35%,27.0,432,64.0,3.6,3,0.542612,97.0,Best: Brkeen Chevap (+0.01); Worst: Tomb of Nefretari (-0.04); Freq: Brkeen Chevap x1,Best: Team (+0.01); Worst: Duel (-0.06); Freq: Team x2
+2,20,Cofein,57,129.50,26.77%,40.8,194,41.1,2.2,4,0.756639,80.0,Best: Slumoner (+0.01); Worst: Oasis (-0.01); Freq: Oasis x2,Best: Team (+0.02); Worst: Multi (-0.01); Freq: Team x4
+2,21,CursedBun,54,141.13,34.91%,40.2,207,43.3,3.4,5,0.788495,88.1,Best: Slumoner (+0.02); Worst: Medina (-0.02); Freq: Oasis x2,Best: Team (+0.02); Worst: Multi (+0.00); Freq: Team x6
+2,22,TURMS,36,99.64,33.81%,28.3,269,54.7,5.4,6,0.713920,88.5,Best: Slumoner (+0.02); Worst: Little Trouble (-0.03); Freq: Oasis x2,Best: Team (+0.03); Worst: Duel (-0.04); Freq: Team x6
+,23,Foxtrot,35,106.91,17.13%,47.9,117,41.7,1.4,3,0.634958,75.0,Best: Oasis (+0.02); Worst: Little Trouble (-0.01); Freq: Oasis x2,Best: Rumble (+0.01); Worst: Team (-0.01); Freq: Team x2
+,24,Kitten,30,76.72,19.78%,21.9,298,36.7,1.2,3,0.843326,75.0,Best: Shotty Trouble (+0.01); Worst: Oasis (-0.01); Freq: Oasis x2,Best: Team (+0.00); Worst: Rumble (-0.01); Freq: Team x2

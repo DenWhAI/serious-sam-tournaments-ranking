@@ -28,6 +28,9 @@ for game,releases in manifest['games'].items():
                     assert p['points']>=1
                     assert {'Performance','Confidence','Activity','Match Days'}<=p['advanced'].keys()
                     assert 'Consistency' not in p['advanced']
+                    if meta['algorithmVersion']=='10.2' and meta['id'].endswith('-r2'):
+                        assert 'Success Score' not in p['advanced']
+                        assert 'Success Score' not in p['simple'].get('Explanation','')
                 else:
                     assert 0<=p['points']<=3000
                 assert int(p['simple']['W-L'])==int(p['simple']['Wins'])-int(p['simple']['Losses'])

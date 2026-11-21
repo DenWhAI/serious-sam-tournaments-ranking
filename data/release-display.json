@@ -140,6 +140,32 @@
         "ru": "1-й выпуск после Летнего Турнира 2026"
       },
       "weekends": "SW 172 — SW 179"
+    },
+    "2026-07-01-102-r2": {
+      "number": 1,
+      "matches": 87,
+      "labels": {
+        "en": "2026 until Summer Tournament",
+        "ru": "2026 до Летнего Турнира"
+      },
+      "weekends": "SW 154 — SW 171"
+    },
+    "2026-09-01-102-r2": {
+      "number": 2,
+      "matches": 29,
+      "labels": {
+        "en": "Only Summer Tournament 2026",
+        "ru": "Только Летний Турнир 2026"
+      }
+    },
+    "2026-11-15-102-r2": {
+      "number": 3,
+      "matches": 43,
+      "labels": {
+        "en": "1st release after Summer Tournament 2026",
+        "ru": "1-й выпуск после Летнего Турнира 2026"
+      },
+      "weekends": "SW 172 — SW 179"
     }
   },
   "BFE": {
@@ -315,6 +341,32 @@
       }
     },
     "2026-11-15-102": {
+      "number": 3,
+      "matches": 48,
+      "labels": {
+        "en": "1st release after Summer Tournament 2026",
+        "ru": "1-й выпуск после Летнего Турнира 2026"
+      },
+      "weekends": "SW 172 — SW 179"
+    },
+    "2026-07-01-102-r2": {
+      "number": 1,
+      "matches": 164,
+      "labels": {
+        "en": "2026 until Summer Tournament",
+        "ru": "2026 до Летнего Турнира"
+      },
+      "weekends": "SW 154 — SW 171"
+    },
+    "2026-09-01-102-r2": {
+      "number": 2,
+      "matches": 98,
+      "labels": {
+        "en": "Only Summer Tournament 2026",
+        "ru": "Только Летний Турнир 2026"
+      }
+    },
+    "2026-11-15-102-r2": {
       "number": 3,
       "matches": 48,
       "labels": {
