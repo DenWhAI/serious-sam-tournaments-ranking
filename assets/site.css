@@ -21,6 +21,8 @@ h1{font-size:52px;line-height:1.05;margin-bottom:18px}
 .chapter{padding-bottom:38px;margin-bottom:38px}.chapter strong{font-weight:600}
 .chapter a[href^="#"]{color:#e2bac3;font-weight:400;text-decoration:underline;text-decoration-color:color-mix(in srgb,currentColor 65%,transparent);text-decoration-thickness:1px;text-underline-offset:.16em}
 .chapter a[href^="#"]:hover{color:#eccbd2;text-decoration-color:currentColor}
+html[data-game=TSE] .chapter a[href^="#"]{color:#aec9ed}
+html[data-game=TSE] .chapter a[href^="#"]:hover{color:#c3d8f5}
 .chapter a[href^="#"]:focus-visible{outline:1px solid currentColor;outline-offset:3px}
 .chapter [id^="v92-"]{scroll-margin-top:25px}
 .language-label{margin-top:10px}.settings #language{padding:10px 12px}
