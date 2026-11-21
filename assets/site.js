@@ -1,6 +1,6 @@
 import {captureRows,animateRows,captureWheel,animateWheel} from './motion.js';
-import { renderDocs } from './system.js?v=20261121-docs-links';
-import {strings,applyLanguage} from './i18n.js';
+import { renderDocs } from './system.js?v=20261121-hero-type';
+import {strings,applyLanguage} from './i18n.js?v=20261121-hero-type';
 import {compareProfiles} from './profile-metrics.js?v=20261121-profile-2';
 let lang='en',display={};
 
@@ -12,12 +12,12 @@ const delta=(n,empty='—')=>`<small class="rating-delta ${n==null||n===0?'delta
 const month=d=>new Date(d+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',timeZone:'UTC'});
 const period=r=>`${r.from.slice(8)} ${month(r.from)} — ${r.to.slice(8)} ${month(r.to)} ${r.to.slice(0,4)}`;
 const periodMarkup=r=>`<span class="period-start">${esc(r.from.slice(8)+' '+month(r.from)+' — ')}</span><span class="period-end">${esc(r.to.slice(8)+' '+month(r.to)+' '+r.to.slice(0,4))}</span>`;
-let manifest,game='TSE',index=0,view='simple',sort='Points',direction=-1,rows=[],meta,base=[],loadId=0;
+let manifest,game='BFE',index=0,view='simple',sort='Points',direction=-1,rows=[],meta,base=[],loadId=0;
 let profiles=new Map();
 const cache=new Map();
 async function json(url){if(!cache.has(url))cache.set(url,fetch(url+(url.includes('?')?'&':'?')+'build=20261121-rating-103').then(r=>{if(!r.ok)throw Error(`Could not load ${url} (${r.status})`);return r.json()}).catch(e=>{cache.delete(url);throw e}));return cache.get(url)}
 function stateURL(){const p=new URLSearchParams({game,release:manifest.games[game][index].id,view,lang});history.replaceState(null,'','?'+p+(location.hash.startsWith('#game=')?'':location.hash))}
-function readURL(){const p=new URLSearchParams(location.hash.startsWith('#game=')?location.hash.slice(1):location.search);if(['ru','en'].includes(p.get('lang')))lang=p.get('lang');applyLanguage(lang);game=p.get('game')==='BFE'?'BFE':'TSE';const list=manifest.games[game];const found=list.findIndex(r=>r.id===p.get('release')||r.aliases?.includes(p.get('release')));index=found>=0?found:list.length-1;view=p.get('view')==='advanced'?'advanced':'simple';}
+function readURL(){const p=new URLSearchParams(location.hash.startsWith('#game=')?location.hash.slice(1):location.search);lang=p.get('lang')==='ru'?'ru':'en';applyLanguage(lang);game=p.get('game')==='TSE'?'TSE':'BFE';const list=manifest.games[game];const found=list.findIndex(r=>r.id===p.get('release')||r.aliases?.includes(p.get('release')));index=found>=0?found:list.length-1;view=p.get('view')==='advanced'?'advanced':'simple';}
 async function load(motion=null){
  const request=++loadId;const list=manifest.games[game],release=list[index];
  document.documentElement.dataset.game=game;$('game').value=game;$('game-logo').src=`assets/logos/Serious${game}.png`;
@@ -69,7 +69,8 @@ function cell(r,key){
  if(key==='Maps Stats'||key==='Format Stats')return `<td class="ms">${esc(v).split('; ').map(x=>x.replace(/^(Best|Worst|Freq):/,'<span class="lbl">$1</span>').replace(/\(([+−-]?\d+(?:\.\d+)?)\)/g,(_,n)=>`(<span class="${Number(n.replace('−','-'))>0?'pos':Number(n.replace('−','-'))<0?'neg':'neutral'}">${n}</span>)`)).join('<br>')}</td>`;
  if(view==='advanced'){
   const captions={'Result Score':[r.model?.resultScore!=null?'μ':'Σ',raw.result],'Format Score':['avg',raw.fmt],'Map Score':['avg',raw.map],'Recency':['avg',raw.rec]};
-  const c=captions[key];return `<td><div class="nv">${esc(v)}</div>${c&&Number.isFinite(c[1])?`<div class="rv">${c[0]} ${c[1].toFixed(2)}</div>`:''}</td>`;
+  const shown=key==='Recency'&&numeric(v)?Number(Number(v).toFixed(2)):v;
+  const c=captions[key];return `<td><div class="nv">${esc(shown)}</div>${c&&Number.isFinite(c[1])?`<div class="rv">${c[0]} ${c[1].toFixed(2)}</div>`:''}</td>`;
  }
  return `<td class="mono">${esc(v)}</td>`;
 }

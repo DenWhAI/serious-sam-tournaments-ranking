@@ -19,7 +19,7 @@ h1{font-size:52px;line-height:1.05;margin-bottom:18px}
 .chapter-index{font:10px Consolas,monospace;letter-spacing:2px;color:var(--dim)}
 .chapter .chapter-accent,.section-heading .chapter-accent{font:italic 22px/1.6 Georgia,serif;color:color-mix(in srgb,var(--cyan) 52%,var(--muted));margin:8px 0 22px;letter-spacing:.2px}
 .chapter{padding-bottom:38px;margin-bottom:38px}.chapter strong{font-weight:600}
-.chapter a[href^="#"]{color:#fff;font-weight:600;text-decoration:underline;text-decoration-color:rgb(255 255 255 / .55);text-decoration-thickness:1px;text-underline-offset:.16em}
+.chapter a[href^="#"]{color:#fff;font-weight:400;text-decoration:underline;text-decoration-color:rgb(255 255 255 / .55);text-decoration-thickness:1px;text-underline-offset:.16em}
 .chapter a[href^="#"]:hover{color:#fff;text-decoration-color:currentColor}
 .chapter a[href^="#"]:focus-visible{outline:1px solid currentColor;outline-offset:3px}
 .chapter [id^="v92-"]{scroll-margin-top:25px}
@@ -42,19 +42,23 @@ header{padding-top:30px;padding-bottom:18px}
 .brand-mark{width:38px;height:38px;object-fit:contain;background:none}
 .game-identity{display:flex;align-items:center;gap:12px}
 #game-logo{width:44px;height:44px;object-fit:contain;flex-shrink:0}
-.identity h1{font-size:clamp(32px,8.8cqw,80px);transform:scaleX(1.12);transform-origin:left center;width:89.28%;margin:10px 0 14px;letter-spacing:.7px}
+.identity{--title-size:clamp(32px,8.8cqw,80px)}
+.identity h1{font-size:var(--title-size);transform:scaleX(1.12);transform-origin:left center;width:89.28%;margin:10px 0 5px;letter-spacing:.7px}
+.identity .rating-subtitle{font-family:Steelfish,'Oswald','Arial Narrow',sans-serif;font-size:max(13px,calc(var(--title-size) / 2.5));font-weight:500;letter-spacing:.09em;line-height:1.25;color:#f3f3f3;margin:0 0 14px;text-wrap:balance}
 .identity p{margin:7px 0}
 .community-links{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:12px}
 .community-links a{font:inherit;color:var(--muted)}
 .community-links a:hover{color:var(--cyan)}
-@media(max-width:1100px){.identity h1{font-size:7cqw}}
-@media(max-width:800px){header{padding-top:22px;padding-bottom:12px}.identity h1{font-size:clamp(24px,7cqw,49px)}#game-logo{width:36px;height:36px}}
+@media(max-width:1100px){.identity{--title-size:7cqw}}
+@media(max-width:800px){header{padding-top:22px;padding-bottom:12px}.identity{--title-size:clamp(24px,7cqw,49px)}#game-logo{width:36px;height:36px}}
 
 /* Header balance and explicit Points movement. */
 header{align-items:center}
 .identity h1{transform:scaleX(1.15);width:86.95%}
 .game-control-label{display:flex;align-items:center;justify-content:space-between;min-height:22px}
 .game-control-label #game-logo{width:27px;height:27px}
+.settings{border-block:1px solid var(--line);padding-block:12px}
+@media(min-width:801px){header{align-items:stretch}.settings{margin-block:10px 7px;align-content:center}}
 .release-bottom{justify-content:flex-end}
 .points-change{min-width:74px;font-family:Consolas,monospace;text-align:right}
 .points-change .rating-delta{font-size:12px}
