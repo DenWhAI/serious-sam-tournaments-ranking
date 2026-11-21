@@ -1,6 +1,6 @@
 import {captureRows,animateRows,captureWheel,animateWheel} from './motion.js';
 import { renderDocs } from './system.js?v=20261121-hero-type';
-import {strings,applyLanguage} from './i18n.js?v=20261121-hero-type';
+import {strings,applyLanguage} from './i18n.js?v=20261121-subtitle-case';
 import {compareProfiles} from './profile-metrics.js?v=20261121-profile-2';
 let lang='en',display={};
 
