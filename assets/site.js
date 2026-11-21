@@ -68,9 +68,10 @@ function cell(r,key){
  if(key==='Wins'||key==='Losses'||key==='Draws')return `<td class="mono"><span class="${key==='Wins'?'w':key==='Losses'?'l':'d'}">${esc(v)}</span></td>`;
  if(key==='Maps Stats'||key==='Format Stats')return `<td class="ms">${esc(v).split('; ').map(x=>x.replace(/^(Best|Worst|Freq):/,'<span class="lbl">$1</span>').replace(/\(([+−-]?\d+(?:\.\d+)?)\)/g,(_,n)=>`(<span class="${Number(n.replace('−','-'))>0?'pos':Number(n.replace('−','-'))<0?'neg':'neutral'}">${n}</span>)`)).join('<br>')}</td>`;
  if(view==='advanced'){
-  const captions={'Result Score':[r.model?.resultScore!=null?'μ':'Σ',raw.result],'Format Score':['avg',raw.fmt],'Map Score':['avg',raw.map],'Recency':['avg',raw.rec]};
   const shown=key==='Recency'&&numeric(v)?Number(Number(v).toFixed(2)):v;
-  const c=captions[key];return `<td><div class="nv">${esc(shown)}</div>${c&&Number.isFinite(c[1])?`<div class="rv">${c[0]} ${c[1].toFixed(2)}</div>`:''}</td>`;
+  const caption=key==='Result Score'&&Number.isFinite(raw.result)
+   ?`<div class="rv">${r.model?.resultScore!=null?'μ':'Σ'} ${raw.result.toFixed(2)}</div>`:'';
+  return `<td><div class="nv">${esc(shown)}</div>${caption}</td>`;
  }
  return `<td class="mono">${esc(v)}</td>`;
 }
