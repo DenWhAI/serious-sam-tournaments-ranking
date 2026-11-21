@@ -1,0 +1,14 @@
+RankChange,#,PlayerID,Points,Success Score,Performance,Confidence,Result Score,Opponent Strength,Format Score,Activity,Match Days,Recency,Map Score,Maps Stats,Format Stats
+0,1,Clow,2236,73.8,2214.67,52.38%,61.6,1310,72.5,9.0,8,0.743314,103.0,Best: Sun Palace (+0.26); Worst: Brkeen Chevap (-0.31); Freq: Hole x4,Best: Duel (+0.01); Worst: team (-0.06); Freq: Duel x13
+1,2,Fora,1694,80.6,2419.37,48.40%,56.7,1816,75.0,6.1,5,0.722198,108.6,Best: Brkeen Chevap (+0.35); Worst: Hole (-0.13); Freq: Brkeen Chevap x4,Best: Duel (+0.33); Worst: team (+0.00); Freq: Duel x11
+1,3,Supersniper98,880,27.8,834.54,39.74%,45.9,977,70.8,7.2,6,0.708341,103.3,Best: Medieval rage (+0.10); Worst: Sun Palace (-0.06); Freq: Medieval rage x3,Best: Duel (-0.02); Worst: team (-0.02); Freq: Duel x6
+,4,Chlorozom,814,25.7,770.34,37.11%,43.5,1029,77.3,7.8,7,0.719563,100.0,Best: Medieval rage (+0.07); Worst: Hole (-0.09); Freq: Sun Palace x3,Best: team (+0.02); Worst: Duel (-0.05); Freq: Duel x7
+0,5,Rukimichimoshi,772,21.8,654.01,39.08%,54.1,564,82.5,8.4,5,0.725569,104.0,Best: Lost Tomb (+0.06); Worst: Brkeen Chevap (-0.10); Freq: Royal Purgatory x2,Best: team (+0.00); Worst: Duel (-0.11); Freq: Duel x7
+1,6,LIKBEZ,722,31.8,955.42,35.27%,43.3,1280,100.0,3.9,3,0.594568,102.5,Best: Shotty Trouble (+0.07); Worst: Horus Web (-0.02); Freq: Lost Tomb x2,Best: Duel (+0.08); Worst: Duel (+0.08); Freq: Duel x4
+-1,7,TAHK,596,18.7,561.73,39.50%,52.7,515,71.0,5.7,6,0.658397,102.5,Best: Brkeen Chevap (+0.06); Worst: Shotty Trouble (-0.07); Freq: Fronto x2,Best: Duel (+0.00); Worst: multi (-0.01); Freq: Duel x4
+0,8,SeriousAle,499,14.0,420.70,38.95%,43.2,562,71.0,5.7,5,0.721929,102.5,Best: Lost Tomb (+0.01); Worst: Medieval rage (-0.07); Freq: Lost Tomb x2,Best: team (+0.00); Worst: Duel (-0.06); Freq: Duel x4
+1,9,Alezanco,457,20.7,621.29,31.08%,49.6,626,50.0,2.3,3,0.611403,96.7,Best: Hole (+0.05); Worst: Little Trouble (-0.00); Freq: Hole x2,Best: team (+0.05); Worst: team (+0.05); Freq: team x6
+2,10,KANE,411,27.2,816.20,3.89%,50.4,824,50.0,0.6,1,0.470123,120.0,Best: Brkeen Chevap (+0.02); Worst: Brkeen Chevap (+0.02); Freq: Brkeen Chevap x1,Best: team (+0.02); Worst: team (+0.02); Freq: team x1
+-2,11,Denger,407,10.3,309.21,21.24%,38.4,496,83.3,2.7,2,0.511225,113.3,Best: Medieval rage (+0.02); Worst: Lost Tomb (-0.07); Freq: Medieval rage x1,Best: team (-0.00); Worst: Duel (-0.05); Freq: Duel x2
+-1,12,Almol,393,10.8,325.30,32.56%,32.5,676,79.8,7.6,5,0.623657,108.3,Best: Brkeen Chevap (+0.03); Worst: Fronto (-0.09); Freq: Fronto x3,Best: elimination (+0.02); Worst: Duel (-0.13); Freq: Duel x6
+,13,NekoRanger,272,11.7,351.99,16.18%,42.2,491,42.8,1.1,3,0.787414,93.3,Best: Fronto (+0.02); Worst: Royal Purgatory (-0.01); Freq: Royal Purgatory x2,Best: multi (+0.02); Worst: team (-0.01); Freq: multi x1

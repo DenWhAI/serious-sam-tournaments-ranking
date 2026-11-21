@@ -87,7 +87,8 @@ def main(input_path=INPUT, version='Z7', game_filter=None, revision=None):
             write(target / 'ranking.json', {'schemaVersion': 1, 'players': players})
             write(target / 'meta.json', {
                 'schemaVersion': 1, 'id': release, 'game': game, 'period': {'from': start, 'to': end},
-                'publishedAt': '2026-11-20', 'title': f'{game} · {start} — {end}', 'algorithmVersion': version,
+                'publishedAt': '2026-11-21' if version == '10.2' else '2026-11-20',
+                'title': f'{game} · {start} — {end}', 'algorithmVersion': version,
                 'studioVersion': 'V7', 'baseId': releases[-1]['id'] if releases else None,
                 'sources': source['sources'], 'pointsPolicy': 'fixed-smooth-low-tail-floor-1',
                 'divisionCorrection': False,
@@ -106,7 +107,7 @@ def main(input_path=INPUT, version='Z7', game_filter=None, revision=None):
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--input', type=Path, default=INPUT)
-    parser.add_argument('--version', choices=['Z7', 'V9.2'], default='Z7')
+    parser.add_argument('--version', choices=['Z7', 'V9.2', '10.2'], default='Z7')
     parser.add_argument('--game', choices=['BFE', 'TSE'])
     parser.add_argument('--revision', type=int)
     args = parser.parse_args()

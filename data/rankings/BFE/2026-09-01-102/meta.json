@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-09-01-102",
+  "game": "BFE",
+  "period": {
+    "from": "2026-07-18",
+    "to": "2026-09-01"
+  },
+  "publishedAt": "2026-11-21",
+  "title": "BFE · 2026-07-18 — 2026-09-01",
+  "algorithmVersion": "10.2",
+  "studioVersion": "V7",
+  "baseId": "2026-07-01-102",
+  "sources": [
+    "BFE_0926.csv"
+  ],
+  "pointsPolicy": "fixed-smooth-low-tail-floor-1",
+  "divisionCorrection": false
+}

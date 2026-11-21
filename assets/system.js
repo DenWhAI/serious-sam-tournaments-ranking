@@ -5,6 +5,7 @@ const table=(heads,rows)=>`<div class="doc-table-wrap"><table class="doc-table">
 const maps={BFE:[['Brkeen Chevap','1.30'],['Tomb of Nefretari','1.15'],["Unfinished Complex, Cairo City, Shotty Trouble, Street Wars, Deserted, Medina’s Ghetto",'1.00'],['Yards of Death, Fiaca','0.85'],['Little Trouble, Cairo Trouble, Slumoner, Medina','0.70']],TSE:[['Brkeen Chevap, Medieval Rage, Hoodlums Backyard','1.30'],['Fronto','1.15'],['Hole, Sun Palace, Lost Tomb, Little Trouble, Shotty Trouble, Gvide, Flood, Horus Web','1.00'],['Royal Purgatory','0.85'],['Jump Over, Yodeller, Simply One','0.70'],['Fortress','0.55']]};
 import {z7Chapters} from './z7-explanation.js';
 import {v92Chapters} from './v92-explanation.js?v=20261121-level-formulas';
+import {v102Chapters} from './v102-explanation.js?v=20261121-ranking-102';
 
 function displayChapters(chapters){
  document.getElementById('contents').innerHTML=chapters.map(([id,title],i)=>`<a href="#${id}">${String(i+1).padStart(2,'0')} / ${title}</a>`).join('');
@@ -13,6 +14,7 @@ function displayChapters(chapters){
 export function renderDocs(meta,lang='en'){
  if(meta.algorithmVersion==='Z7')return displayChapters(z7Chapters[lang]);
  if(meta.algorithmVersion==='V9.2')return displayChapters(v92Chapters[lang]);
+ if(meta.algorithmVersion==='10.2')return displayChapters(v102Chapters[lang]);
  const ru=lang==='ru',game=meta.game==='BFE'?'BFE':'TSE';
 
  const result=game==='BFE'?['35%','65%']:['25%','75%'];
