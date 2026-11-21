@@ -1,5 +1,5 @@
 import {captureRows,animateRows,captureWheel,animateWheel} from './motion.js';
-import { renderDocs } from './system.js?v=20261121-docs-10';
+import { renderDocs } from './system.js?v=20261121-docs-links';
 import {strings,applyLanguage} from './i18n.js';
 import {compareProfiles} from './profile-metrics.js?v=20261121-profile-2';
 let lang='en',display={};

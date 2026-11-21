@@ -19,6 +19,10 @@ h1{font-size:52px;line-height:1.05;margin-bottom:18px}
 .chapter-index{font:10px Consolas,monospace;letter-spacing:2px;color:var(--dim)}
 .chapter .chapter-accent,.section-heading .chapter-accent{font:italic 22px/1.6 Georgia,serif;color:color-mix(in srgb,var(--cyan) 52%,var(--muted));margin:8px 0 22px;letter-spacing:.2px}
 .chapter{padding-bottom:38px;margin-bottom:38px}.chapter strong{font-weight:600}
+.chapter a[href^="#"]{color:#fff;font-weight:600;text-decoration:underline;text-decoration-color:rgb(255 255 255 / .55);text-decoration-thickness:1px;text-underline-offset:.16em}
+.chapter a[href^="#"]:hover{color:#fff;text-decoration-color:currentColor}
+.chapter a[href^="#"]:focus-visible{outline:1px solid currentColor;outline-offset:3px}
+.chapter [id^="v92-"]{scroll-margin-top:25px}
 .language-label{margin-top:10px}.settings #language{padding:10px 12px}
 .release-center{min-width:390px}.release-center>span:last-child{display:block;font-size:10px;line-height:1.8;text-transform:none;letter-spacing:.25px;color:var(--dim)}
 .months{gap:14px}.months span+span::before{content:'·';margin-right:14px;opacity:.5}
