@@ -44,7 +44,7 @@ header{padding-top:30px;padding-bottom:18px}
 #game-logo{width:44px;height:44px;object-fit:contain;flex-shrink:0}
 .identity{--title-size:clamp(32px,8.8cqw,80px)}
 .identity h1{font-size:var(--title-size);font-weight:400;transform:scaleX(1.12);transform-origin:left center;width:89.28%;margin:10px 0 12px;letter-spacing:.7px}
-.identity .rating-subtitle{--glyph-width:1.3;font-family:Steelfish,'Oswald','Arial Narrow',sans-serif;font-size:clamp(17.16px,1.848vw,22.44px);font-weight:300;letter-spacing:calc(clamp(3px,.35vw,4.05px) * .8 / var(--glyph-width));width:calc(100% / var(--glyph-width));transform:scaleX(var(--glyph-width));transform-origin:left center;line-height:1.35;color:#85a8dc;-webkit-text-stroke:.2px var(--bg0);margin:0 0 20px;text-transform:uppercase;text-wrap:balance}
+.identity .rating-subtitle{--glyph-width:1.3;font-family:inherit;font-size:clamp(17.16px,1.848vw,22.44px);font-weight:300;letter-spacing:calc(clamp(3px,.35vw,4.05px) * .8 / var(--glyph-width));width:calc(100% / var(--glyph-width));transform:scaleX(var(--glyph-width));transform-origin:left center;line-height:1.35;color:#85a8dc;-webkit-text-stroke:.2px var(--bg0);margin:0 0 20px;text-transform:uppercase;text-wrap:balance}
 html[data-game=BFE] .identity .rating-subtitle{color:#d69095}
 .identity p{font-size:15px;margin:7px 0}
 .community-links{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:12px}
