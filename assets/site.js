@@ -1,6 +1,7 @@
 import {captureRows,animateRows,captureWheel,animateWheel} from './motion.js';
-import { renderDocs } from './system.js?v=20261121-match-weight';
+import { renderDocs } from './system.js?v=20261121-result-profile';
 import {strings,applyLanguage} from './i18n.js';
+import {compareProfiles} from './profile-metrics.js?v=20261121-result-profile';
 let lang='en',display={};
 
 const t=key=>strings[lang][key];
@@ -12,6 +13,7 @@ const month=d=>new Date(d+'T12:00:00Z').toLocaleDateString('en-US',{month:'short
 const period=r=>`${r.from.slice(8)} ${month(r.from)} — ${r.to.slice(8)} ${month(r.to)} ${r.to.slice(0,4)}`;
 const periodMarkup=r=>`<span class="period-start">${esc(r.from.slice(8)+' '+month(r.from)+' — ')}</span><span class="period-end">${esc(r.to.slice(8)+' '+month(r.to)+' '+r.to.slice(0,4))}</span>`;
 let manifest,game='TSE',index=0,view='simple',sort='Points',direction=-1,rows=[],meta,base=[],loadId=0;
+let profiles=new Map();
 const cache=new Map();
 async function json(url){if(!cache.has(url))cache.set(url,fetch(url+(url.includes('?')?'&':'?')+'build=20261120-z7-release-labels').then(r=>{if(!r.ok)throw Error(`Could not load ${url} (${r.status})`);return r.json()}).catch(e=>{cache.delete(url);throw e}));return cache.get(url)}
 function stateURL(){const p=new URLSearchParams({game,release:manifest.games[game][index].id,view,lang});history.replaceState(null,'','?'+p+(location.hash.startsWith('#game=')?'':location.hash))}
@@ -29,6 +31,11 @@ async function load(motion=null){
  try{
   const [rating,metadata,previous]=await Promise.all([json(release.path+'/ranking.json'),json(release.path+'/meta.json'),index?json(list[index-1].path+'/ranking.json'):Promise.resolve({players:[]})]);
   if(request!==loadId)return;rows=rating.players;meta=metadata;base=previous.players;
+  profiles=compareProfiles(rows,r=>{
+   const prestige=r.historicalSeedPoints??r.raw?.prestige;
+   return {...r.advanced,'Match Days':r.matchDays??r.advanced?.['Match Days'],
+    Prestige:prestige>0?String(Math.round(prestige)):''};
+  });
   $('json-download').href=release.path+'/ranking.json';
   document.title=`${game} · ${period(release)} | Serious Sam Tournaments`;
   $('status').textContent='';$('rating-table').hidden=false;stateURL();render();renderDocs(meta,lang);releaseSummary();if(motion){animateRows(motion.rows);animateWheel(motion.wheel,motion.direction)}
@@ -39,11 +46,12 @@ function rankChange(r){const p=previous(r);return p?p.rank-r.rank:null}
 function pointsChange(r){const p=previous(r);return p?r.points-p.points:null}
 function value(r,key){if(key==='PointsChange')return pointsChange(r);if(key==='RankChange')return rankChange(r);if(key==='#')return r.rank;if(key==='PlayerID')return r.name;if(key==='Points')return r.points;return r[view][key]}
 function numeric(v){return v!==null&&v!==''&&Number.isFinite(Number(v))}
-function expl(text){
- const tags=[...text.matchAll(/\[([^\]]+)\]/g)].map(m=>m[1]);
+function expl(text,profile){
+ const tags=[...String(text??'').matchAll(/\[([^\]]+)\]/g)].map(m=>m[1]);
  const badges=tags.map(t=>{const division=t.startsWith('Division ');return `<span class="arch ${division?'division-badge division-'+esc(t.slice(9).replace('/','')):'a-balanced'}">${esc(t)}</span>`}).join('');
- const body=text.replace(/\[[^\]]+\]\s*/g,'');
- return `<div class="explanation-badges">${badges}</div>`+body.split('; ').map(t=>`<div class="expl-line">${esc(t).replace(/^STRONG /,'<span class="tag-s">STRONG</span> ').replace(/^WEAK /,'<span class="tag-w">WEAK</span> ')}</div>`).join('');
+ const title=lang==='ru'?'Сравнение показателей с другими игроками выпуска':'Metrics compared with other players in the release';
+ const line=(label,items)=>`<div class="expl-line" title="${title}"><span class="${label==='STRONG'?'tag-s':'tag-w'}">${label}</span> ${items.map(([name,v])=>`${esc(name)} (${esc(v)})`).join(', ')||'—'}</div>`;
+ return `<div class="explanation-badges">${badges}</div>`+line('STRONG',profile.strong)+line('WEAK',profile.weak);
 }
 function cell(r,key){
  const v=key==='Format Stats'?(display[game]?.[manifest.games[game][index].id]?.formatStats?.[r.name]??value(r,key)):value(r,key),raw=r.raw||{};
@@ -53,7 +61,7 @@ function cell(r,key){
  if(key==='PlayerID')return `<td class="pname">${esc(r.name)}</td>`;
  if(key==='Points')return `<td class="pts points-cell"><span>${r.points}</span><div class="ptsbar" style="width:${Math.min(100,Math.max(1,r.points/30))}%"></div></td>`;
  if(key==='Raw Score')return `<td class="mono">${r.finalScore.toFixed(3)}</td>`;
- if(key==='Explanation')return `<td class="expl">${expl(v)}</td>`;
+ if(key==='Explanation')return `<td class="expl">${expl(v,profiles.get(r))}</td>`;
  if(key==='W-L')return `<td class="mono wl">${esc(v)}</td>`;
  if(key==='Wins'||key==='Losses'||key==='Draws')return `<td class="mono"><span class="${key==='Wins'?'w':key==='Losses'?'l':'d'}">${esc(v)}</span></td>`;
  if(key==='Maps Stats'||key==='Format Stats')return `<td class="ms">${esc(v).split('; ').map(x=>x.replace(/^(Best|Worst|Freq):/,'<span class="lbl">$1</span>').replace(/\(([+−-]?\d+(?:\.\d+)?)\)/g,(_,n)=>`(<span class="${Number(n.replace('−','-'))>0?'pos':Number(n.replace('−','-'))<0?'neg':'neutral'}">${n}</span>)`)).join('<br>')}</td>`;
