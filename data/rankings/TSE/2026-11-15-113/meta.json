@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-11-15-113",
+  "game": "TSE",
+  "period": {
+    "from": "2026-09-18",
+    "to": "2026-11-15"
+  },
+  "title": "TSE · 2026-09-18 — 2026-11-15",
+  "algorithmVersion": "11.3",
+  "baseId": "2026-09-01-113",
+  "historicalChain": true,
+  "preliminary": false,
+  "divisionCorrection": false,
+  "pointsPolicy": "rounded-integer"
+}

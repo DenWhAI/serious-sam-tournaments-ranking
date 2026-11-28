@@ -1,5 +1,5 @@
 import {captureRows,animateRows,captureWheel,animateWheel} from './motion.js';
-import { renderDocs } from './system.js?v=20261122-format-examples';
+import { renderDocs } from './system.js?v=20261128-historical-chain';
 import {strings,applyLanguage} from './i18n.js?v=20261121-date-type';
 import {compareProfiles} from './profile-metrics.js?v=20261121-profile-2';
 let lang='en',display={};
@@ -15,7 +15,7 @@ const periodMarkup=r=>`<span class="period-start">${esc(r.from.slice(8)+' '+mont
 let manifest,game='BFE',index=0,view='simple',sort='Points',direction=-1,rows=[],meta,base=[],loadId=0;
 let profiles=new Map();
 const cache=new Map();
-async function json(url){if(!cache.has(url))cache.set(url,fetch(url+(url.includes('?')?'&':'?')+'build=20261121-rating-103').then(r=>{if(!r.ok)throw Error(`Could not load ${url} (${r.status})`);return r.json()}).catch(e=>{cache.delete(url);throw e}));return cache.get(url)}
+async function json(url){if(!cache.has(url))cache.set(url,fetch(url+(url.includes('?')?'&':'?')+'build=20261128-historical-chain').then(r=>{if(!r.ok)throw Error(`Could not load ${url} (${r.status})`);return r.json()}).catch(e=>{cache.delete(url);throw e}));return cache.get(url)}
 function stateURL(){const p=new URLSearchParams({game,release:manifest.games[game][index].id,view,lang});history.replaceState(null,'','?'+p+(location.hash.startsWith('#game=')?'':location.hash))}
 function readURL(){const p=new URLSearchParams(location.hash.startsWith('#game=')?location.hash.slice(1):location.search);lang=p.get('lang')==='ru'?'ru':'en';applyLanguage(lang);game=p.get('game')==='TSE'?'TSE':'BFE';const list=manifest.games[game];const found=list.findIndex(r=>r.id===p.get('release')||r.aliases?.includes(p.get('release')));index=found>=0?found:list.length-1;view=p.get('view')==='advanced'?'advanced':'simple';}
 async function load(motion=null){
@@ -113,6 +113,12 @@ $('download').onclick=event=>{
  setTimeout(()=>URL.revokeObjectURL(url),1000);
 };
 window.addEventListener('hashchange',()=>{if(location.hash.startsWith('#game=')){readURL();load()}});
-function releaseSummary(){const r=manifest.games[game][index],d=display[game]?.[r.id]||{};$('release-kind').textContent=[`${t('release')} №${d.number||index+1}`,(d.labels?.[lang]||d.label),d.weekends,d.matches!=null?`${d.matches} ${t('matches')}`:null,`${rows.length} ${t('players')}`].filter(Boolean).join(' · ')}
+function releaseSummary(){
+ const r=manifest.games[game][index],d=display[game]?.[r.id]||{};
+ const label=d.labels?.[lang]||d.label;
+ const title=d.number===0?label:`${t('release')} №${d.number??index+1}`;
+ $('release-kind').textContent=[title,d.number===0?null:label,d.weekends,
+  d.matches!=null?`${d.matches} ${t('matches')}`:null,`${rows.length} ${t('players')}`].filter(Boolean).join(' · ');
+}
 $('language').onchange=()=>{lang=$('language').value;try{localStorage.setItem('ranking-language',lang)}catch{}applyLanguage(lang);if(meta){stateURL();render();renderDocs(meta,lang);releaseSummary()}};
 try{[manifest,display]=await Promise.all([json('data/manifest.json'),json('data/release-display.json')]);readURL();await load()}catch(e){$('status').textContent=t('archiveFailed');console.error(e)}

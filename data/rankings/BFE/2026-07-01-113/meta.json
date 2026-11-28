@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-07-01-113",
+  "game": "BFE",
+  "period": {
+    "from": "2026-01-01",
+    "to": "2026-07-01"
+  },
+  "title": "BFE · 2026-01-01 — 2026-07-01",
+  "algorithmVersion": "11.3",
+  "baseId": "2025-12-31-113",
+  "historicalChain": true,
+  "preliminary": false,
+  "divisionCorrection": false,
+  "pointsPolicy": "rounded-integer"
+}

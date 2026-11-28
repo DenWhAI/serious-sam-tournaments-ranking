@@ -1,0 +1,25 @@
+RankChange,#,PlayerID,Points,Performance,Confidence,Result Score,Opponent Strength,Format Score,Activity,Match Days,Recency,Map Score,Maps Stats,Format Stats
+0,1,Clow,3768,3789.24,93.60%,63.13,1751.39,76.56,16.53,20,1.00,95.95,Best: Sun Palace (+0.27); Worst: Hole (-0.16); Freq: Medieval Rage x8,Best: Duel (+0.11); Worst: Multi (-0.04); Freq: Team x20
+1,2,TaWRe,2255,2243.06,76.28%,44.36,2914.93,96.32,3.60,3,0.92,100.00,Best: Medieval Rage (+0.08); Worst: Sun Palace (-0.13); Freq: Medieval Rage x1,Best: Duel (+0.01); Worst: Team (-0.01); Freq: Duel x4
+-1,3,Supersniper98,2145,2125.37,93.70%,45.53,2018.34,87.57,16.81,16,1.00,96.26,Best: Hoodlums Backyard (+0.03); Worst: Hole (-0.28); Freq: Medieval Rage x10,Best: Multi (-0.02); Worst: Duel (-0.09); Freq: Duel x19
+0,4,Kleer,2078,2546.87,13.47%,61.18,2120.52,36.67,0.17,1,0.56,85.00,Best: Royal Purgatory (+0.11); Worst: Royal Purgatory (+0.11); Freq: Royal Purgatory x1,Best: Multi (+0.11); Worst: Multi (+0.11); Freq: Multi x1
+0,5,Fora,1652,1569.82,60.89%,33.16,3078.26,88.15,2.28,3,0.55,98.06,Best: Hole (+0.17); Worst: Fortress (-0.39); Freq: Fortress x2,Best: Team (-0.01); Worst: Duel (-0.11); Freq: Duel x5
+0,6,PACUL,1351,1002.25,45.32%,37.60,580.24,51.94,0.94,2,0.64,100.00,Best: Gvide (-0.23); Worst: Hoodlums Backyard (-0.25); Freq: Hoodlums Backyard x2,Best: Elimination (-0.24); Worst: Multi (-0.24); Freq: Elimination x2
+0,7,Chlorozom,1330,1306.38,88.38%,51.75,997.06,86.68,8.65,9,0.90,99.27,Best: Fronto (-0.03); Worst: Fortress (-0.63); Freq: Lost Tomb x5,Best: Team (-0.04); Worst: Multi (-0.17); Freq: Duel x9
+0,8,Rukimichimoshi,1246,1268.21,91.43%,60.25,1265.46,92.07,12.11,13,0.96,94.86,Best: Sun Palace (+0.19); Worst: Royal Purgatory (-0.03); Freq: Medieval Rage x5,Best: Duel (+0.13); Worst: Team (+0.02); Freq: Duel x16
+,9,Happiness,1151,1163.31,88.69%,46.21,2128.52,94.83,6.31,6,0.89,98.42,Best: Hole (+0.31); Worst: Lost Tomb (-0.09); Freq: Lost Tomb x4,Best: Multi (+0.05); Worst: Duel (+0.04); Freq: Duel x7
+,10,Peredoz,910,943.25,83.65%,60.11,1206.53,77.17,4.06,5,0.86,98.30,Best: Hole (+0.48); Worst: Fortress (-0.26); Freq: Medieval Rage x3,Best: Duel (+0.26); Worst: Team (-0.02); Freq: Team x5
+-2,11,Almol,548,541.44,89.78%,39.44,1374.33,64.60,9.93,15,0.99,96.78,Best: Gvide (+0.23); Worst: Horus Web (-0.27); Freq: Medieval Rage x4,Best: Multi (+0.05); Worst: Duel (-0.23); Freq: Team x16
+-1,12,KANE,538,536.16,54.93%,38.05,1034.20,83.89,1.38,3,0.63,96.73,Best: Jump Over (+0.07); Worst: Sun Palace (-0.06); Freq: Jump Over x1,Best: Multi (+0.07); Worst: Duel (-0.06); Freq: Duel x2
+-1,13,TAHK,491,505.43,85.89%,52.27,1311.13,65.03,6.87,12,0.99,95.34,Best: Horus Web (+0.27); Worst: Fortress (-0.18); Freq: Hoodlums Backyard x4,Best: Elimination (+0.21); Worst: Team (+0.01); Freq: Team x12
+,14,Alezanco,454,453.45,92.83%,46.66,771.05,82.02,10.33,12,0.99,96.44,Best: Royal Purgatory (+0.10); Worst: Hole (-0.38); Freq: Lost Tomb x5,Best: Team (+0.02); Worst: Duel (-0.05); Freq: Team x10
+-2,15,Unreal,408,457.47,14.42%,53.85,1367.93,30.00,0.19,1,0.63,100.00,Best: Hole (+0.06); Worst: Hole (+0.06); Freq: Hole x1,Best: Team (+0.06); Worst: Team (+0.06); Freq: Team x1
+,16,Bio-mechanoid,343,356.97,55.80%,58.32,288.52,47.83,1.11,2,0.84,95.35,Best: Hole (+0.10); Worst: Royal Purgatory (-0.02); Freq: Hole x1,Best: Multi (+0.10); Worst: Team (+0.03); Freq: Team x2
+,17,EviL_GhosT,336,388.51,19.15%,53.85,1367.93,30.00,0.19,1,0.63,100.00,Best: Hole (+0.09); Worst: Hole (+0.09); Freq: Hole x1,Best: Team (+0.09); Worst: Team (+0.09); Freq: Team x1
+,18,Snake-Eyed,320,333.78,42.65%,56.72,287.35,50.00,0.75,1,0.81,93.11,Best: Little Trouble (+0.09); Worst: Royal Purgatory (-0.01); Freq: Little Trouble x1,Best: Team (+0.04); Worst: Team (+0.04); Freq: Team x2
+,19,Dragonfly,318,329.44,19.24%,46.15,913.27,30.00,0.19,1,0.63,100.00,Best: Hole (+0.04); Worst: Hole (+0.04); Freq: Hole x1,Best: Team (+0.04); Worst: Team (+0.04); Freq: Team x1
+,20,Kostyan,315,335.06,29.19%,54.47,295.69,43.33,0.36,1,0.84,100.00,Best: Hole (+0.04); Worst: Hole (+0.04); Freq: Hole x1,Best: Multi (+0.04); Worst: Multi (+0.04); Freq: Multi x1
+,21,Overlord,284,279.70,58.75%,45.29,306.69,47.83,1.11,2,0.84,95.35,Best: Royal Purgatory (+0.01); Worst: Little Trouble (-0.09); Freq: Royal Purgatory x1,Best: Multi (+0.01); Worst: Team (-0.04); Freq: Team x2
+,22,TURMS,250,236.48,58.73%,40.40,306.69,47.83,1.11,2,0.84,95.35,Best: Royal Purgatory (+0.02); Worst: Hole (-0.14); Freq: Royal Purgatory x1,Best: Team (-0.03); Worst: Multi (-0.14); Freq: Team x2
+-8,23,LIKBEZ,240,246.15,54.40%,43.03,1166.26,52.72,1.35,3,0.64,97.43,Best: Hoodlums Backyard (+0.17); Worst: Jump Over (-0.24); Freq: Hoodlums Backyard x1,Best: Elimination (+0.05); Worst: Multi (-0.24); Freq: Elimination x2
+-8,24,Silver,150,148.22,84.87%,37.18,869.45,59.47,6.32,11,0.99,94.94,Best: Fortress (+0.29); Worst: Royal Purgatory (-0.10); Freq: Lost Tomb x5,Best: Team (+0.05); Worst: Duel (-0.36); Freq: Team x16

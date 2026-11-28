@@ -8,11 +8,14 @@ import {v92Chapters} from './v92-explanation.js?v=20261121-level-formulas';
 import {v102Chapters} from './v102-explanation.js?v=20261121-rating-102-r2';
 import {v103Chapters} from './v103-explanation.js?v=20261122-format-examples';
 
+import { historicalChapters } from './historical-chain.js';
+
 function displayChapters(chapters){
  document.getElementById('contents').innerHTML=chapters.map(([id,title],i)=>`<a href="#${id}">${String(i+1).padStart(2,'0')} / ${title}</a>`).join('');
  document.getElementById('chapters').innerHTML=chapters.map(([id,title,body],i)=>`<section class="chapter" id="${id}"><span class="chapter-index">${String(i+1).padStart(2,'0')} / SERIOUS SAM TOURNAMENTS</span><h3>${title}</h3>${body}</section>`).join('');
 }
 export function renderDocs(meta,lang='en'){
+ if(meta.historicalChain)return displayChapters(historicalChapters(lang,meta.preliminary));
  if(meta.algorithmVersion==='Z7')return displayChapters(z7Chapters[lang]);
  if(meta.algorithmVersion==='V9.2')return displayChapters(v92Chapters[lang]);
  if(meta.algorithmVersion==='10.2')return displayChapters(v102Chapters[lang]);

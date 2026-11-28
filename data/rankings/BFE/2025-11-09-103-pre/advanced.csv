@@ -1,0 +1,26 @@
+RankChange,#,PlayerID,Points,Performance,Confidence,Result Score,Opponent Strength,Format Score,Activity,Match Days,Recency,Map Score,Maps Stats,Format Stats
+,1,Kleer,2725,1110.34,38.60%,79.04,294.36,100.00,3.89,1,0.98,91.25,Best: Fiaca (+0.12); Worst: Cairo City (-0.05); Freq: Fiaca x1,Best: Duel (+0.25); Worst: Duel (+0.25); Freq: Duel x4
+,2,TaWRe,2339,293.09,42.20%,39.82,445.48,86.00,4.16,3,0.92,89.00,Best: Medina (+0.16); Worst: Fiaca (-0.12); Freq: Slumoner x2,Best: Multi (+0.00); Worst: Duel (-0.00); Freq: Duel x4
+,3,KANE,2165,361.06,43.92%,59.33,247.72,69.72,4.74,4,0.76,94.17,Best: Brkeen Chevap (+0.10); Worst: Cairo City (-0.08); Freq: Cairo City x2,Best: Duel (+0.06); Worst: Multi (-0.01); Freq: Duel x3
+,4,Denger,1946,294.55,31.84%,50.27,291.35,68.33,2.43,3,0.70,81.25,Best: Fiaca (+0.15); Worst: Medina (-0.16); Freq: Fiaca x1,Best: Multi (+0.01); Worst: Duel (-0.01); Freq: Multi x2
+,5,LIKBEZ,1517,152.99,37.96%,32.86,313.71,68.75,3.32,3,0.85,101.25,Best: Cairo City (+0.02); Worst: Brkeen Chevap (-0.10); Freq: Cairo City x1,Best: Elimination (+0.02); Worst: Duel (-0.14); Freq: Duel x2
+,6,Krieger,1331,304.96,52.32%,49.91,306.60,81.90,5.36,4,0.77,83.57,Best: Yards of Death (+0.11); Worst: Fiaca (-0.15); Freq: Yards of Death x1,Best: Duel (+0.01); Worst: Multi (-0.00); Freq: Duel x5
+,7,Fora,1155,167.89,4.87%,38.31,271.26,45.00,0.51,1,0.88,100.00,Best: Cairo City (-0.02); Worst: Cairo City (-0.02); Freq: Cairo City x1,Best: Elimination (-0.02); Worst: Elimination (-0.02); Freq: Elimination x1
+,8,Rukimichimoshi,912,97.22,14.10%,24.88,294.00,65.00,1.17,2,0.81,80.00,Best: Slumoner (+0.00); Worst: Yards of Death (-0.11); Freq: Slumoner x1,Best: Multi (+0.00); Worst: Duel (-0.11); Freq: Multi x1
+,9,TAHK,798,93.30,20.79%,24.11,294.01,57.78,1.47,3,0.65,73.33,Best: Slumoner (+0.01); Worst: Little Trouble (-0.07); Freq: Slumoner x1,Best: Multi (+0.00); Worst: Duel (-0.07); Freq: Multi x2
+,10,Almol,602,364.95,9.70%,55.73,289.82,36.67,0.72,2,0.87,87.50,Best: Brkeen Chevap (+0.01); Worst: Cairo Trouble (+0.00); Freq: Brkeen Chevap x1,Best: Multi (+0.01); Worst: Multi (+0.01); Freq: Multi x2
+,11,Kayden,343,343.26,15.62%,54.16,290.47,41.11,1.06,3,0.70,78.33,Best: Oasis (+0.01); Worst: Brkeen Chevap (+0.00); Freq: Oasis x1,Best: Multi (+0.01); Worst: Multi (+0.01); Freq: Multi x3
+,12,Rokunin,332,309.66,15.57%,51.36,293.20,41.11,1.06,3,0.70,78.33,Best: Cairo Trouble (+0.00); Worst: Oasis (-0.00); Freq: Cairo Trouble x1,Best: Multi (+0.00); Worst: Multi (+0.00); Freq: Multi x3
+,13,Solomon,322,282.60,15.57%,48.88,295.59,41.11,1.06,3,0.70,78.33,Best: Brkeen Chevap (+0.01); Worst: Oasis (-0.01); Freq: Brkeen Chevap x1,Best: Multi (-0.00); Worst: Multi (-0.00); Freq: Multi x3
+,14,Baltica,294,189.73,9.90%,38.74,300.00,36.67,0.72,2,0.87,87.50,Best: Cairo Trouble (-0.00); Worst: Brkeen Chevap (-0.02); Freq: Cairo Trouble x1,Best: Multi (-0.02); Worst: Multi (-0.02); Freq: Multi x2
+,15,Kitten,66,591.35,45.60%,65.58,310.08,50.24,3.75,3,0.76,92.86,Best: Shotty Trouble (+0.18); Worst: Unfinished Complex (-0.02); Freq: Shotty Trouble x1,Best: War Games (+0.19); Worst: Team (-0.04); Freq: War Games x3
+,16,Bio-mechanoid,46,489.87,24.53%,58.07,352.97,46.67,1.88,2,0.63,87.50,Best: Brkeen Chevap (+0.03); Worst: Oasis (-0.00); Freq: Brkeen Chevap x1,Best: Team (+0.05); Worst: Multi (-0.00); Freq: Team x3
+,17,Mr.Chocolate,37,414.48,25.88%,60.85,266.21,50.42,2.05,2,0.78,92.50,Best: Fiaca (+0.15); Worst: Brkeen Chevap (-0.17); Freq: Fiaca x1,Best: War Games (+0.07); Worst: Multi (-0.00); Freq: War Games x3
+,18,Kostyan,30,403.54,9.77%,49.52,411.29,45.83,0.87,2,0.63,80.00,Best: Unfinished Complex (+0.02); Worst: Oasis (+0.01); Freq: Unfinished Complex x1,Best: War Games (+0.02); Worst: Multi (+0.01); Freq: War Games x1
+,19,Cofein,29,332.40,39.40%,49.75,335.77,52.50,3.25,2,0.82,91.67,Best: Little Trouble (+0.12); Worst: Shotty Trouble (-0.18); Freq: Little Trouble x2,Best: War Games (+0.02); Worst: Team (+0.01); Freq: War Games x3
+,20,dragonfly.lover,26,312.01,32.56%,48.78,327.62,52.00,2.91,2,0.80,99.00,Best: Brkeen Chevap (+0.15); Worst: Little Trouble (-0.13); Freq: Brkeen Chevap x2,Best: War Games (+0.03); Worst: Team (-0.02); Freq: Team x3
+,21,youramayor,25,346.35,2.48%,49.48,353.72,36.67,0.25,1,0.34,60.00,Best: Oasis (+0.00); Worst: Oasis (+0.00); Freq: Oasis x1,Best: Multi (+0.00); Worst: Multi (+0.00); Freq: Multi x1
+,22,Пчюлень,20,203.03,5.00%,32.67,418.46,55.00,0.62,1,0.93,100.00,Best: Cairo City (-0.03); Worst: Cairo City (-0.03); Freq: Cairo City x1,Best: War Games (-0.03); Worst: War Games (-0.03); Freq: War Games x1
+,23,Snake-Eyed,16,122.99,5.02%,28.40,310.12,55.00,0.50,1,0.93,80.00,Best: Yards of Death (-0.06); Worst: Yards of Death (-0.06); Freq: Yards of Death x1,Best: War Games (-0.06); Worst: War Games (-0.06); Freq: War Games x1
+,24,semen,14,63.16,4.85%,15.92,333.72,55.00,0.50,1,0.93,100.00,Best: Medina (-0.09); Worst: Medina (-0.09); Freq: Medina x1,Best: War Games (-0.09); Worst: War Games (-0.09); Freq: War Games x1
+,25,JonyGrey,11,0.00,4.78%,0.00,333.72,55.00,0.53,1,0.93,85.00,Best: Fiaca (-0.15); Worst: Fiaca (-0.15); Freq: Fiaca x1,Best: War Games (-0.15); Worst: War Games (-0.15); Freq: War Games x1

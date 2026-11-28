@@ -1,0 +1,668 @@
+{
+  "schemaVersion": 1,
+  "players": [
+    {
+      "name": "Clow",
+      "rank": 1,
+      "points": 4245,
+      "finalScore": 8.353435744901995,
+      "level": 4244.739560924099,
+      "matchDays": 8,
+      "historicalSeedPoints": 4002.9579917261663,
+      "ratedMatches": 20,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.6069657872292358,
+        "oppStr": 1502.5546512969431,
+        "prestige": 4002.9579917261663,
+        "rec": 0.9910960425786663
+      },
+      "model": {
+        "resultScore": 60.69657872292358
+      },
+      "division": null,
+      "simple": {
+        "RankChange": "0",
+        "#": "1",
+        "PlayerID": "Clow",
+        "Points": "4245",
+        "MapsPlayed": "20",
+        "Wins": "11",
+        "Draws": "0",
+        "Losses": "9",
+        "W-L": "+2",
+        "Raw Score": "8.353",
+        "Explanation": ""
+      },
+      "advanced": {
+        "RankChange": "0",
+        "#": "1",
+        "PlayerID": "Clow",
+        "Points": "4245",
+        "Performance": "4266.43",
+        "Confidence": "92.00%",
+        "Result Score": "60.70",
+        "Opponent Strength": "1502.55",
+        "Format Score": "83.75",
+        "Activity": "13.69",
+        "Match Days": "8",
+        "Recency": "0.99",
+        "Map Score": "99.32",
+        "Maps Stats": "Best: Sun Palace (+0.29); Worst: Brkeen Chevap (-0.25); Freq: Hole x4",
+        "Format Stats": "Best: Duel (+0.06); Worst: Team (-0.00); Freq: Duel x13"
+      }
+    },
+    {
+      "name": "Fora",
+      "rank": 2,
+      "points": 2090,
+      "finalScore": 7.645050340111191,
+      "level": 2090.2737978010796,
+      "matchDays": 5,
+      "historicalSeedPoints": 1831.3035394168169,
+      "ratedMatches": 14,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.5398411561200549,
+        "oppStr": 3431.737255284518,
+        "prestige": 1831.3035394168169,
+        "rec": 0.960551907955834
+      },
+      "model": {
+        "resultScore": 53.98411561200549
+      },
+      "division": "A",
+      "simple": {
+        "RankChange": "2",
+        "#": "2",
+        "PlayerID": "Fora",
+        "Points": "2090",
+        "MapsPlayed": "14",
+        "Wins": "10",
+        "Draws": "0",
+        "Losses": "4",
+        "W-L": "+6",
+        "Raw Score": "7.645",
+        "Explanation": "[Division A]"
+      },
+      "advanced": {
+        "RankChange": "2",
+        "#": "2",
+        "PlayerID": "Fora",
+        "Points": "2090",
+        "Performance": "2123.66",
+        "Confidence": "89.30%",
+        "Result Score": "53.98",
+        "Opponent Strength": "3431.74",
+        "Format Score": "85.62",
+        "Activity": "10.05",
+        "Match Days": "5",
+        "Recency": "0.96",
+        "Map Score": "100.00",
+        "Maps Stats": "Best: Fronto (+0.25); Worst: Hole (-0.18); Freq: Brkeen Chevap x4",
+        "Format Stats": "Best: Team (+0.08); Worst: Duel (+0.07); Freq: Duel x11"
+      }
+    },
+    {
+      "name": "Supersniper98",
+      "rank": 3,
+      "points": 1542,
+      "finalScore": 7.340851218677496,
+      "level": 1542.0241549317966,
+      "matchDays": 6,
+      "historicalSeedPoints": 1841.010898289644,
+      "ratedMatches": 12,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.4216649742859039,
+        "oppStr": 1692.793369364342,
+        "prestige": 1841.010898289644,
+        "rec": 0.9910960425786663
+      },
+      "model": {
+        "resultScore": 42.16649742859039
+      },
+      "division": "A",
+      "simple": {
+        "RankChange": "0",
+        "#": "3",
+        "PlayerID": "Supersniper98",
+        "Points": "1542",
+        "MapsPlayed": "12",
+        "Wins": "5",
+        "Draws": "1",
+        "Losses": "6",
+        "W-L": "-1",
+        "Raw Score": "7.341",
+        "Explanation": "[Division A]"
+      },
+      "advanced": {
+        "RankChange": "0",
+        "#": "3",
+        "PlayerID": "Supersniper98",
+        "Points": "1542",
+        "Performance": "1501.82",
+        "Confidence": "87.03%",
+        "Result Score": "42.17",
+        "Opponent Strength": "1692.79",
+        "Format Score": "81.36",
+        "Activity": "7.61",
+        "Match Days": "6",
+        "Recency": "0.99",
+        "Map Score": "98.78",
+        "Maps Stats": "Best: Medieval rage (+0.02); Worst: Brkeen Chevap (-0.22); Freq: Medieval rage x3",
+        "Format Stats": "Best: Team (-0.08); Worst: Duel (-0.11); Freq: Team x6"
+      }
+    },
+    {
+      "name": "Rukimichimoshi",
+      "rank": 4,
+      "points": 1328,
+      "finalScore": 7.191261757453184,
+      "level": 1327.7774822539743,
+      "matchDays": 5,
+      "historicalSeedPoints": 1260.3871222654823,
+      "ratedMatches": 10,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.5510073643324027,
+        "oppStr": 949.8289263675548,
+        "prestige": 1260.3871222654823,
+        "rec": 0.9910960425786663
+      },
+      "model": {
+        "resultScore": 55.10073643324027
+      },
+      "division": "B",
+      "simple": {
+        "RankChange": "1",
+        "#": "4",
+        "PlayerID": "Rukimichimoshi",
+        "Points": "1328",
+        "MapsPlayed": "10",
+        "Wins": "6",
+        "Draws": "0",
+        "Losses": "4",
+        "W-L": "+2",
+        "Raw Score": "7.191",
+        "Explanation": "[Division B]"
+      },
+      "advanced": {
+        "RankChange": "1",
+        "#": "4",
+        "PlayerID": "Rukimichimoshi",
+        "Points": "1328",
+        "Performance": "1338.30",
+        "Confidence": "86.84%",
+        "Result Score": "55.10",
+        "Opponent Strength": "949.83",
+        "Format Score": "92.11",
+        "Activity": "7.29",
+        "Match Days": "5",
+        "Recency": "0.99",
+        "Map Score": "98.68",
+        "Maps Stats": "Best: Fronto (+0.15); Worst: Brkeen Chevap (-0.05); Freq: Royal Purgatory x2",
+        "Format Stats": "Best: Elimination (+0.08); Worst: Duel (+0.02); Freq: Duel x7"
+      }
+    },
+    {
+      "name": "Chlorozom",
+      "rank": 5,
+      "points": 1186,
+      "finalScore": 7.078132215765036,
+      "level": 1185.751720533208,
+      "matchDays": 7,
+      "historicalSeedPoints": 1262.8508514687444,
+      "ratedMatches": 11,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.45750529735854917,
+        "oppStr": 2033.8253223105046,
+        "prestige": 1262.8508514687444,
+        "rec": 0.9910960425786663
+      },
+      "model": {
+        "resultScore": 45.75052973585492
+      },
+      "division": "B",
+      "simple": {
+        "RankChange": "",
+        "#": "5",
+        "PlayerID": "Chlorozom",
+        "Points": "1186",
+        "MapsPlayed": "11",
+        "Wins": "4",
+        "Draws": "1",
+        "Losses": "6",
+        "W-L": "-2",
+        "Raw Score": "7.078",
+        "Explanation": "[Division B]"
+      },
+      "advanced": {
+        "RankChange": "",
+        "#": "5",
+        "PlayerID": "Chlorozom",
+        "Points": "1186",
+        "Performance": "1174.60",
+        "Confidence": "86.96%",
+        "Result Score": "45.75",
+        "Opponent Strength": "2033.83",
+        "Format Score": "86.89",
+        "Activity": "7.61",
+        "Match Days": "7",
+        "Recency": "0.99",
+        "Map Score": "98.78",
+        "Maps Stats": "Best: Medieval rage (+0.13); Worst: Hole (-0.27); Freq: Sun Palace x3",
+        "Format Stats": "Best: Team (-0.00); Worst: Duel (-0.06); Freq: Duel x7"
+      }
+    },
+    {
+      "name": "SeriousAle",
+      "rank": 6,
+      "points": 701,
+      "finalScore": 6.5521098192423155,
+      "level": 700.7210100097642,
+      "matchDays": 5,
+      "historicalSeedPoints": 694.5224836712348,
+      "ratedMatches": 8,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.48050539931844083,
+        "oppStr": 858.2502493018128,
+        "prestige": 694.5224836712348,
+        "rec": 0.9910960425786663
+      },
+      "model": {
+        "resultScore": 48.050539931844085
+      },
+      "division": null,
+      "simple": {
+        "RankChange": "0",
+        "#": "6",
+        "PlayerID": "SeriousAle",
+        "Points": "701",
+        "MapsPlayed": "8",
+        "Wins": "2",
+        "Draws": "1",
+        "Losses": "5",
+        "W-L": "-3",
+        "Raw Score": "6.552",
+        "Explanation": ""
+      },
+      "advanced": {
+        "RankChange": "0",
+        "#": "6",
+        "PlayerID": "SeriousAle",
+        "Points": "701",
+        "Performance": "702.11",
+        "Confidence": "81.78%",
+        "Result Score": "48.05",
+        "Opponent Strength": "858.25",
+        "Format Score": "83.46",
+        "Activity": "4.95",
+        "Match Days": "5",
+        "Recency": "0.99",
+        "Map Score": "98.06",
+        "Maps Stats": "Best: Lost Tomb (+0.03); Worst: Horus Web (-0.15); Freq: Lost Tomb x2",
+        "Format Stats": "Best: Team (+0.05); Worst: Elimination (-0.11); Freq: Duel x4"
+      }
+    },
+    {
+      "name": "TAHK",
+      "rank": 7,
+      "points": 532,
+      "finalScore": 6.2771057271072985,
+      "level": 532.2459673346441,
+      "matchDays": 6,
+      "historicalSeedPoints": 510.2396292881835,
+      "ratedMatches": 8,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.510833622181076,
+        "oppStr": 689.5861153828785,
+        "prestige": 510.2396292881835,
+        "rec": 0.9910960425786663
+      },
+      "model": {
+        "resultScore": 51.0833622181076
+      },
+      "division": "C",
+      "simple": {
+        "RankChange": "2",
+        "#": "7",
+        "PlayerID": "TAHK",
+        "Points": "532",
+        "MapsPlayed": "8",
+        "Wins": "4",
+        "Draws": "0",
+        "Losses": "4",
+        "W-L": "0",
+        "Raw Score": "6.277",
+        "Explanation": "[Division C]"
+      },
+      "advanced": {
+        "RankChange": "2",
+        "#": "7",
+        "PlayerID": "TAHK",
+        "Points": "532",
+        "Performance": "537.49",
+        "Confidence": "81.17%",
+        "Result Score": "51.08",
+        "Opponent Strength": "689.59",
+        "Format Score": "82.79",
+        "Activity": "4.75",
+        "Match Days": "6",
+        "Recency": "0.99",
+        "Map Score": "97.98",
+        "Maps Stats": "Best: Brkeen Chevap (+0.17); Worst: Shotty Trouble (-0.23); Freq: Fronto x2",
+        "Format Stats": "Best: Team (+0.08); Worst: Multi (+0.01); Freq: Duel x4"
+      }
+    },
+    {
+      "name": "Denger",
+      "rank": 8,
+      "points": 515,
+      "finalScore": 6.244723968385078,
+      "level": 515.2869697998764,
+      "matchDays": 2,
+      "historicalSeedPoints": 568.0813872517245,
+      "ratedMatches": 3,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.41250397544103057,
+        "oppStr": 782.4411098365952,
+        "prestige": 568.0813872517245,
+        "rec": 0.8250655480783352
+      },
+      "model": {
+        "resultScore": 41.25039754410306
+      },
+      "division": "C",
+      "simple": {
+        "RankChange": "0",
+        "#": "8",
+        "PlayerID": "Denger",
+        "Points": "515",
+        "MapsPlayed": "3",
+        "Wins": "0",
+        "Draws": "1",
+        "Losses": "2",
+        "W-L": "-2",
+        "Raw Score": "6.245",
+        "Explanation": "[Division C]"
+      },
+      "advanced": {
+        "RankChange": "0",
+        "#": "8",
+        "PlayerID": "Denger",
+        "Points": "515",
+        "Performance": "485.71",
+        "Confidence": "62.27%",
+        "Result Score": "41.25",
+        "Opponent Strength": "782.44",
+        "Format Score": "90.28",
+        "Activity": "2.05",
+        "Match Days": "2",
+        "Recency": "0.83",
+        "Map Score": "100.00",
+        "Maps Stats": "Best: Medieval rage (+0.03); Worst: Lost Tomb (-0.18); Freq: Medieval rage x1",
+        "Format Stats": "Best: Team (-0.05); Worst: Duel (-0.08); Freq: Duel x2"
+      }
+    },
+    {
+      "name": "Alezanco",
+      "rank": 9,
+      "points": 496,
+      "finalScore": 6.206685280218087,
+      "level": 496.05424229834574,
+      "matchDays": 3,
+      "historicalSeedPoints": 470.36583878411574,
+      "ratedMatches": 6,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.4923629072815946,
+        "oppStr": 1651.7248379227908,
+        "prestige": 470.36583878411574,
+        "rec": 0.9393126993451378
+      },
+      "model": {
+        "resultScore": 49.23629072815946
+      },
+      "division": null,
+      "simple": {
+        "RankChange": "1",
+        "#": "9",
+        "PlayerID": "Alezanco",
+        "Points": "496",
+        "MapsPlayed": "6",
+        "Wins": "3",
+        "Draws": "0",
+        "Losses": "3",
+        "W-L": "0",
+        "Raw Score": "6.207",
+        "Explanation": ""
+      },
+      "advanced": {
+        "RankChange": "1",
+        "#": "9",
+        "PlayerID": "Alezanco",
+        "Points": "496",
+        "Performance": "509.94",
+        "Confidence": "65.82%",
+        "Result Score": "49.24",
+        "Opponent Strength": "1651.72",
+        "Format Score": "50.00",
+        "Activity": "2.40",
+        "Match Days": "3",
+        "Recency": "0.94",
+        "Map Score": "96.13",
+        "Maps Stats": "Best: Hole (+0.17); Worst: Medieval rage (-0.11); Freq: Hole x2",
+        "Format Stats": "Best: Team (+0.04); Worst: Team (+0.04); Freq: Team x6"
+      }
+    },
+    {
+      "name": "Almol",
+      "rank": 10,
+      "points": 484,
+      "finalScore": 6.18114964852569,
+      "level": 483.54754664891584,
+      "matchDays": 5,
+      "historicalSeedPoints": 573.0339588313967,
+      "ratedMatches": 9,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.38769787197323596,
+        "oppStr": 942.0370086111652,
+        "prestige": 573.0339588313967,
+        "rec": 0.9910960425786663
+      },
+      "model": {
+        "resultScore": 38.769787197323595
+      },
+      "division": null,
+      "simple": {
+        "RankChange": "-3",
+        "#": "10",
+        "PlayerID": "Almol",
+        "Points": "484",
+        "MapsPlayed": "9",
+        "Wins": "1",
+        "Draws": "0",
+        "Losses": "8",
+        "W-L": "-7",
+        "Raw Score": "6.181",
+        "Explanation": ""
+      },
+      "advanced": {
+        "RankChange": "-3",
+        "#": "10",
+        "PlayerID": "Almol",
+        "Points": "484",
+        "Performance": "468.64",
+        "Confidence": "84.43%",
+        "Result Score": "38.77",
+        "Opponent Strength": "942.04",
+        "Format Score": "89.43",
+        "Activity": "5.99",
+        "Match Days": "5",
+        "Recency": "0.99",
+        "Map Score": "99.33",
+        "Maps Stats": "Best: Royal Purgatory (+0.07); Worst: Medieval rage (-0.22); Freq: Fronto x3",
+        "Format Stats": "Best: Elimination (+0.05); Worst: Duel (-0.11); Freq: Duel x6"
+      }
+    },
+    {
+      "name": "KANE",
+      "rank": 11,
+      "points": 468,
+      "finalScore": 6.148782298409258,
+      "level": 468.1469762403192,
+      "matchDays": 1,
+      "historicalSeedPoints": 462.5457535522353,
+      "ratedMatches": 1,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.503968253968254,
+        "oppStr": 2285.519689488946,
+        "prestige": 462.5457535522353,
+        "rec": 0.796070298818302
+      },
+      "model": {
+        "resultScore": 50.3968253968254
+      },
+      "division": "C",
+      "simple": {
+        "RankChange": "0",
+        "#": "11",
+        "PlayerID": "KANE",
+        "Points": "468",
+        "MapsPlayed": "1",
+        "Wins": "1",
+        "Draws": "0",
+        "Losses": "0",
+        "W-L": "+1",
+        "Raw Score": "6.149",
+        "Explanation": "[Division C]"
+      },
+      "advanced": {
+        "RankChange": "0",
+        "#": "11",
+        "PlayerID": "KANE",
+        "Points": "468",
+        "Performance": "488.86",
+        "Confidence": "21.76%",
+        "Result Score": "50.40",
+        "Opponent Strength": "2285.52",
+        "Format Score": "50.00",
+        "Activity": "0.40",
+        "Match Days": "1",
+        "Recency": "0.80",
+        "Map Score": "100.00",
+        "Maps Stats": "Best: Brkeen Chevap (+0.06); Worst: Brkeen Chevap (+0.06); Freq: Brkeen Chevap x1",
+        "Format Stats": "Best: Team (+0.06); Worst: Team (+0.06); Freq: Team x1"
+      }
+    },
+    {
+      "name": "LIKBEZ",
+      "rank": 12,
+      "points": 346,
+      "finalScore": 5.846812609692696,
+      "level": 346.1293709638672,
+      "matchDays": 3,
+      "historicalSeedPoints": 304.47361686340236,
+      "ratedMatches": 4,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.4130285125154724,
+        "oppStr": 2493.9872316304263,
+        "prestige": 304.47361686340236,
+        "rec": 0.8744523111050087
+      },
+      "model": {
+        "resultScore": 41.30285125154724
+      },
+      "division": "C",
+      "simple": {
+        "RankChange": "0",
+        "#": "12",
+        "PlayerID": "LIKBEZ",
+        "Points": "346",
+        "MapsPlayed": "4",
+        "Wins": "2",
+        "Draws": "0",
+        "Losses": "2",
+        "W-L": "0",
+        "Raw Score": "5.847",
+        "Explanation": "[Division C]"
+      },
+      "advanced": {
+        "RankChange": "0",
+        "#": "12",
+        "PlayerID": "LIKBEZ",
+        "Points": "346",
+        "Performance": "363.59",
+        "Confidence": "72.26%",
+        "Result Score": "41.30",
+        "Opponent Strength": "2493.99",
+        "Format Score": "100.00",
+        "Activity": "3.40",
+        "Match Days": "3",
+        "Recency": "0.87",
+        "Map Score": "100.00",
+        "Maps Stats": "Best: Shotty Trouble (+0.23); Worst: Horus Web (-0.06); Freq: Lost Tomb x2",
+        "Format Stats": "Best: Duel (+0.04); Worst: Duel (+0.04); Freq: Duel x4"
+      }
+    },
+    {
+      "name": "NekoRanger",
+      "rank": 13,
+      "points": 294,
+      "finalScore": 5.682186250326071,
+      "level": 293.59059132352246,
+      "matchDays": 3,
+      "historicalSeedPoints": 300,
+      "ratedMatches": 3,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.4113401620710678,
+        "oppStr": 637.760148344058,
+        "prestige": 300,
+        "rec": 0.9910960425786663
+      },
+      "model": {
+        "resultScore": 41.13401620710678
+      },
+      "division": null,
+      "simple": {
+        "RankChange": "",
+        "#": "13",
+        "PlayerID": "NekoRanger",
+        "Points": "294",
+        "MapsPlayed": "3",
+        "Wins": "0",
+        "Draws": "0",
+        "Losses": "3",
+        "W-L": "-3",
+        "Raw Score": "5.682",
+        "Explanation": ""
+      },
+      "advanced": {
+        "RankChange": "",
+        "#": "13",
+        "PlayerID": "NekoRanger",
+        "Points": "294",
+        "Performance": "276.79",
+        "Confidence": "57.74%",
+        "Result Score": "41.13",
+        "Opponent Strength": "637.76",
+        "Format Score": "43.57",
+        "Activity": "1.07",
+        "Match Days": "3",
+        "Recency": "0.99",
+        "Map Score": "91.03",
+        "Maps Stats": "Best: Fronto (+0.03); Worst: Royal Purgatory (-0.12); Freq: Royal Purgatory x2",
+        "Format Stats": "Best: Multi (+0.03); Worst: Team (-0.16); Freq: Multi x1"
+      }
+    }
+  ]
+}

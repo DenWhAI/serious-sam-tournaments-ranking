@@ -1,0 +1,1382 @@
+{
+  "schemaVersion": 1,
+  "players": [
+    {
+      "name": "Kleer",
+      "rank": 1,
+      "points": 3234,
+      "finalScore": 8.081578188098087,
+      "level": 3234.33359771065,
+      "matchDays": 4,
+      "historicalSeedPoints": 2725,
+      "ratedMatches": 7,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.6938854070376058,
+        "oppStr": 1682.0032748846181,
+        "prestige": 2725,
+        "rec": 0.9185431207239012
+      },
+      "model": {
+        "resultScore": 69.38854070376058
+      },
+      "division": "A",
+      "simple": {
+        "RankChange": "0",
+        "#": "1",
+        "PlayerID": "Kleer",
+        "Points": "3234",
+        "MapsPlayed": "11",
+        "Wins": "9",
+        "Draws": "1",
+        "Losses": "1",
+        "W-L": "+8",
+        "Raw Score": "8.082",
+        "Explanation": "[Division A]"
+      },
+      "advanced": {
+        "RankChange": "0",
+        "#": "1",
+        "PlayerID": "Kleer",
+        "Points": "3234",
+        "Performance": "3370.37",
+        "Confidence": "80.62%",
+        "Result Score": "69.39",
+        "Opponent Strength": "1682.00",
+        "Format Score": "100.00",
+        "Activity": "5.99",
+        "Match Days": "4",
+        "Recency": "0.92",
+        "Map Score": "98.04",
+        "Maps Stats": "Best: Shotty Trouble (+0.43); Worst: Fiaca (-0.10); Freq: Unfinished Complex x2",
+        "Format Stats": "Best: Duel (+0.12); Worst: Duel (+0.12); Freq: Duel x7"
+      }
+    },
+    {
+      "name": "Denger",
+      "rank": 2,
+      "points": 2087,
+      "finalScore": 7.643503660741623,
+      "level": 2087.043313347104,
+      "matchDays": 6,
+      "historicalSeedPoints": 1946,
+      "ratedMatches": 12,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.49145602560574614,
+        "oppStr": 2242.4160576716686,
+        "prestige": 1946,
+        "rec": 0.9778885363860466
+      },
+      "model": {
+        "resultScore": 49.145602560574616
+      },
+      "division": "A&B",
+      "simple": {
+        "RankChange": "2",
+        "#": "2",
+        "PlayerID": "Denger",
+        "Points": "2087",
+        "MapsPlayed": "16",
+        "Wins": "8",
+        "Draws": "0",
+        "Losses": "8",
+        "W-L": "0",
+        "Raw Score": "7.644",
+        "Explanation": "[Division A&B]"
+      },
+      "advanced": {
+        "RankChange": "2",
+        "#": "2",
+        "PlayerID": "Denger",
+        "Points": "2087",
+        "Performance": "2110.26",
+        "Confidence": "86.35%",
+        "Result Score": "49.15",
+        "Opponent Strength": "2242.42",
+        "Format Score": "80.06",
+        "Activity": "7.05",
+        "Match Days": "6",
+        "Recency": "0.98",
+        "Map Score": "95.85",
+        "Maps Stats": "Best: Fiaca (+0.12); Worst: Unfinished Complex (-0.14); Freq: Cairo City x4",
+        "Format Stats": "Best: Team (+0.08); Worst: Elimination (+0.02); Freq: Team x5"
+      }
+    },
+    {
+      "name": "KANE",
+      "rank": 3,
+      "points": 2011,
+      "finalScore": 7.6061752681856944,
+      "level": 2010.573468728472,
+      "matchDays": 7,
+      "historicalSeedPoints": 2165,
+      "ratedMatches": 19,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.5333452782297703,
+        "oppStr": 1355.2684987312575,
+        "prestige": 2165,
+        "rec": 0.9822713655642529
+      },
+      "model": {
+        "resultScore": 53.33452782297703
+      },
+      "division": "A&B",
+      "simple": {
+        "RankChange": "0",
+        "#": "3",
+        "PlayerID": "KANE",
+        "Points": "2011",
+        "MapsPlayed": "25",
+        "Wins": "15",
+        "Draws": "1",
+        "Losses": "9",
+        "W-L": "+6",
+        "Raw Score": "7.606",
+        "Explanation": "[Division A&B]"
+      },
+      "advanced": {
+        "RankChange": "0",
+        "#": "3",
+        "PlayerID": "KANE",
+        "Points": "2011",
+        "Performance": "1996.64",
+        "Confidence": "91.41%",
+        "Result Score": "53.33",
+        "Opponent Strength": "1355.27",
+        "Format Score": "88.17",
+        "Activity": "12.03",
+        "Match Days": "7",
+        "Recency": "0.98",
+        "Map Score": "92.55",
+        "Maps Stats": "Best: Little Trouble (+0.13); Worst: Slumoner (-0.27); Freq: Cairo City x4",
+        "Format Stats": "Best: Team (-0.04); Worst: Duel (-0.08); Freq: Duel x12"
+      }
+    },
+    {
+      "name": "TaWRe",
+      "rank": 4,
+      "points": 1982,
+      "finalScore": 7.592086970338787,
+      "level": 1982.4465065867605,
+      "matchDays": 1,
+      "historicalSeedPoints": 2339,
+      "ratedMatches": 1,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.3448275862068966,
+        "oppStr": 1946,
+        "prestige": 2339,
+        "rec": 0.9778885363860466
+      },
+      "model": {
+        "resultScore": 34.48275862068966
+      },
+      "division": "A",
+      "simple": {
+        "RankChange": "-2",
+        "#": "4",
+        "PlayerID": "TaWRe",
+        "Points": "1982",
+        "MapsPlayed": "6",
+        "Wins": "2",
+        "Draws": "1",
+        "Losses": "3",
+        "W-L": "-1",
+        "Raw Score": "7.592",
+        "Explanation": "[Division A]"
+      },
+      "advanced": {
+        "RankChange": "-2",
+        "#": "4",
+        "PlayerID": "TaWRe",
+        "Points": "1982",
+        "Performance": "1494.77",
+        "Confidence": "36.94%",
+        "Result Score": "34.48",
+        "Opponent Strength": "1946.00",
+        "Format Score": "100.00",
+        "Activity": "0.98",
+        "Match Days": "1",
+        "Recency": "0.98",
+        "Map Score": "100.00",
+        "Maps Stats": "Best: Cairo City (-0.20); Worst: Cairo City (-0.20); Freq: Cairo City x1",
+        "Format Stats": "Best: Duel (-0.20); Worst: Duel (-0.20); Freq: Duel x1"
+      }
+    },
+    {
+      "name": "LIKBEZ",
+      "rank": 5,
+      "points": 1578,
+      "finalScore": 7.364148900946555,
+      "level": 1578.371504199523,
+      "matchDays": 7,
+      "historicalSeedPoints": 1517,
+      "ratedMatches": 18,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.5107685389419663,
+        "oppStr": 1699.6245134623111,
+        "prestige": 1517,
+        "rec": 0.9822713655642529
+      },
+      "model": {
+        "resultScore": 51.07685389419663
+      },
+      "division": "A&B",
+      "simple": {
+        "RankChange": "0",
+        "#": "5",
+        "PlayerID": "LIKBEZ",
+        "Points": "1578",
+        "MapsPlayed": "22",
+        "Wins": "10",
+        "Draws": "1",
+        "Losses": "11",
+        "W-L": "-1",
+        "Raw Score": "7.364",
+        "Explanation": "[Division A&B]"
+      },
+      "advanced": {
+        "RankChange": "0",
+        "#": "5",
+        "PlayerID": "LIKBEZ",
+        "Points": "1578",
+        "Performance": "1584.59",
+        "Confidence": "90.98%",
+        "Result Score": "51.08",
+        "Opponent Strength": "1699.62",
+        "Format Score": "87.46",
+        "Activity": "11.36",
+        "Match Days": "7",
+        "Recency": "0.98",
+        "Map Score": "93.06",
+        "Maps Stats": "Best: Yards of Death (+0.43); Worst: Little Trouble (-0.14); Freq: Tomb of Nefretari x4",
+        "Format Stats": "Best: Duel (+0.07); Worst: Team (-0.06); Freq: Duel x11"
+      }
+    },
+    {
+      "name": "Fora",
+      "rank": 6,
+      "points": 1105,
+      "finalScore": 7.00795698280699,
+      "level": 1105.3938577600768,
+      "matchDays": 1,
+      "historicalSeedPoints": 1155,
+      "ratedMatches": 1,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.3976024474208825,
+        "oppStr": 1047.082898649674,
+        "prestige": 1155,
+        "rec": 0.9562659895457496
+      },
+      "model": {
+        "resultScore": 39.760244742088254
+      },
+      "division": "B",
+      "simple": {
+        "RankChange": "1",
+        "#": "6",
+        "PlayerID": "Fora",
+        "Points": "1105",
+        "MapsPlayed": "2",
+        "Wins": "0",
+        "Draws": "0",
+        "Losses": "2",
+        "W-L": "-2",
+        "Raw Score": "7.008",
+        "Explanation": "[Division B]"
+      },
+      "advanced": {
+        "RankChange": "1",
+        "#": "6",
+        "PlayerID": "Fora",
+        "Points": "1105",
+        "Performance": "919.43",
+        "Confidence": "19.24%",
+        "Result Score": "39.76",
+        "Opponent Strength": "1047.08",
+        "Format Score": "35.00",
+        "Activity": "0.27",
+        "Match Days": "1",
+        "Recency": "0.96",
+        "Map Score": "80.00",
+        "Maps Stats": "Best: Yards of Death (-0.12); Worst: Yards of Death (-0.12); Freq: Yards of Death x1",
+        "Format Stats": "Best: Elimination (-0.12); Worst: Elimination (-0.12); Freq: Elimination x1"
+      }
+    },
+    {
+      "name": "Krieger",
+      "rank": 7,
+      "points": 1036,
+      "finalScore": 6.942816408909925,
+      "level": 1035.6830180926643,
+      "matchDays": 4,
+      "historicalSeedPoints": 1331,
+      "ratedMatches": 7,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.2616601023241668,
+        "oppStr": 2309.4297924243324,
+        "prestige": 1331,
+        "rec": 0.9562659895457496
+      },
+      "model": {
+        "resultScore": 26.16601023241668
+      },
+      "division": "B",
+      "simple": {
+        "RankChange": "-1",
+        "#": "7",
+        "PlayerID": "Krieger",
+        "Points": "1036",
+        "MapsPlayed": "14",
+        "Wins": "3",
+        "Draws": "0",
+        "Losses": "11",
+        "W-L": "-8",
+        "Raw Score": "6.943",
+        "Explanation": "[Division B]"
+      },
+      "advanced": {
+        "RankChange": "-1",
+        "#": "7",
+        "PlayerID": "Krieger",
+        "Points": "1036",
+        "Performance": "974.71",
+        "Confidence": "80.52%",
+        "Result Score": "26.17",
+        "Opponent Strength": "2309.43",
+        "Format Score": "91.27",
+        "Activity": "4.62",
+        "Match Days": "4",
+        "Recency": "0.96",
+        "Map Score": "96.51",
+        "Maps Stats": "Best: Cairo City (-0.02); Worst: Shotty Trouble (-0.43); Freq: Cairo City x2",
+        "Format Stats": "Best: Elimination (-0.02); Worst: Duel (-0.20); Freq: Duel x5"
+      }
+    },
+    {
+      "name": "Rukimichimoshi",
+      "rank": 8,
+      "points": 980,
+      "finalScore": 6.887067498769342,
+      "level": 979.5247438388899,
+      "matchDays": 1,
+      "historicalSeedPoints": 912,
+      "ratedMatches": 1,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.4761904761904761,
+        "oppStr": 2165.0000000000005,
+        "prestige": 912,
+        "rec": 0.9822713655642529
+      },
+      "model": {
+        "resultScore": 47.61904761904761
+      },
+      "division": "B",
+      "simple": {
+        "RankChange": "0",
+        "#": "8",
+        "PlayerID": "Rukimichimoshi",
+        "Points": "980",
+        "MapsPlayed": "3",
+        "Wins": "0",
+        "Draws": "0",
+        "Losses": "3",
+        "W-L": "-3",
+        "Raw Score": "6.887",
+        "Explanation": "[Division B]"
+      },
+      "advanced": {
+        "RankChange": "0",
+        "#": "8",
+        "PlayerID": "Rukimichimoshi",
+        "Points": "980",
+        "Performance": "1111.41",
+        "Confidence": "36.12%",
+        "Result Score": "47.62",
+        "Opponent Strength": "2165.00",
+        "Format Score": "100.00",
+        "Activity": "0.98",
+        "Match Days": "1",
+        "Recency": "0.98",
+        "Map Score": "100.00",
+        "Maps Stats": "Best: Brkeen Chevap (+0.11); Worst: Brkeen Chevap (+0.11); Freq: Brkeen Chevap x1",
+        "Format Stats": "Best: Duel (+0.11); Worst: Duel (+0.11); Freq: Duel x1"
+      }
+    },
+    {
+      "name": "TAHK",
+      "rank": 9,
+      "points": 853,
+      "finalScore": 6.748289083067433,
+      "level": 852.5987882314498,
+      "matchDays": 6,
+      "historicalSeedPoints": 798,
+      "ratedMatches": 11,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.49527064972081114,
+        "oppStr": 1405.1091279483433,
+        "prestige": 798,
+        "rec": 0.9822713655642529
+      },
+      "model": {
+        "resultScore": 49.527064972081114
+      },
+      "division": "B",
+      "simple": {
+        "RankChange": "0",
+        "#": "9",
+        "PlayerID": "TAHK",
+        "Points": "853",
+        "MapsPlayed": "14",
+        "Wins": "6",
+        "Draws": "0",
+        "Losses": "8",
+        "W-L": "-2",
+        "Raw Score": "6.748",
+        "Explanation": "[Division B]"
+      },
+      "advanced": {
+        "RankChange": "0",
+        "#": "9",
+        "PlayerID": "TAHK",
+        "Points": "853",
+        "Performance": "864.34",
+        "Confidence": "82.87%",
+        "Result Score": "49.53",
+        "Opponent Strength": "1405.11",
+        "Format Score": "65.79",
+        "Activity": "5.44",
+        "Match Days": "6",
+        "Recency": "0.98",
+        "Map Score": "94.91",
+        "Maps Stats": "Best: Shotty Trouble (+0.13); Worst: Yards of Death (-0.03); Freq: Unfinished Complex x3",
+        "Format Stats": "Best: Duel (+0.09); Worst: Team (+0.02); Freq: Team x9"
+      }
+    },
+    {
+      "name": "Supersniper98",
+      "rank": 10,
+      "points": 691,
+      "finalScore": 6.5384478469464336,
+      "level": 691.2128768003372,
+      "matchDays": 4,
+      "historicalSeedPoints": 300,
+      "ratedMatches": 7,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.5310482424546078,
+        "oppStr": 894.8840642807712,
+        "prestige": 300,
+        "rec": 0.9822713655642529
+      },
+      "model": {
+        "resultScore": 53.10482424546078
+      },
+      "division": null,
+      "simple": {
+        "RankChange": "",
+        "#": "10",
+        "PlayerID": "Supersniper98",
+        "Points": "691",
+        "MapsPlayed": "7",
+        "Wins": "1",
+        "Draws": "0",
+        "Losses": "6",
+        "W-L": "-5",
+        "Raw Score": "6.538",
+        "Explanation": ""
+      },
+      "advanced": {
+        "RankChange": "",
+        "#": "10",
+        "PlayerID": "Supersniper98",
+        "Points": "691",
+        "Performance": "717.60",
+        "Confidence": "81.05%",
+        "Result Score": "53.10",
+        "Opponent Strength": "894.88",
+        "Format Score": "61.76",
+        "Activity": "3.40",
+        "Match Days": "4",
+        "Recency": "0.98",
+        "Map Score": "96.12",
+        "Maps Stats": "Best: Brkeen Chevap (+0.32); Worst: Yards of Death (-0.02); Freq: Unfinished Complex x2",
+        "Format Stats": "Best: Duel (+0.32); Worst: Elimination (-0.02); Freq: Team x4"
+      }
+    },
+    {
+      "name": "Almol",
+      "rank": 11,
+      "points": 646,
+      "finalScore": 6.471209860607935,
+      "level": 646.2651449074557,
+      "matchDays": 5,
+      "historicalSeedPoints": 602,
+      "ratedMatches": 7,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.6391732286043221,
+        "oppStr": 592.0298821636235,
+        "prestige": 602,
+        "rec": 0.9822713655642529
+      },
+      "model": {
+        "resultScore": 63.917322860432215
+      },
+      "division": "B&C",
+      "simple": {
+        "RankChange": "-1",
+        "#": "11",
+        "PlayerID": "Almol",
+        "Points": "646",
+        "MapsPlayed": "9",
+        "Wins": "8",
+        "Draws": "0",
+        "Losses": "1",
+        "W-L": "+7",
+        "Raw Score": "6.471",
+        "Explanation": "[Division B&C]"
+      },
+      "advanced": {
+        "RankChange": "-1",
+        "#": "11",
+        "PlayerID": "Almol",
+        "Points": "646",
+        "Performance": "664.25",
+        "Confidence": "72.11%",
+        "Result Score": "63.92",
+        "Opponent Strength": "592.03",
+        "Format Score": "63.36",
+        "Activity": "2.90",
+        "Match Days": "5",
+        "Recency": "0.98",
+        "Map Score": "89.35",
+        "Maps Stats": "Best: Yards of Death (+0.17); Worst: Unfinished Complex (-0.05); Freq: Yards of Death x2",
+        "Format Stats": "Best: Duel (+0.37); Worst: Team (-0.06); Freq: Team x4"
+      }
+    },
+    {
+      "name": "Chlorozom",
+      "rank": 12,
+      "points": 389,
+      "finalScore": 5.963803815659254,
+      "level": 389.0873294250146,
+      "matchDays": 4,
+      "historicalSeedPoints": 300,
+      "ratedMatches": 7,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.38765720969990725,
+        "oppStr": 887.1908347932826,
+        "prestige": 300,
+        "rec": 0.9822713655642529
+      },
+      "model": {
+        "resultScore": 38.765720969990724
+      },
+      "division": null,
+      "simple": {
+        "RankChange": "",
+        "#": "12",
+        "PlayerID": "Chlorozom",
+        "Points": "389",
+        "MapsPlayed": "7",
+        "Wins": "0",
+        "Draws": "0",
+        "Losses": "7",
+        "W-L": "-7",
+        "Raw Score": "5.964",
+        "Explanation": ""
+      },
+      "advanced": {
+        "RankChange": "",
+        "#": "12",
+        "PlayerID": "Chlorozom",
+        "Points": "389",
+        "Performance": "381.87",
+        "Confidence": "81.02%",
+        "Result Score": "38.77",
+        "Opponent Strength": "887.19",
+        "Format Score": "61.75",
+        "Activity": "3.40",
+        "Match Days": "4",
+        "Recency": "0.98",
+        "Map Score": "96.11",
+        "Maps Stats": "Best: Yards of Death (+0.09); Worst: Brkeen Chevap (-0.32); Freq: Yards of Death x2",
+        "Format Stats": "Best: Elimination (+0.07); Worst: Duel (-0.32); Freq: Team x4"
+      }
+    },
+    {
+      "name": "Kayden",
+      "rank": 13,
+      "points": 331,
+      "finalScore": 5.802801344938697,
+      "level": 331.22614013952654,
+      "matchDays": 0,
+      "historicalSeedPoints": 331.22614013952654,
+      "ratedMatches": 0,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": null,
+        "oppStr": null,
+        "prestige": 331.22614013952654,
+        "rec": 0.7854617372362707
+      },
+      "model": {
+        "resultScore": null
+      },
+      "division": "C",
+      "simple": {
+        "RankChange": "-2",
+        "#": "13",
+        "PlayerID": "Kayden",
+        "Points": "331",
+        "MapsPlayed": "3",
+        "Wins": "1",
+        "Draws": "0",
+        "Losses": "2",
+        "W-L": "-1",
+        "Raw Score": "5.803",
+        "Explanation": "[Division C]"
+      },
+      "advanced": {
+        "RankChange": "-2",
+        "#": "13",
+        "PlayerID": "Kayden",
+        "Points": "331",
+        "Performance": "",
+        "Confidence": "0.00%",
+        "Result Score": "",
+        "Opponent Strength": "",
+        "Format Score": "",
+        "Activity": "0.00",
+        "Match Days": "0",
+        "Recency": "0.79",
+        "Map Score": "",
+        "Maps Stats": "—",
+        "Format Stats": "—"
+      }
+    },
+    {
+      "name": "Solomon",
+      "rank": 14,
+      "points": 318,
+      "finalScore": 5.7606471776962795,
+      "level": 317.5537761515408,
+      "matchDays": 4,
+      "historicalSeedPoints": 322,
+      "ratedMatches": 5,
+      "disqualificationMatches": 1,
+      "raw": {
+        "result": 0.6061664996277656,
+        "oppStr": 124.63465037069274,
+        "prestige": 322,
+        "rec": 0.9778885363860466
+      },
+      "model": {
+        "resultScore": 60.616649962776556
+      },
+      "division": "C",
+      "simple": {
+        "RankChange": "-1",
+        "#": "14",
+        "PlayerID": "Solomon",
+        "Points": "318",
+        "MapsPlayed": "8",
+        "Wins": "3",
+        "Draws": "0",
+        "Losses": "6",
+        "W-L": "-3",
+        "Raw Score": "5.761",
+        "Explanation": "[Division C]"
+      },
+      "advanced": {
+        "RankChange": "-1",
+        "#": "14",
+        "PlayerID": "Solomon",
+        "Points": "318",
+        "Performance": "315.09",
+        "Confidence": "64.06%",
+        "Result Score": "60.62",
+        "Opponent Strength": "124.63",
+        "Format Score": "48.24",
+        "Activity": "2.11",
+        "Match Days": "4",
+        "Recency": "0.98",
+        "Map Score": "97.14",
+        "Maps Stats": "Best: Tomb of Nefretari (+0.05); Worst: Shotty Trouble (-0.06); Freq: Shotty Trouble x2",
+        "Format Stats": "Best: Multi (+0.05); Worst: Team (-0.04); Freq: Team x4"
+      }
+    },
+    {
+      "name": "Baltica",
+      "rank": 15,
+      "points": 275,
+      "finalScore": 5.616303566094547,
+      "level": 274.8714588685532,
+      "matchDays": 2,
+      "historicalSeedPoints": 294,
+      "ratedMatches": 2,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.47369107985005626,
+        "oppStr": 278.247403406758,
+        "prestige": 294,
+        "rec": 0.8862627924475476
+      },
+      "model": {
+        "resultScore": 47.36910798500563
+      },
+      "division": "C",
+      "simple": {
+        "RankChange": "-1",
+        "#": "15",
+        "PlayerID": "Baltica",
+        "Points": "275",
+        "MapsPlayed": "4",
+        "Wins": "1",
+        "Draws": "0",
+        "Losses": "3",
+        "W-L": "-2",
+        "Raw Score": "5.616",
+        "Explanation": "[Division C]"
+      },
+      "advanced": {
+        "RankChange": "-1",
+        "#": "15",
+        "PlayerID": "Baltica",
+        "Points": "275",
+        "Performance": "246.51",
+        "Confidence": "38.18%",
+        "Result Score": "47.37",
+        "Opponent Strength": "278.25",
+        "Format Score": "47.86",
+        "Activity": "0.73",
+        "Match Days": "2",
+        "Recency": "0.89",
+        "Map Score": "91.45",
+        "Maps Stats": "Best: Little Trouble (-0.04); Worst: Tomb of Nefretari (-0.15); Freq: Little Trouble x1",
+        "Format Stats": "Best: Team (-0.04); Worst: Multi (-0.15); Freq: Team x1"
+      }
+    },
+    {
+      "name": "Rokunin",
+      "rank": 16,
+      "points": 263,
+      "finalScore": 5.5731638337289695,
+      "level": 263.2657119435544,
+      "matchDays": 2,
+      "historicalSeedPoints": 332,
+      "ratedMatches": 3,
+      "disqualificationMatches": 1,
+      "raw": {
+        "result": 0.2383573850753113,
+        "oppStr": 398.3305505718562,
+        "prestige": 332,
+        "rec": 0.9778885363860466
+      },
+      "model": {
+        "resultScore": 23.83573850753113
+      },
+      "division": "C",
+      "simple": {
+        "RankChange": "-4",
+        "#": "16",
+        "PlayerID": "Rokunin",
+        "Points": "263",
+        "MapsPlayed": "6",
+        "Wins": "2",
+        "Draws": "0",
+        "Losses": "5",
+        "W-L": "-3",
+        "Raw Score": "5.573",
+        "Explanation": "[Division C]"
+      },
+      "advanced": {
+        "RankChange": "-4",
+        "#": "16",
+        "PlayerID": "Rokunin",
+        "Points": "263",
+        "Performance": "210.10",
+        "Confidence": "50.70%",
+        "Result Score": "23.84",
+        "Opponent Strength": "398.33",
+        "Format Score": "80.08",
+        "Activity": "1.21",
+        "Match Days": "2",
+        "Recency": "0.98",
+        "Map Score": "87.24",
+        "Maps Stats": "Best: Shotty Trouble (-0.19); Worst: Yards of Death (-0.42); Freq: Shotty Trouble x1",
+        "Format Stats": "Best: Team (-0.19); Worst: Duel (-0.37); Freq: Duel x2"
+      }
+    },
+    {
+      "name": "Kitten",
+      "rank": 17,
+      "points": 68,
+      "finalScore": 4.2262097773480205,
+      "level": 68.45727152945288,
+      "matchDays": 2,
+      "historicalSeedPoints": 66,
+      "ratedMatches": 3,
+      "disqualificationMatches": 1,
+      "raw": {
+        "result": 0.41205154210373274,
+        "oppStr": 323.58542093873234,
+        "prestige": 66,
+        "rec": 0.9778885363860466
+      },
+      "model": {
+        "resultScore": 41.20515421037327
+      },
+      "division": "D",
+      "simple": {
+        "RankChange": "-2",
+        "#": "17",
+        "PlayerID": "Kitten",
+        "Points": "68",
+        "MapsPlayed": "10",
+        "Wins": "5",
+        "Draws": "0",
+        "Losses": "6",
+        "W-L": "-1",
+        "Raw Score": "4.226",
+        "Explanation": "[Division D]"
+      },
+      "advanced": {
+        "RankChange": "-2",
+        "#": "17",
+        "PlayerID": "Kitten",
+        "Points": "68",
+        "Performance": "71.18",
+        "Confidence": "48.34%",
+        "Result Score": "41.21",
+        "Opponent Strength": "323.59",
+        "Format Score": "48.41",
+        "Activity": "1.39",
+        "Match Days": "2",
+        "Recency": "0.98",
+        "Map Score": "100.00",
+        "Maps Stats": "Best: Shotty Trouble (+0.06); Worst: Cairo City (-0.01); Freq: Shotty Trouble x2",
+        "Format Stats": "Best: Team (+0.04); Worst: Team (+0.04); Freq: Team x3"
+      }
+    },
+    {
+      "name": "Bio-mechanoid",
+      "rank": 18,
+      "points": 44,
+      "finalScore": 3.7819784507477454,
+      "level": 43.90281542654123,
+      "matchDays": 0,
+      "historicalSeedPoints": 43.90281542654123,
+      "ratedMatches": 0,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": null,
+        "oppStr": null,
+        "prestige": 43.90281542654123,
+        "rec": 0.7150564438235368
+      },
+      "model": {
+        "resultScore": null
+      },
+      "division": "D",
+      "simple": {
+        "RankChange": "-2",
+        "#": "18",
+        "PlayerID": "Bio-mechanoid",
+        "Points": "44",
+        "MapsPlayed": "4",
+        "Wins": "2",
+        "Draws": "0",
+        "Losses": "2",
+        "W-L": "0",
+        "Raw Score": "3.782",
+        "Explanation": "[Division D]"
+      },
+      "advanced": {
+        "RankChange": "-2",
+        "#": "18",
+        "PlayerID": "Bio-mechanoid",
+        "Points": "44",
+        "Performance": "",
+        "Confidence": "0.00%",
+        "Result Score": "",
+        "Opponent Strength": "",
+        "Format Score": "",
+        "Activity": "0.00",
+        "Match Days": "0",
+        "Recency": "0.72",
+        "Map Score": "",
+        "Maps Stats": "—",
+        "Format Stats": "—"
+      }
+    },
+    {
+      "name": "Mr.Chocolate",
+      "rank": 19,
+      "points": 39,
+      "finalScore": 3.6762767154894838,
+      "level": 39.499053732839734,
+      "matchDays": 3,
+      "historicalSeedPoints": 37,
+      "ratedMatches": 4,
+      "disqualificationMatches": 1,
+      "raw": {
+        "result": 0.4099050669057805,
+        "oppStr": 320.6694209063984,
+        "prestige": 37,
+        "rec": 0.9778885363860466
+      },
+      "model": {
+        "resultScore": 40.99050669057805
+      },
+      "division": "D",
+      "simple": {
+        "RankChange": "-2",
+        "#": "19",
+        "PlayerID": "Mr.Chocolate",
+        "Points": "39",
+        "MapsPlayed": "8",
+        "Wins": "4",
+        "Draws": "0",
+        "Losses": "5",
+        "W-L": "-1",
+        "Raw Score": "3.676",
+        "Explanation": "[Division D]"
+      },
+      "advanced": {
+        "RankChange": "-2",
+        "#": "19",
+        "PlayerID": "Mr.Chocolate",
+        "Points": "39",
+        "Performance": "41.59",
+        "Confidence": "55.85%",
+        "Result Score": "40.99",
+        "Opponent Strength": "320.67",
+        "Format Score": "47.78",
+        "Activity": "1.70",
+        "Match Days": "3",
+        "Recency": "0.98",
+        "Map Score": "96.29",
+        "Maps Stats": "Best: Shotty Trouble (+0.11); Worst: Little Trouble (+0.04); Freq: Shotty Trouble x2",
+        "Format Stats": "Best: Team (+0.08); Worst: Team (+0.08); Freq: Team x4"
+      }
+    },
+    {
+      "name": "Kostyan",
+      "rank": 20,
+      "points": 30,
+      "finalScore": 3.4011973816621555,
+      "level": 30,
+      "matchDays": 1,
+      "historicalSeedPoints": 30,
+      "ratedMatches": 1,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.26272418985446394,
+        "oppStr": 307.76120651104384,
+        "prestige": 30,
+        "rec": 0.8862627924475476
+      },
+      "model": {
+        "resultScore": 26.272418985446397
+      },
+      "division": "D",
+      "simple": {
+        "RankChange": "-2",
+        "#": "20",
+        "PlayerID": "Kostyan",
+        "Points": "30",
+        "MapsPlayed": "3",
+        "Wins": "2",
+        "Draws": "0",
+        "Losses": "1",
+        "W-L": "+1",
+        "Raw Score": "3.401",
+        "Explanation": "[Division D]"
+      },
+      "advanced": {
+        "RankChange": "-2",
+        "#": "20",
+        "PlayerID": "Kostyan",
+        "Points": "30",
+        "Performance": "30.00",
+        "Confidence": "14.83%",
+        "Result Score": "26.27",
+        "Opponent Strength": "307.76",
+        "Format Score": "45.00",
+        "Activity": "0.29",
+        "Match Days": "1",
+        "Recency": "0.89",
+        "Map Score": "80.00",
+        "Maps Stats": "Best: Little Trouble (+0.01); Worst: Little Trouble (+0.01); Freq: Little Trouble x1",
+        "Format Stats": "Best: Team (+0.01); Worst: Team (+0.01); Freq: Team x1"
+      }
+    },
+    {
+      "name": "Cofein",
+      "rank": 21,
+      "points": 29,
+      "finalScore": 3.3720817629575084,
+      "level": 29.139124711375644,
+      "matchDays": 1,
+      "historicalSeedPoints": 29,
+      "ratedMatches": 1,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": 0.29733039580674897,
+        "oppStr": 307.7509548690254,
+        "prestige": 29,
+        "rec": 0.8862627924475476
+      },
+      "model": {
+        "resultScore": 29.733039580674895
+      },
+      "division": "D",
+      "simple": {
+        "RankChange": "-2",
+        "#": "21",
+        "PlayerID": "Cofein",
+        "Points": "29",
+        "MapsPlayed": "7",
+        "Wins": "4",
+        "Draws": "0",
+        "Losses": "3",
+        "W-L": "+1",
+        "Raw Score": "3.372",
+        "Explanation": "[Division D]"
+      },
+      "advanced": {
+        "RankChange": "-2",
+        "#": "21",
+        "PlayerID": "Cofein",
+        "Points": "29",
+        "Performance": "29.90",
+        "Confidence": "15.64%",
+        "Result Score": "29.73",
+        "Opponent Strength": "307.75",
+        "Format Score": "45.00",
+        "Activity": "0.31",
+        "Match Days": "1",
+        "Recency": "0.89",
+        "Map Score": "80.00",
+        "Maps Stats": "Best: Little Trouble (+0.05); Worst: Little Trouble (+0.05); Freq: Little Trouble x1",
+        "Format Stats": "Best: Team (+0.05); Worst: Team (+0.05); Freq: Team x1"
+      }
+    },
+    {
+      "name": "dragonfly.lover",
+      "rank": 22,
+      "points": 25,
+      "finalScore": 3.2202856769142083,
+      "level": 25.03527115886561,
+      "matchDays": 0,
+      "historicalSeedPoints": 25.03527115886561,
+      "ratedMatches": 0,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": null,
+        "oppStr": null,
+        "prestige": 25.03527115886561,
+        "rec": 0.768094028573463
+      },
+      "model": {
+        "resultScore": null
+      },
+      "division": "D",
+      "simple": {
+        "RankChange": "-2",
+        "#": "22",
+        "PlayerID": "dragonfly.lover",
+        "Points": "25",
+        "MapsPlayed": "5",
+        "Wins": "2",
+        "Draws": "0",
+        "Losses": "3",
+        "W-L": "-1",
+        "Raw Score": "3.220",
+        "Explanation": "[Division D]"
+      },
+      "advanced": {
+        "RankChange": "-2",
+        "#": "22",
+        "PlayerID": "dragonfly.lover",
+        "Points": "25",
+        "Performance": "",
+        "Confidence": "0.00%",
+        "Result Score": "",
+        "Opponent Strength": "",
+        "Format Score": "",
+        "Activity": "0.00",
+        "Match Days": "0",
+        "Recency": "0.77",
+        "Map Score": "",
+        "Maps Stats": "—",
+        "Format Stats": "—"
+      }
+    },
+    {
+      "name": "youramayor",
+      "rank": 23,
+      "points": 23,
+      "finalScore": 3.1483416251497847,
+      "level": 23.29739671011298,
+      "matchDays": 0,
+      "historicalSeedPoints": 23.29739671011298,
+      "ratedMatches": 0,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": null,
+        "oppStr": null,
+        "prestige": 23.29739671011298,
+        "rec": 0.5743491775282449
+      },
+      "model": {
+        "resultScore": null
+      },
+      "division": "D",
+      "simple": {
+        "RankChange": "-2",
+        "#": "23",
+        "PlayerID": "youramayor",
+        "Points": "23",
+        "MapsPlayed": "1",
+        "Wins": "0",
+        "Draws": "0",
+        "Losses": "1",
+        "W-L": "-1",
+        "Raw Score": "3.148",
+        "Explanation": "[Division D]"
+      },
+      "advanced": {
+        "RankChange": "-2",
+        "#": "23",
+        "PlayerID": "youramayor",
+        "Points": "23",
+        "Performance": "",
+        "Confidence": "0.00%",
+        "Result Score": "",
+        "Opponent Strength": "",
+        "Format Score": "",
+        "Activity": "0.00",
+        "Match Days": "0",
+        "Recency": "0.57",
+        "Map Score": "",
+        "Maps Stats": "—",
+        "Format Stats": "—"
+      }
+    },
+    {
+      "name": "Пчюлень",
+      "rank": 24,
+      "points": 19,
+      "finalScore": 2.957921412446717,
+      "level": 19.25790089143508,
+      "matchDays": 0,
+      "historicalSeedPoints": 19.25790089143508,
+      "ratedMatches": 0,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": null,
+        "oppStr": null,
+        "prestige": 19.25790089143508,
+        "rec": 0.768094028573463
+      },
+      "model": {
+        "resultScore": null
+      },
+      "division": "D",
+      "simple": {
+        "RankChange": "-2",
+        "#": "24",
+        "PlayerID": "Пчюлень",
+        "Points": "19",
+        "MapsPlayed": "1",
+        "Wins": "0",
+        "Draws": "0",
+        "Losses": "1",
+        "W-L": "-1",
+        "Raw Score": "2.958",
+        "Explanation": "[Division D]"
+      },
+      "advanced": {
+        "RankChange": "-2",
+        "#": "24",
+        "PlayerID": "Пчюлень",
+        "Points": "19",
+        "Performance": "",
+        "Confidence": "0.00%",
+        "Result Score": "",
+        "Opponent Strength": "",
+        "Format Score": "",
+        "Activity": "0.00",
+        "Match Days": "0",
+        "Recency": "0.77",
+        "Map Score": "",
+        "Maps Stats": "—",
+        "Format Stats": "—"
+      }
+    },
+    {
+      "name": "Snake-Eyed",
+      "rank": 25,
+      "points": 17,
+      "finalScore": 2.8289414251622906,
+      "level": 16.927532277127554,
+      "matchDays": 1,
+      "historicalSeedPoints": 16,
+      "ratedMatches": 1,
+      "disqualificationMatches": 1,
+      "raw": {
+        "result": 0.32195121951219513,
+        "oppStr": 327,
+        "prestige": 16,
+        "rec": 0.9778885363860466
+      },
+      "model": {
+        "resultScore": 32.19512195121951
+      },
+      "division": "D",
+      "simple": {
+        "RankChange": "-2",
+        "#": "25",
+        "PlayerID": "Snake-Eyed",
+        "Points": "17",
+        "MapsPlayed": "2",
+        "Wins": "0",
+        "Draws": "0",
+        "Losses": "3",
+        "W-L": "-3",
+        "Raw Score": "2.829",
+        "Explanation": "[Division D]"
+      },
+      "advanced": {
+        "RankChange": "-2",
+        "#": "25",
+        "PlayerID": "Snake-Eyed",
+        "Points": "17",
+        "Performance": "21.62",
+        "Confidence": "18.71%",
+        "Result Score": "32.20",
+        "Opponent Strength": "327.00",
+        "Format Score": "45.00",
+        "Activity": "0.44",
+        "Match Days": "1",
+        "Recency": "0.98",
+        "Map Score": "100.00",
+        "Maps Stats": "Best: Shotty Trouble (+0.15); Worst: Shotty Trouble (+0.15); Freq: Shotty Trouble x1",
+        "Format Stats": "Best: Team (+0.15); Worst: Team (+0.15); Freq: Team x1"
+      }
+    },
+    {
+      "name": "semen",
+      "rank": 26,
+      "points": 13,
+      "finalScore": 2.6012464685079846,
+      "level": 13.480530624004558,
+      "matchDays": 0,
+      "historicalSeedPoints": 13.480530624004558,
+      "ratedMatches": 0,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": null,
+        "oppStr": null,
+        "prestige": 13.480530624004558,
+        "rec": 0.768094028573463
+      },
+      "model": {
+        "resultScore": null
+      },
+      "division": "D",
+      "simple": {
+        "RankChange": "-2",
+        "#": "26",
+        "PlayerID": "semen",
+        "Points": "13",
+        "MapsPlayed": "1",
+        "Wins": "0",
+        "Draws": "0",
+        "Losses": "1",
+        "W-L": "-1",
+        "Raw Score": "2.601",
+        "Explanation": "[Division D]"
+      },
+      "advanced": {
+        "RankChange": "-2",
+        "#": "26",
+        "PlayerID": "semen",
+        "Points": "13",
+        "Performance": "",
+        "Confidence": "0.00%",
+        "Result Score": "",
+        "Opponent Strength": "",
+        "Format Score": "",
+        "Activity": "0.00",
+        "Match Days": "0",
+        "Recency": "0.77",
+        "Map Score": "",
+        "Maps Stats": "—",
+        "Format Stats": "—"
+      }
+    },
+    {
+      "name": "JonyGrey",
+      "rank": 27,
+      "points": 11,
+      "finalScore": 2.3600844116910964,
+      "level": 10.591845490289295,
+      "matchDays": 0,
+      "historicalSeedPoints": 10.591845490289295,
+      "ratedMatches": 0,
+      "disqualificationMatches": 0,
+      "raw": {
+        "result": null,
+        "oppStr": null,
+        "prestige": 10.591845490289295,
+        "rec": 0.768094028573463
+      },
+      "model": {
+        "resultScore": null
+      },
+      "division": "D",
+      "simple": {
+        "RankChange": "-2",
+        "#": "27",
+        "PlayerID": "JonyGrey",
+        "Points": "11",
+        "MapsPlayed": "1",
+        "Wins": "0",
+        "Draws": "0",
+        "Losses": "1",
+        "W-L": "-1",
+        "Raw Score": "2.360",
+        "Explanation": "[Division D]"
+      },
+      "advanced": {
+        "RankChange": "-2",
+        "#": "27",
+        "PlayerID": "JonyGrey",
+        "Points": "11",
+        "Performance": "",
+        "Confidence": "0.00%",
+        "Result Score": "",
+        "Opponent Strength": "",
+        "Format Score": "",
+        "Activity": "0.00",
+        "Match Days": "0",
+        "Recency": "0.77",
+        "Map Score": "",
+        "Maps Stats": "—",
+        "Format Stats": "—"
+      }
+    }
+  ]
+}

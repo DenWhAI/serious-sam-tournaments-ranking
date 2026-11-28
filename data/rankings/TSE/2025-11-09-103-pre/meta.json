@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "2025-11-09-103-pre",
+  "game": "TSE",
+  "period": {
+    "from": "2025-08-30",
+    "to": "2025-11-09"
+  },
+  "title": "TSE · 2025-08-30 — 2025-11-09",
+  "algorithmVersion": "10.3",
+  "baseId": null,
+  "historicalChain": true,
+  "preliminary": true,
+  "divisionCorrection": true,
+  "pointsPolicy": "rounded-integer"
+}

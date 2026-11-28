@@ -1,0 +1,14 @@
+RankChange,#,PlayerID,Points,Performance,Confidence,Result Score,Opponent Strength,Format Score,Activity,Match Days,Recency,Map Score,Maps Stats,Format Stats
+,1,Supersniper98,2436,444.12,39.15%,58.57,313.67,59.17,3.79,4,0.83,95.83,Best: Brkeen Chevap (+0.13); Worst: Sun Palace (-0.09); Freq: Little Trouble x2,Best: Duel (+0.04); Worst: team (-0.00); Freq: Duel x2
+,2,PACUL,2426,424.83,36.61%,61.18,267.90,65.00,3.94,3,0.84,90.83,Best: Little Trouble (+0.11); Worst: Brkeen Chevap (-0.13); Freq: Royal Purgatory x2,Best: Duel (+0.08); Worst: multi (-0.02); Freq: Duel x3
+,3,Fora,2249,144.29,30.64%,31.84,312.29,46.00,2.07,3,0.87,85.00,Best: Lost Tomb (+0.02); Worst: Royal Purgatory (-0.09); Freq: Royal Purgatory x2,Best: elimination (+0.04); Worst: Duel (-0.11); Freq: elimination x2
+,4,Kleer,2094,280.67,31.16%,43.92,358.74,63.75,2.54,2,0.85,88.75,Best: Sun Palace (+0.09); Worst: Lost Tomb (-0.07); Freq: Sun Palace x1,Best: Duel (+0.02); Worst: CTF (-0.03); Freq: Duel x2
+,5,TaWRe,1938,646.95,41.35%,69.93,278.07,88.33,4.44,2,0.85,99.17,Best: Lost Tomb (+0.18); Worst: Fronto (-0.14); Freq: Lost Tomb x2,Best: Duel (+0.17); Worst: multi (+0.01); Freq: Duel x5
+,6,Chlorozom,1493,518.37,18.18%,64.44,285.66,41.67,1.18,3,0.87,85.00,Best: Forest Run (+0.03); Worst: Little Trouble (+0.01); Freq: Little Trouble x2,Best: CTF (+0.03); Worst: team (+0.01); Freq: team x2
+,7,Rukimichimoshi,924,229.09,34.63%,35.91,409.36,85.00,3.23,2,0.91,90.00,Best: Fronto (+0.14); Worst: Lost Tomb (-0.11); Freq: Fronto x1,Best: CTF (+0.03); Worst: Duel (-0.11); Freq: Duel x4
+,8,Denger,595,422.34,9.49%,56.26,327.78,37.50,0.66,2,0.95,77.50,Best: Forest Run (+0.03); Worst: Little Trouble (-0.02); Freq: Forest Run x1,Best: CTF (+0.03); Worst: team (-0.02); Freq: CTF x1
+,9,KANE,498,280.37,17.38%,50.60,277.70,41.67,1.25,2,0.82,95.00,Best: Little Trouble (+0.01); Worst: Royal Purgatory (-0.01); Freq: Little Trouble x1,Best: team (+0.01); Worst: elimination (-0.01); Freq: elimination x2
+,10,Unreal,414,175.02,9.25%,33.36,349.91,37.50,0.66,2,0.86,77.50,Best: Little Trouble (+0.01); Worst: Forest Run (-0.03); Freq: Little Trouble x1,Best: team (+0.01); Worst: CTF (-0.03); Freq: team x1
+,11,TAHK,388,149.95,9.80%,29.96,350.72,37.50,0.66,2,0.95,77.50,Best: Little Trouble (-0.00); Worst: Forest Run (-0.03); Freq: Little Trouble x1,Best: team (-0.00); Worst: CTF (-0.03); Freq: team x1
+,12,Krieger,323,143.93,15.39%,35.24,267.21,33.33,0.87,2,0.91,80.00,Best: Royal Purgatory (+0.00); Worst: Forest Run (-0.03); Freq: Royal Purgatory x1,Best: elimination (-0.01); Worst: CTF (-0.03); Freq: elimination x2
+,13,LIKBEZ,216,98.52,29.57%,24.45,310.43,51.25,2.08,2,0.83,96.25,Best: Hole (+0.01); Worst: Little Trouble (-0.11); Freq: Hole x1,Best: multi (+0.01); Worst: Duel (-0.11); Freq: elimination x2
